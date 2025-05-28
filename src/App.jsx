@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useLocation,
 } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -13,8 +12,18 @@ import ProspectiveClients from "./pages/ProspectiveClients";
 import OurTeam from "./pages/OurTeam";
 import CommunityPartners from "./pages/CommunityPartners";
 import ContactUs from "./pages/ContactUs";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
+  useEffect(()=>{
+    Aos.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  })
   return (
     <Router>
       <Header />

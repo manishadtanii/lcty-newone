@@ -43,7 +43,7 @@ function ClinicLocation() {
       { text: "Clinics", class: "font-calvino" },
       { text: "Locations", class: "font-calvino-italic" },
     ],
-    textAlign: "text-start",
+    textAlign: "text-center md:text-start",
     spacing: "p-4",
     fontSize: "h1",
     fontColor: "secondary-text-1",

@@ -9,7 +9,7 @@ function Hero({ data }) {
   return  <section className="hero" >
       {/* Hero Section */}
       <div className="container-xxl">
-        <div className={`${spacing} m-auto flex flex-col  gap-5 md:gap-8 ${textAlign}`}>
+        <div className={`${spacing} m-auto flex flex-col  gap-5 md:gap-8 ${textAlign}`} da>
           {/* {console.log(title)} */}
           <h1 className={`h1 secondary-text-1 overflow-hidden ${textAlign}`}>
             {title.map((part, i) => (

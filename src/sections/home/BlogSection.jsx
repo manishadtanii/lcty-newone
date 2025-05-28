@@ -31,7 +31,7 @@ function BlogSection() {
       { text: "dolor sit amet", class: "font-calvino-italic" },
       { text: "adipiscing", class: "font-calvino" },
     ],
-    textAlign: "",
+    textAlign: "text-center md:text-start",
     spacing: "p-4",
     fontSize: "h1",
   };

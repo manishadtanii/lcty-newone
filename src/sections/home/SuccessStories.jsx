@@ -46,7 +46,7 @@ function SuccessStories() {
       },
     ],
 
-    textAlign: "md:text-center",
+    textAlign: "text-center",
     spacing: "p-4",
   };
   return (
@@ -54,11 +54,11 @@ function SuccessStories() {
       <div className="container-fixed">
         <Hero data={data} />
         <div className="relative flex justify-center mt-5 md:mt-10">
-          <div className="absolute top-[-100%] left-0 w-full md:text-center">
+          <div className="absolute top-[-100%] left-0 w-full text-center">
             <ButtonPrimary link="/register" text="Register Now" className="" />
           </div>
         </div>
-        <div className="story-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 lg:mt-0 sm:gap-5 lg:gap-20  pb-[100px]">
+        <div className="story-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 lg:mt-0 sm:gap-5 lg:gap-20  md:pb-[100px]">
           <div>
             <Card data={story[0]} />
           </div>

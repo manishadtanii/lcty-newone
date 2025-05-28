@@ -45,10 +45,11 @@ function WhyYouAreHereSection() {
   };
   const data = {
     title: [
-      { text: "Little Champs", class: "font-calvino" },
-      { text: "therapy & yoga", class: "font-calvino-italic" },
+      { text: "Why ", class: "font-calvino" },
+      { text: "you", class: "font-calvino-italic" },
+      { text: "are here !", class: "font-calvino" },
     ],
-    textAlign: "text-start",
+    textAlign: "text-center md:text-start",
     spacing: "mb-4",
     fontSize: "h1",
   };

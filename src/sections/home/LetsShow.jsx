@@ -16,7 +16,7 @@ function LetsShow() {
   };
   return (
      <div className="h-[100vh] flex items-center justify-center" >
-      <div className="container-fixed flex items-center  justify-center flex-col text-center lg:text-left lg:flex-row gap-10">
+      <div className="container-fixed flex items-center  justify-center flex-col text-center lg:text-left lg:flex-row gap-4 md:gap-10">
         <Heading data={data}  />
         <div className="relative ">
           <ButtonPrimary text="Register Now"/>

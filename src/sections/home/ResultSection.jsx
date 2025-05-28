@@ -19,16 +19,18 @@ function ResultSection() {
         <div className="max-w-[1400px]  space-y-10">
           {/* Top Text */}
           <div className=" md:text-left max-w-[1000px]">
+            <div className="" data-aos="fade-up">
             <Heading data={data} />
+            </div>
 
-            <p className="body-t body-t-color mt-4 " data-aos="fade-up">
+            <p className="body-t body-t-color mt-4 " data-aos="fade-up" data-aos-delay="100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               accumsan eros non fringilla faucibus. Sed scelerisque ultrices
               dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
               fermentum commodo. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit.
             </p>
-            <p className="body-t body-t-color mt-2" data-aos="fade-up">
+            <p className="body-t body-t-color mt-2" data-aos="fade-up" data-aos-delay="200">
               Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac.
               Duis eu nisi non orci fermentum commodo.
             </p>

@@ -51,7 +51,9 @@ function ClinicLocation() {
   return (
     <section className="clinic-location">
       <div className="container-fixed">
-        <Heading data={data} />
+        <div className="" data-aos="fade-up">
+          <Heading data={data} />
+        </div>
 
         <div className="md:mt-10 grid grid-cols-1 sm:grid-cols-2 xl:max-w-[600px] mx-auto">
           <div className="xl:translate-y-[35%]">
@@ -69,12 +71,18 @@ function ClinicLocation() {
         </div>
 
         <div className="mt-10 xl:max-w-[600px] ms-auto text-center md:text-start px-2 md:p-auto">
-          <p className="body-t-color btn-t mb-8">
+          <p
+            className="body-t-color btn-t mb-8"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan
             eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae
             bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.
           </p>
-          <ButtonPrimary link="/hello" text="Register Now" />
+          <div className="" data-aos="fade-up" data-aos-delay="300">
+            <ButtonPrimary link="/hello" text="Register Now" />
+          </div>
         </div>
       </div>
     </section>

@@ -54,18 +54,18 @@ function SuccessStories() {
       <div className="container-fixed">
         <Hero data={data} />
         <div className="relative flex justify-center mt-5 md:mt-10">
-          <div className="absolute top-[-100%] left-0 w-full text-center">
+          <div className="absolute top-[-100%] left-0 w-full text-center" data-aos="fade-up" data-aos-delay="100">
             <ButtonPrimary link="/register" text="Register Now" className="" />
           </div>
         </div>
         <div className="story-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 lg:mt-0 sm:gap-5 lg:gap-20  md:pb-[100px]">
-          <div>
+          <div data-aos="fade-right" data-aos-delay="300">
             <Card data={story[0]} />
           </div>
           <div className="relative sm:translate-y-[70%]">
             <Card data={story[1]} />
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-delay="400">
             <Card data={story[2]} />
           </div>
         </div>

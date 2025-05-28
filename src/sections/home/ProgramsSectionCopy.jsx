@@ -52,7 +52,7 @@ function ProgramsSection() {
     <section className="" >
       <div className="container-fixed">
         {/* Heading */}
-        <div className="max-w-[1000px] md:ms-auto"  data-aos> 
+        <div className="max-w-[1000px] md:ms-auto"  data-aos="fade-up"> 
         <Heading data={data} className />
         </div>
 

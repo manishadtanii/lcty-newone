@@ -33,17 +33,17 @@ function BlogSection() {
     ],
     textAlign: "text-center md:text-start",
     spacing: "p-4",
-    fontSize: "h1",
+    fontSize: "h3",
   };
   return (
     <section className="relative">
       <div className="container-fixed">
         <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-[40%] ">
+          <div className="lg:w-[40%] " data-aos="fade-right">
             <Heading data={data} />
           </div>
 
-          <div className="lg:w-[60%]">
+          <div className="lg:w-[60%]" data-aos="fade-up" data-aos-delay="300">
             <div className="flex flex-col lg:flex-row gap-6">
               <div className="">
                 {blogs.map((blog, index) => (

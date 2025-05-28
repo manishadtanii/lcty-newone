@@ -45,9 +45,9 @@ function WhyYouAreHereSection() {
   };
   const data = {
     title: [
-      { text: "Why ", class: "font-calvino" },
-      { text: "you", class: "font-calvino-italic" },
-      { text: "are here !", class: "font-calvino" },
+      {text: "Why ", class: "font-calvino"},
+      {text: "you", class: "font-calvino-italic"},
+      {text: "are here !", class: "font-calvino"},
     ],
     textAlign: "text-center md:text-start",
     spacing: "mb-4",
@@ -55,10 +55,10 @@ function WhyYouAreHereSection() {
   };
   return (
     <section className="bg-white pt-16 md:py-12">
-      <div className="block lg:hidden">
+      <div className="block lg:hidden" data-aos="fade-up">
         <Heading data={data} />
       </div>
-      <div className="block lg:hidden mb-5 w-full overflow-x-hidden">
+      <div className="block lg:hidden mb-5 w-full overflow-x-hidden" data-aos="fade-up" data-aos-delay="100">
         <Slider {...settings}>
           <div className="px-1">
             <img src={imageUrl} alt="Kids Yoga" className=" w-full" />
@@ -85,7 +85,12 @@ function WhyYouAreHereSection() {
             <div className="lg:block hidden">
               <Heading data={data} />
             </div>
-            <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. </p>
+            <p className="mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
+              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
+              fermentum commodo.{" "}
+            </p>
             <ul className="space-y-3 mb-8">
               {[...Array(5)].map((_, i) => (
                 <li

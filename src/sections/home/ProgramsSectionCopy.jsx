@@ -52,8 +52,8 @@ function ProgramsSection() {
     <section className="" >
       <div className="container-fixed">
         {/* Heading */}
-        <div className="max-w-[1000px] md:ms-auto">
-        <Heading data={data} />
+        <div className="max-w-[1000px] md:ms-auto"  data-aos> 
+        <Heading data={data} className />
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">

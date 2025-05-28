@@ -1,20 +1,23 @@
-import React, { useState } from 'react'
-import Heading from '../../components/Heading';
+import React, { useState } from "react";
+import Heading from "../../components/Heading";
 
 function ProgramsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
-    const data = {
-        title: [
-            { text: "Lorem ipsum", class: "font-calvino" },
-            { text: "dolor sit amet, consectetur", class: "font-calvino-italic" },
-            { text: "adipiscing elit.  In accumsan eros non fringilla faucibus.", class: "font-calvino" },
-        ],
-        textAlign: "text-left",
-        spacing: "mb-4 lg:mb-10",
-        fontSize: "h2 leading-tight",
-        fontColor: "secondary-text-1",
-    };
-     const programs = [
+  const data = {
+    title: [
+      { text: "Lorem ipsum", class: "font-calvino" },
+      { text: "dolor sit amet, consectetur", class: "font-calvino-italic" },
+      {
+        text: "adipiscing elit.  In accumsan eros non fringilla faucibus.",
+        class: "font-calvino",
+      },
+    ],
+    textAlign: "text-left",
+    spacing: "mb-4 lg:mb-10",
+    fontSize: "h2 leading-tight",
+    fontColor: "secondary-text-1",
+  };
+  const programs = [
     {
       number: "01.",
       title: "Lorem ipsum dolor sit amet",
@@ -49,11 +52,13 @@ function ProgramsSection() {
     },
   ];
   return (
-    <section className="" >
+    <section className="">
       <div className="container-fixed">
         {/* Heading */}
-        <div className="max-w-[1000px]">
-        <Heading data={data} />
+        <div className="max-w-[1000px]" data-aos="fade-up">
+          <div className=""  >
+            <Heading data={data} />
+          </div>
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
@@ -150,4 +155,4 @@ function ProgramsSection() {
   );
 }
 
-export default ProgramsSection
+export default ProgramsSection;

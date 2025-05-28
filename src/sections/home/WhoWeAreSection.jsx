@@ -17,7 +17,7 @@ const WhoWeAreSection = () => {
       type: "chars, words",
     });
 
-    gsap.from(split.chars, {
+    gsap.from(split.words, {
       opacity: 0.2,
       duration: 1,
       stagger: 0.1,
@@ -26,7 +26,7 @@ const WhoWeAreSection = () => {
         trigger: containerRef.current,
         start: "top 50%",
         end: "top 10%",
-        scrub: true,
+        // scrub: true,
       },
     });
 

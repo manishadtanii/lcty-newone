@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import ModernCard from "../../components/ModernCard";
 
 const PrevArrow = ({ onClick }) => (
@@ -87,40 +86,18 @@ function ModernTherapySlider() {
       },
     },
   ];
-  const settings = {
+ const settings = {
+    // className: "center",
     centerMode: true,
-    centerPadding: "60px", // You can adjust this (e.g., '0px', '20%', etc.)
-    slidesToShow: 3,
     infinite: true,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-    dots: false,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    speed: 500,
-    arrows: true,
-    dots: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          centerPadding: "40px",
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          centerPadding: "20px",
-        },
-      },
-    ],
+    // centerPadding: "60px",
+    slidesToShow: 3,
+    speed: 500
   };
 
   // const sliderRef = useRef(null); // <-- create slider ref
   return (
-    <div className="modern-therapy-slider py-10 overflow-hidden">
+    <div className="modern-therapy-slider py-10 ">
       <div className="slider-container">
         <Slider {...settings}>
           {sliderData.map((item, index) => (

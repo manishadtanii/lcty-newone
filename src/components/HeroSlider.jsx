@@ -44,7 +44,7 @@ function HeroSlider({slides}) {
 
 
   return (
-    <div className="hero-slider mt-5 w-full overflow-hidden">
+    <div className="hero-slider mt-5 w-full overflow-x-hidden">
       <Slider {...settings}>
         {console.log(slides)}
         {slides.map((src, index) => (

@@ -49,7 +49,7 @@ function ClinicLocation() {
     fontColor: "secondary-text-1",
   };
   return (
-    <section className="clinic-location">
+    <section className="clinic-location w-full overflow-x-hidden">
       <div className="container-fixed">
         <div className="" data-aos="fade-up">
           <Heading data={data} />

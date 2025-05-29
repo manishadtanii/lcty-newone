@@ -54,7 +54,7 @@ function WhyYouAreHereSection() {
     fontSize: "h1",
   };
   return (
-    <section className="bg-white pt-16 md:py-12">
+    <section className="bg-white pt-16 md:py-12 w-full overflow-x-hidden">
       <div className="block lg:hidden" data-aos="fade-up">
         <Heading data={data} />
       </div>

@@ -6,7 +6,7 @@ import HeroSlider from "./HeroSlider";
 function Hero({ data }) {
   const { title, paragraphs, btn, slides, textAlign, spacing } = data;
 
-  return  <section className="hero" >
+  return  <section className="hero w-full overflow-x-hidden" >
       {/* Hero Section */}
       <div className="container-xxl">
         <div className={`${spacing} m-auto flex flex-col  gap-5 md:gap-8 ${textAlign}`} >

@@ -9,7 +9,27 @@
   transition: .5s;
 }
 body{
+  max-width: 100%;
+  /* overflow: hidden ; */
+}
+section{
+  width: 100%;
   overflow-x: hidden;
+}
+header{
+  transition: .5s;
+}
+header.active {
+  position: sticky;
+  top: 0;
+}
+header .logo{
+  height: 96px;
+  transition: .5s;
+}
+header.active .logo{
+  height: 60px;
+  transition: .5s;
 }
 :root {
   --bg-background: white;

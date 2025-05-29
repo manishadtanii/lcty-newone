@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {
   FaBars,
@@ -10,11 +10,28 @@ import {
   FaLinkedin,
   FaArrowRight,
 } from "react-icons/fa";
+import  $  from "jquery";
 import Arrow from "./Arrow";
 const logo = "logo.png";
 const profileImage = "sample.png";
 
 function Header() {
+  useEffect(() => {
+    const handleScroll = () => {
+      if ($(window).scrollTop() > 0) {
+        $("header").addClass("active");
+      } else {
+        $("header").removeClass("active");
+      }
+    };
+
+    $(window).on("scroll", handleScroll);
+
+    // Cleanup on unmount
+    return () => {
+      $(window).off("scroll", handleScroll);
+    };
+  }, []);
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About us", path: "/about-us" },
@@ -24,11 +41,11 @@ function Header() {
     { name: "Community partners", path: "/community-partners" },
     // { name: "Locations", path: "/locations" },
   ];
- const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
   const Overlay = ({ children, onClose, side, btnSide }) => (
-    <div className="fixed inset-0 p-3 bg-[#ffffffb2]">
+    <div className=" fixed inset-0 p-3 bg-[#ffffffb2] ">
       <div
         className={`md:fixed ${side} w-full primary-bg-2 md:w-[500px] p-6 rounded-xl  text-white z-50`}
       >
@@ -49,7 +66,7 @@ function Header() {
   );
 
   return (
-    <header  className="w-full bg-white z-40 relative">
+    <header className="w-full bg-white z-40 relative">
       <div className="flex justify-between items-center px-6 py-4">
         <button
           onClick={() => setMenuOpen(true)}
@@ -58,7 +75,7 @@ function Header() {
           <FaBars />
         </button>
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className="h-24 mx-auto" />
+          <img src={logo} alt="Logo" className=" mx-auto logo" />
         </Link>
         <button
           onClick={() => setSearchOpen(true)}

@@ -52,7 +52,7 @@ function ProgramsSection() {
     },
   ];
   return (
-    <section className="">
+    <section className="program-section w-full overflow-x-hidden">
       <div className="container-fixed">
         {/* Heading */}
         <div className="max-w-[1000px]" data-aos="fade-up">

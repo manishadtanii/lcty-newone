@@ -6,12 +6,12 @@ import HeroSlider from "./HeroSlider";
 function Hero({ data }) {
   const { title, paragraphs, btn, slides, textAlign, spacing } = data;
 
-  return  <section className="hero w-full overflow-x-hidden" >
+  return  <section className="hero w-full" >
       {/* Hero Section */}
       <div className="container-xxl">
         <div className={`${spacing} m-auto flex flex-col  gap-5 md:gap-8 ${textAlign}`} >
           {/* {console.log(title)} */}
-          <h1 className={`h1 secondary-text-1 overflow-hidden ${textAlign}`} data-aos="fade-up">
+          <h1 className={`h1 secondary-text-1  ${textAlign}`} data-aos="fade-up">
             {title.map((part, i) => (
               <span key={i} className={part.class}>
                 {" "}
@@ -20,7 +20,7 @@ function Hero({ data }) {
             ))}
           </h1>
           {paragraphs && paragraphs.map((p, i) => (
-            <p key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-1 body-t-color overflow-hidden ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
+            <p key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-1 body-t-color  ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
               {p.text}
             </p>
           ))}

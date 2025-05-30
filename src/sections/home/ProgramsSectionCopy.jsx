@@ -49,7 +49,7 @@ function ProgramsSection() {
     },
   ];
   return (
-    <section className="program-scetion w-full overflow-x-hidden" >
+    <section className="program-scetion w-full " >
       <div className="container-fixed">
         {/* Heading */}
         <div className="max-w-[1000px] md:ms-auto"  data-aos="fade-up"> 

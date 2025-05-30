@@ -10,6 +10,7 @@ function PublicSchool() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
       tags: ["Tag", "Tag", "Tag"],
       link: "",
+      animationDelay:"100"
     },
     {
       name: "Lorem ipsum dolor sit amet",
@@ -18,6 +19,7 @@ function PublicSchool() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
       tags: ["Tag", "Tag", "Tag"],
       link: "",
+      animationDelay:"200"
     },
     {
       name: "Lorem ipsum dolor sit amet",
@@ -26,6 +28,7 @@ function PublicSchool() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
       tags: ["Tag", "Tag", "Tag"],
       link: "",
+      animationDelay:"300"
     },
   ];
   return (

@@ -33,7 +33,7 @@ export default function OurJourney() {
   return (
     <section className="py-16 ">
       {/* Title */}
-      <h2 className="h1 secondary-text-1 leading-none text-center mb-16">
+      <h2 className="h1 secondary-text-1 leading-none text-center mb-16" data-aos="fade-up">
         <span className="font-calvino">Our </span>
         <span className="font-calvino-italic">journey</span>
       </h2>
@@ -45,7 +45,7 @@ export default function OurJourney() {
             <Number number="1" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between items-center md:gap-5">
-            <div className="md:w-[40%]">
+            <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard />
             </div>
             <div className="journey-img md:w-[40%]">
@@ -61,10 +61,10 @@ export default function OurJourney() {
             <Number number="2" />
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center md:gap-5">
-             <div className="journey-img md:w-[40%]">
+             <div className="journey-img md:w-[40%]" >
               <img src="journey-2.jpg" alt="" className="w-full" />
             </div>
-            <div className="md:w-[40%]">
+            <div className="md:w-[40%]" data-aos="fade-left">
               <JourneyCard />
             </div>
            
@@ -78,7 +78,7 @@ export default function OurJourney() {
             <Number number="3" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between items-center md:gap-5">
-            <div className="md:w-[40%]">
+            <div className="md:w-[40%]" data-aos="fade-right">
               <JourneyCard />
             </div>
             <div className="journey-img md:w-[40%]">

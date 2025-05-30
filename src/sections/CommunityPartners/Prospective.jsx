@@ -67,19 +67,23 @@ function Prospective() {
     <section className="pb-20">
       <div className="container-xxl">
         <div className="p-4 m-auto flex flex-col items-center justify-center gap-5 md:gap-8">
-          <h1 className="h1 secondary-text-1 text-center overflow-hidden">
+          <h1 className="h1 secondary-text-1 text-center overflow-hidden" data-aos="fade-up" data-aos-delay="">
             <span className="font-calvino">Little Champs </span>
             <span className="font-calvino-italic">therapy & yoga</span>
           </h1>
-          <p className="max-w-[1100px] font-archivo body-t text-center  body-t-color overflow-hidden">
+          <p className="max-w-[1100px] font-archivo body-t text-center  body-t-color overflow-hidden" data-aos="fade-up" data-aos-delay="100">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan
             eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae
             bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.{" "}
           </p>
+          <div className="" data-aos="fade-up" data-aos-delay="200">
           <ButtonPrimary text="Register  Now" />
+          </div>
         </div>
       </div>
+      <div className="" data-aos="fade-up" data-aos-delay="300">
       <HeroSlider slides={data.slides}/>
+      </div>
     </section>
   )
 }

@@ -21,12 +21,12 @@ function Footer() {
           <div className=" flex flex-col justify-between">
             <nav className="flex flex-wrap justify-center gap-4 lg:gap-6 text-[18px] font-medium text-white font-archivo w-full">
               <Link to="/">Home</Link>
-              <Link to="/">About us</Link>
-              <Link to="/">Programs</Link>
-              <Link to="/">Prospective clients</Link>
-              <Link to="/">Our team</Link>
-              <Link to="/">Community partners</Link>
-              <Link to="/">Locations</Link>
+              <Link to="/about-us">About us</Link>
+              <Link to="/programs">Programs</Link>
+              <Link to="/prospective-clients">Prospective clients</Link>
+              <Link to="/our-team">Our team</Link>
+              <Link to="/community-partners">Community partners</Link>
+              {/* <Link to="/">Locations</Link> */}
             </nav>
             {/* Bottom Section */}
             <div className="mt-10 text-center">

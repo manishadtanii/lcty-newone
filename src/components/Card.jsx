@@ -2,11 +2,14 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function Card({ data }) {
-  const { title, image, redirectUrl, bgColor, btnBg, btnText} = data;
+  const { title, image, redirectUrl, bgColor, btnBg, btnText, animationDelay} = data;
   const navigate = useNavigate();
   return (
     <div className="card p-3 md:p-5 cursor-pointer"
        onClick={() => navigate(data.redirectUrl)}
+       data-aos="fade-up"
+       data-aos-duration="1000"
+       data-aos-delay={animationDelay}
     >
       <div className="card-img">
         <img src={image} className="w-full" alt="" />

@@ -6,7 +6,7 @@ const CareerCard = ({ job, isActive, onHover }) => {
   return (
     <div
       onMouseEnter={onHover}
-      className={`transition-all duration-300 ease-in-out cursor-pointer group  lg:flex items-center justify-end`}
+      className={`career-card transition-all duration-300 ease-in-out cursor-pointer group  lg:flex items-center justify-end`} data-aos="fade-up"
     >
       {/* Job Image - shown only when active */}
       {isActive && (

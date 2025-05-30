@@ -38,7 +38,7 @@ const WhoWeAreSection = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat  flex items-center w-full overflow-x-hidden"
+      className="relative bg-cover bg-center bg-no-repeat  flex items-center w-full"
       style={{ backgroundImage: `url(${backgroundImage})` }}
       ref={containerRef}
     >

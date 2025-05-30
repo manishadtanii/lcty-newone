@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../../components/Heading";
 
+
 const locations = [
   {
     city: "LCTY",
@@ -41,6 +42,7 @@ const locations = [
 ];
 
 const ClinicLocation = () => {
+ 
   const data = {
     title: [
       { text: "Clinic ", class: "font-calvino" },
@@ -56,12 +58,14 @@ const ClinicLocation = () => {
         <div className=" flex flex-col lg:flex-row gap-10">
           {/* Left - Clinic Info */}
           <div className="flex-1">
+            <div className="" data-aos="fade-up">
             <Heading data={data} />
+            </div>
             <div className="space-y-6 ">
               {locations.map((loc, index) => (
                 <div
                   key={index}
-                  className="client-box primary-bg-2 btn-group text-white p-6 rounded-md relative"
+                  className="client-box primary-bg-2 btn-group text-white p-6 rounded-md relative" data-aos="fade-right" data-aos-delay="200"
                 >
                   <div className="flex flex-col md:flex-row justify-stretch">
                     <div className="">

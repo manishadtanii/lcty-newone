@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Heading from "../../components/Heading";
-
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger)
 function TraditionalTherapy() {
   const data = {
     title: [

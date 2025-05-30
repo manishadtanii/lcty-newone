@@ -79,11 +79,11 @@ const AcceptedInsurance = () => {
   return (
     <section className="">
       <div className="container-fixed">
-        <div className="">
+        <div className="mb-10">
           <Heading data={data} />
         </div>
         {/* Tabs */}
-        <div className=" mx-auto  rounded-t-xl  flex flex-wrap justify-center lg:justify-start body-t gap-4 py-4 lg:p-0 text-white">
+        <div className=" mx-auto  rounded-t-xl  flex flex-wrap justify-center lg:justify-start body-t gap-4 py-4 lg:p-0 text-white" data-aos="fade-up">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -107,7 +107,7 @@ const AcceptedInsurance = () => {
         </div>
 
         {/* Logo Grid */}
-        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-xl lg:rounded-b-xl lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-6">
+        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-xl lg:rounded-b-xl lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-6" data-aos="fade-up">
           {visibleLogos.map((src, idx) => (
             <div key={idx} className="flex items-center justify-center ">
               <img src={src} alt={`Logo ${idx}`} className="w-full " />

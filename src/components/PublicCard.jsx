@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function PublicCard({ data }) {
-  const { name, img, description, tags, link } = data;
+  const { name, img, description, tags, link, animationDelay } = data;
   return (
-    <Link to={link} className="public-card block mb-8">
+    <Link to={link} className="public-card block mb-8" data-aos="fade-up" data-aos-delay={animationDelay} data-aos-duration="1000">
       <div className="public-card-img h-[350px] md:h-[500px] w-full relative">
         <img src={img} alt={name} className="w-full h-full object-cover" />
         <div className="w-[30px] h-[30px] leading-[30px] md:w-[50px] md:h-[50px] md:leading-[50px] text-center bg-white body-t-color absolute right-5 bottom-5">

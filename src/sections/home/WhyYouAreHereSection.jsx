@@ -4,8 +4,24 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ButtonPrimary from "../../components/ButtonPrimary";
 import Heading from "../../components/Heading";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger)
 
 function WhyYouAreHereSection() {
+      const containerRef = useRef();
+    const contentRef = useRef();
+  
+    useGSAP(()=>{
+      ScrollTrigger.create({
+        trigger:containerRef.current,
+        start:'top top',
+        end:"bottom bottom",
+        pin:contentRef.current
+      })
+    })
   const imageUrl = "Yoga3.png";
   const settings = {
     centerMode: true,
@@ -54,7 +70,7 @@ function WhyYouAreHereSection() {
     fontSize: "h1",
   };
   return (
-    <section className="bg-white pt-16 md:py-12 w-full overflow-x-hidden">
+    <section className="bg-white pt-16 md:py-12 w-full overflow-x-hidden" ref={containerRef}>
       <div className="block lg:hidden" data-aos="fade-up">
         <Heading data={data} />
       </div>
@@ -81,7 +97,7 @@ function WhyYouAreHereSection() {
           </div>
 
           {/* Text Content */}
-          <div className="why-text-content sticky top-40">
+          <div className="why-text-content" ref={contentRef}>
             <div className="lg:block hidden">
               <Heading data={data} />
             </div>

@@ -10,6 +10,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"100"
     },
     {
       title: "Occupational Therapy",
@@ -18,6 +19,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"200"
     },
     {
       title: "Yoga Therapy",
@@ -26,6 +28,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"300"
     },
     {
       title: "LCTY Tutor Therapy",
@@ -34,6 +37,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"400"
     },
     {
       title: "ABA",
@@ -42,6 +46,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"500"
     },
     {
       title: "Yoga Therapy",
@@ -50,6 +55,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"600"
     },
     {
       title: "LCTY Tutor Therapy",
@@ -58,6 +64,7 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"700"
     },
     {
       title: "ABA",
@@ -66,12 +73,13 @@ function DayCare() {
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
+      animationDelay:"800"
     },
   ];
   return (
     <section className="day-care primary-bg-2">
       <div className="container-fixed">
-        <h2 className="h1 font-bold text-white text-center mb-10">
+        <h2 className="h1 font-bold text-white text-center mb-10" data-aos="fade-up">
           <span className="font-calvino">Lorem</span>
           <span className="font-calvino-italic"> dolor sit </span>
         </h2>

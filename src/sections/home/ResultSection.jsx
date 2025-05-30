@@ -14,7 +14,7 @@ function ResultSection() {
     fontColor: "secondary-text-1",
     };
   return (
-     <section className="bg-white w-full overflow-x-hidden" >
+     <section className="bg-white w-full" >
       <div className="container-fixed">
         <div className="max-w-[1400px]  space-y-10">
           {/* Top Text */}

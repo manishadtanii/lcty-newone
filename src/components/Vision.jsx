@@ -35,21 +35,21 @@ export default function Vision() {
         <div className="md:w-[70%]">
           {/* Content */}
           <div className="md:w-[80%] mx-auto relative z-10">
-            <div className="mb-4">
+            <div className="mb-4" data-aos="fade-up">
               <Heading data={data} />
             </div>
-            <p className="mb-4">
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="100">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               accumsan eros non fringilla faucibus. Sed scelerisque ultrices
               dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
               fermentum commodo. Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. In accumsan eros non fringilla faucibus.
             </p>
-            <p className="mb-4">
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="200">
               Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac.
               Duis eu nisi non orci fermentum commodo.
             </p>
-            <p className="mb-4">
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               accumsan eros non fringilla faucibus. Sed scelerisque ultrices
               dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci

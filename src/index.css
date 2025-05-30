@@ -14,7 +14,7 @@ body{
 }
 section{
   width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 header{
   transition: .5s;
@@ -267,6 +267,9 @@ color: #FF96FF;
 .client-box:hover a{
 background-color: #FF96FF;
 color: white;
+}
+.career-card{
+  transition: .5s;
 }
 @media screen and (max-width: 768px) {
   .container-fixed {

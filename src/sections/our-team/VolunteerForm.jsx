@@ -7,11 +7,11 @@ function VolunteerForm() {
         <div className="container-fixed">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-start">
             {/* Image */}
-            <div className="">
+            <div className="" data-aos="fade-right">
               <img src='Yoga3.png' alt="Kids Yoga" className=" w-full mb-5" />
             </div>
             {/* Text Content */}
-            <div className="">
+            <div className="" data-aos="fade-left">
               <h2 className="h1 mb-4 secondary-text-1">
                 <span className="font-calvino">Lorem</span>
                 <span className="font-calvino-italic"> dolor sit </span>

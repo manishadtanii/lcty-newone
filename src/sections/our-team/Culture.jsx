@@ -2,10 +2,26 @@ import ButtonPrimary from "../../components/ButtonPrimary";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
 
 const imageUrl = "Yoga3.png";
 
 const Culture = () => {
+    const containerRef = useRef();
+  const contentRef = useRef();
+
+  useGSAP(()=>{
+    ScrollTrigger.create({
+      trigger:containerRef.current,
+      start:'top top',
+      end:"bottom bottom",
+      pin:contentRef.current
+    })
+  })
   const settings = {
     centerMode: true,
     centerPadding: "60px", // optional: adjust padding around centered slide
@@ -43,7 +59,7 @@ const Culture = () => {
     ],
   };
   return (
-    <section className="bg-white ">
+    <section className="bg-white" ref={containerRef}>
       <h2 className="h1 mb-4 secondary-text-1 px-5 text-center block lg:hidden">
         <span className="font-calvino">Why</span>
         <span className="font-calvino-italic"> you </span>
@@ -65,7 +81,7 @@ const Culture = () => {
       <div className="container-fixed ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Content */}
-          <div className="sticky top-40">
+          <div className="" ref={contentRef}>
             <h2 className="h1 mb-4 secondary-text-1 hidden lg:block">
               <span className="font-calvino">Lorem</span>
               <span className="font-calvino-italic"> dolor sit </span>

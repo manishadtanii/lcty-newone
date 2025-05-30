@@ -40,7 +40,7 @@ const Careers = () => {
     
       <div className="container-fixed">
          {/* Heading */}
-            <h2 className="h1 font-bold secondary-text-1 text-center mb-10">
+            <h2 className="h1 font-bold secondary-text-1 text-center mb-10" data-aos="fade-up">
               <span className="font-calvino">Lorem</span>
               <span className="font-calvino-italic"> dolor sit</span>
             </h2>

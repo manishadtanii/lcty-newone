@@ -2,7 +2,10 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import ModernCard from "../../components/ModernCard";
+// import './Sliders.css'
 
 const PrevArrow = ({ onClick }) => (
   <button
@@ -86,22 +89,24 @@ function ModernTherapySlider() {
       },
     },
   ];
- const settings = {
-    // className: "center",
+  const settings = {
+    className: "center",
     centerMode: true,
+    focusOnSelect: true,
     infinite: true,
     // centerPadding: "60px",
     slidesToShow: 3,
-    speed: 500
+    speed: 500,
+    // centerPadding: "100px",
   };
 
   // const sliderRef = useRef(null); // <-- create slider ref
   return (
-    <div className="modern-therapy-slider py-10 ">
+    <div className="modern-therapy-slider py-10 overflow-hidden">
       <div className="slider-container">
         <Slider {...settings}>
           {sliderData.map((item, index) => (
-            <ModernCard key={index} data={item} className="w-full"/>
+            <ModernCard key={index} data={item} className="w-full" />
           ))}
         </Slider>
       </div>

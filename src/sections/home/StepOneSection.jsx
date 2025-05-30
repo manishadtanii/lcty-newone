@@ -59,7 +59,7 @@ const StepOneSection = () => {
     });
   });
   return (
-    <section className="stepone-section w-[100vw] primary-bg-2 overflow-x-hidden">
+    <section className="stepone-section w-[100vw] primary-bg-2">
       <div className="">
         <div className="gallery flex flex-col-reverse lg:flex-row gap-10 ">
           {/* Left Column */}
@@ -289,8 +289,8 @@ const StepOneSection = () => {
           </div>
 
           {/* Right Column (Image) */}
-          <div className="right  flex-col justify-center items-center lg:h-screen bg-[#FFAFFF]  lg:w-[50%] hidden lg:flex ">
-            <div className="desktopPhotos relative overflow-x-hidden  w-[40vw] h-[40vw]">
+          <div className="right  flex-col justify-center items-center lg:h-screen bg-[#FFAFFF]  lg:w-[50%] hidden lg:flex overflow-hidden">
+            <div className="desktopPhotos relative overflow-hidden  w-[40vw] h-[40vw]">
               <div className="desktopPhoto absolute">
                 <img src="Step-1.png" alt="" className="w-full" />
               </div>

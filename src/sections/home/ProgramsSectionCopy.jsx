@@ -5,9 +5,8 @@ function ProgramsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
     const data = {
         title: [
-            { text: "Lorem ipsum", class: "font-calvino" },
-            { text: "dolor sit amet, consectetur", class: "font-calvino-italic" },
-            { text: "adipiscing elit.  In accumsan eros non fringilla faucibus.", class: "font-calvino" },
+            { text: "Expanding your", class: "font-calvino" },
+            { text: "Child’s potential", class: "font-calvino-italic" },
         ],
         textAlign: "md:text-end",
         spacing: "mb-4 lg:mb-10",
@@ -57,9 +56,7 @@ function ProgramsSection() {
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan
-          eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae
-          bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.
+         We understand that every child is unique, with their own special way of learning and growing. That's why we offer a range of dedicated therapies and support services, delivered with a caring touch and tailored to nurture their individual potential.
         </p>
 
         {/* Mobile Image */}

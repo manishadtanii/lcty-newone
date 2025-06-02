@@ -15,7 +15,8 @@ import ContactUs from "./pages/ContactUs";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Error404 from "./components/Error404";
+import Error404 from "./pages/Error404";
+import ThankYou from "./pages/ThankYou";
 
 function App() {
   useEffect(()=>{
@@ -38,7 +39,8 @@ function App() {
         <Route path="/prospective-clients" element={<ProspectiveClients />} />
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/community-partners" element={<CommunityPartners />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        {/* <Route path="/contact-us" element={<ContactUs />} /> */}
+        <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />

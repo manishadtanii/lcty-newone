@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ButtonPrimary from "./ButtonPrimary";
-import Heading from "./Heading";
+import ButtonPrimary from "../components/ButtonPrimary";
+import Heading from "../components/Heading";
 
 const Error404 = () => {
     const data = {

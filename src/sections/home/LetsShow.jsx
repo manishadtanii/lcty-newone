@@ -4,9 +4,9 @@ import Heading from '../../components/Heading';
 function LetsShow() {
   const data = {
     title: [
-      { text: "Let’s", class: "font-calvino" },
-      { text: "show you", class: "font-calvino-italic" },
-      { text: "how to", class: "font-calvino" },
+      { text: "A", class: "font-calvino" },
+      { text: " Gentle Start", class: "font-calvino-italic" },
+      { text: "Awaits", class: "font-calvino" },
     ],
     textAlign: "text-center",
     spacing: "mb-5",

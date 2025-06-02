@@ -78,27 +78,17 @@ const StepOneSection = () => {
 
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
-                  <span className="font-calvino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                  <span className="font-calvino mb-5 block">
+                    Registration
+                  </span> 
+                  <span className="font-calvino-italic mb-3 block">
+                    Welcome to the world of  Little Champs!
                   </span>
-                  <span className="font-calvino-italic">
-                    In accumsan eros non fringilla faucibus.
-                  </span>{" "}
-                  <span className="font-calvino">Sed scelerisque ultrice </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
+               Please register using our safe online portal to start your adventure with us. This will enable us to collect all the data we need to give your child the best care possible. Remember to upload all necessary information when registering.
                 </p>
 
                 {/* Link */}
@@ -123,26 +113,13 @@ const StepOneSection = () => {
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
                   <span className="font-calvino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                   Insurance & Billing
                   </span>
-                  <span className="font-calvino-italic">
-                    In accumsan eros non fringilla faucibus.
-                  </span>{" "}
-                  <span className="font-calvino">Sed scelerisque ultrice </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
+                Uploading your insurance and referral documents using the same site is the next step after creating your account. This guarantees that we can proceed without hiccups and verify your service coverage.
                 </p>
 
                 {/* Link */}
@@ -167,26 +144,13 @@ const StepOneSection = () => {
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
                   <span className="font-calvino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                   Registration for Evaluation
                   </span>
-                  <span className="font-calvino-italic">
-                    In accumsan eros non fringilla faucibus.
-                  </span>{" "}
-                  <span className="font-calvino">Sed scelerisque ultrice </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
+                Our administrative staff will get in touch with you to arrange for your child's initial evaluation, which can take place at our friendly clinic or in the convenience of your home, once we have received your referral, intake form and insurance information.q
                 </p>
 
                 {/* Link */}
@@ -211,26 +175,13 @@ const StepOneSection = () => {
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
                   <span className="font-calvino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                   Scheduling of Treatment
                   </span>
-                  <span className="font-calvino-italic">
-                    In accumsan eros non fringilla faucibus.
-                  </span>{" "}
-                  <span className="font-calvino">Sed scelerisque ultrice </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
+                 Our therapist will prepare a thorough report after the assessment and provide it to your child's pediatrician. We ensure to maintain the continuity of therapy sessions once your insurance has been accepted and allowed. Depending on what works best for your family.
                 </p>
 
                 {/* Link */}

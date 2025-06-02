@@ -6,30 +6,30 @@
   syntax: "<angle>";
   initial-value: 90deg;
   inherits: false;
-  transition: .5s;
+  transition: 0.5s;
 }
-body{
+body {
   max-width: 100%;
-  overflow-x: hidden ;
+  overflow-x: hidden;
 }
-section{
+section {
   width: 100%;
   /* overflow-x: hidden; */
 }
-header{
-  transition: .5s;
+header {
+  transition: 0.5s;
 }
 header.active {
   position: sticky;
   top: 0;
 }
-header .logo{
+header .logo {
   height: 96px;
-  transition: .5s;
+  transition: 0.5s;
 }
-header.active .logo{
+header.active .logo {
   height: 60px;
-  transition: .5s;
+  transition: 0.5s;
 }
 :root {
   --bg-background: white;
@@ -89,7 +89,7 @@ header.active .logo{
   cursor: pointer;
   background-color: var(--clr-card);
   font-size: clamp(14px, 5vw, 22px);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .button-primary::after,
@@ -109,18 +109,16 @@ header.active .logo{
     var(--clr-card)
   );
   border-radius: inherit;
-   animation: rotate 2.5s linear infinite;
-   transition: .5s;
+  animation: rotate 2.5s linear infinite;
+  transition: 0.5s;
 }
 .button-primary:hover:after,
 .button-primary:hover:before {
   animation: none;
-   background: #ffd6ff;
+  background: #ffd6ff;
 }
-.button-primary:hover{
-  box-shadow: 
-  #ff96ff 0px 10px 36px 0px, 
-  #ff96ff 0px 0px 0px 1px;
+.button-primary:hover {
+  box-shadow: #ff96ff 0px 10px 36px 0px, #ff96ff 0px 0px 0px 1px;
 }
 /* .card::after {
   filter: blur(3rem);
@@ -259,17 +257,16 @@ p {
 .testimonial-item {
   background-image: url("testimonial-bg.png");
 }
-.client-box a{
+.client-box a {
   background-color: white;
-color: #FF96FF;
-
+  color: #ff96ff;
 }
-.client-box:hover a{
-background-color: #FF96FF;
-color: white;
+.client-box:hover a {
+  background-color: #ff96ff;
+  color: white;
 }
-.career-card{
-  transition: .5s;
+.career-card {
+  transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
   .container-fixed {

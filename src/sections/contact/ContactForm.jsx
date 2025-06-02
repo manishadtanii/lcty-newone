@@ -1,21 +1,29 @@
 import React from "react";
+import Heading from "../../components/Heading";
 
 const ContactForm = () => {
+   const data = {
+    title: [
+      { text: "Get", class: "font-calvino" },
+      { text: "in touch", class: "font-calvino-italic" },
+    ],
+
+    textAlign:"text-start",
+    fontSize:"h1"
+  };
   return (
     <div className="min-h-screen flex items-center justify-center bg-white py-16 px-4">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Left Side - Contact Info */}
         <div>
-          <h2 className="text-5xl font-playfair italic font-semibold text-pink-400 mb-4">
-            Contact <span className="text-purple-400">us</span>
-          </h2>
-          <p className="text-purple-500 max-w-md mb-6">
+          <Heading data={data} />
+          <p className=" mb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             accumsan eros non fringilla faucibus.
           </p>
-          <ul className="text-purple-600 space-y-3">
+          <ul className="">
             <li>
-              <span className="text-pink-400 font-semibold">Call</span> : (561) 494 4499
+              <span className=" font-semibold">Call</span> : (561) 494 4499
             </li>
             <li>
               <span className="text-pink-300 font-semibold">Fax</span> : (561) 705 7501

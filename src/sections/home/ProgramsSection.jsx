@@ -5,12 +5,9 @@ function ProgramsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const data = {
     title: [
-      { text: "Lorem ipsum", class: "font-calvino" },
-      { text: "dolor sit amet, consectetur", class: "font-calvino-italic" },
-      {
-        text: "adipiscing elit.  In accumsan eros non fringilla faucibus.",
-        class: "font-calvino",
-      },
+      { text: "Caring for Your Child,", class: "font-calvino" },
+      { text: "Covered by You", class: "font-calvino-italic" },
+
     ],
     textAlign: "text-left",
     spacing: "mb-4 lg:mb-10",
@@ -62,9 +59,7 @@ function ProgramsSection() {
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan
-          eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae
-          bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.
+         Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us. 
         </p>
 
         {/* Mobile Image */}

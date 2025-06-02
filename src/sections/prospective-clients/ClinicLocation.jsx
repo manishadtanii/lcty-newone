@@ -65,9 +65,9 @@ const ClinicLocation = () => {
               {locations.map((loc, index) => (
                 <div
                   key={index}
-                  className="client-box primary-bg-2 btn-group text-white p-6 rounded-md relative" data-aos="fade-right" data-aos-delay="200"
+                  className="client-box primary-bg-2 btn-group text-white p-6  relative" data-aos="fade-right" data-aos-delay="200"
                 >
-                  <div className="flex flex-col md:flex-row justify-stretch">
+                  <div className="flex flex-col md:flex-row justify-stretch items-end">
                     <div className="">
                       <div className="h2 mb-3">
                         <span className="font-calvino">{loc.city}</span>{" "}

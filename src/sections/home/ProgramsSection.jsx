@@ -20,33 +20,33 @@ function ProgramsSection() {
   const programs = [
     {
       number: "01.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Physical Therapy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
       image: "Yoga3.png",
       bg: "#F9D9E4",
     },
     {
       number: "02.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Occupational Therapy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "Supporting your child to help and give ease in their day-to-day task like dressing, feeding and building independence through new and playful activities. ",
       image: "Yoga3.png",
       bg: "#D4E9FF",
     },
     {
       number: "03.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Speech Therapy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "It assists in promoting clearer communication by aiding them with speech, language, and social skills, whereby they are able to speak confidently in public place.",
       image: "Yoga3.png",
       bg: "#FFEFD4",
     },
     {
       number: "04.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Applied Behavior Analysis (ABA)",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "A well-maintained evidence-based approach that helps children develop positive behaviour, social skills, and learning routines through meaningful reinforcement.",
       image: "Yoga3.png",
       bg: "#E0FFE6",
     },

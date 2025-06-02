@@ -17,33 +17,33 @@ function ProgramsSection() {
      const programs = [
     {
       number: "01.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Music Therapy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "With movement, melody, and rhythm, music therapy promotes emotional expression, communication, and social interaction in a positive, enjoyable way.",
       image: "Yoga3.png",
       bg: "#F9D9E4",
     },
     {
       number: "02.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Yoga Therapy",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "Synthesizing slow-moving exercise with conscious breathing, yoga therapy assists children in developing balance and concentration with a playful twist.",
       image: "Yoga3.png",
       bg: "#D4E9FF",
     },
     {
       number: "03.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Interactive Metronome",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "This brain-targeted software enhances timing, attention and coordination through engaging, rhythm-based exercises to enhance concentration.",
       image: "Yoga3.png",
       bg: "#FFEFD4",
     },
     {
       number: "04.",
-      title: "Lorem ipsum dolor sit amet",
+      title: "Tutoring",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        "Personalized learning assistance based on your child's individual learning style by mastering the critical skills at their own pace.",
       image: "Yoga3.png",
       bg: "#E0FFE6",
     },

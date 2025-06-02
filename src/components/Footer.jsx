@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ButtonPrimary from "./ButtonPrimary";
 function Footer() {
   return (
-      <footer className="primary-bg-2 text-white md:px-6 py-10 w-full">
+      <footer className="primary-bg-2 text-white md:px-6 py-10 w-full overflow-x-hidden">
       <div className="container-xxl">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row  lg:justify-between gap-10 lg:gap-0">

@@ -40,8 +40,8 @@ function ClinicLocation() {
   ];
   const data = {
     title: [
-      { text: "Clinics", class: "font-calvino" },
-      { text: "Locations", class: "font-calvino-italic" },
+      { text: "Find", class: "font-calvino" },
+      { text: "us here ", class: "font-calvino-italic" },
     ],
     textAlign: "text-center md:text-start",
     spacing: "p-4",
@@ -76,9 +76,7 @@ function ClinicLocation() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan
-            eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae
-            bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.
+            Come explore the place for your Little Champs, which is easily accessible to provides services in a friendly setting for families. We're here for you to ensure that every visit brings new hope to the life of your child.
           </p>
           <div className="" data-aos="fade-up" data-aos-delay="300">
             <ButtonPrimary link="/hello" text="Register Now" />

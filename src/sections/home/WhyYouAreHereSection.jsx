@@ -102,24 +102,22 @@ function WhyYouAreHereSection() {
               <Heading data={data} />
             </div>
             <p className="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-              fermentum commodo.{" "}
+             You want to see your child smile, grow, and take on new challenges and sometimes that means a little extra support. Maybe:
             </p>
             <ul className="space-y-3 mb-8">
-              {[...Array(5)].map((_, i) => (
+              {["Your child struggles with speech or social skills.","They need a confidence boost in physical or fine-motor activities.", "You’re looking for gentle ways to help them handle big emotions."].map((item, i) => (
                 <li
                   key={i}
                   className="flex items-center space-x-3 body-t body-t-color"
                 >
                   <span className="mt-1 w-3 h-3 rounded-full bg-pink-400 inline-block"></span>
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                   {item}
                   </span>
                 </li>
               ))}
             </ul>
+            <p>At Little Champs Therapy & Yoga, we meet kids where they are, celebrate every milestone and bring families along for the ride. That is all because we get it!</p>
 
             <ButtonPrimary link="discover" text="Register Now" />
           </div>

@@ -59,9 +59,9 @@ const StepOneSection = () => {
     });
   });
   return (
-    <section className="stepone-section w-[100vw] primary-bg-2">
-      <div className="">
-        <div className="gallery flex flex-col-reverse lg:flex-row gap-10 ">
+    <section className="stepone-section w-[100vw] primary-bg-2 overflow-x-hidden">
+      <div className="overflow-x-hidden">
+        <div className="gallery flex flex-col-reverse lg:flex-row gap-10 overflow-x-hidden">
           {/* Left Column */}
           <div className="left pb-7 lg:pb-0 px-5 lg:px-[80px] lg:w-[50%]">
             <div className="desktopContent">

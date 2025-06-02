@@ -20,7 +20,7 @@ function Home() {
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
+        text: "We believe every child deserves a safe and supportive space to move, calm down and build healthy habits for life. That's why our kid-focused yoga therapy combines proven techniques with fun games. Kids learn to manage their feelings, understand themselves better and get stronger – all through yoga and therapy! ",
         class: "text-center",
       },
     ],

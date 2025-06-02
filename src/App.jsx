@@ -15,6 +15,7 @@ import ContactUs from "./pages/ContactUs";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Error404 from "./components/Error404";
 
 function App() {
   useEffect(()=>{
@@ -38,6 +39,7 @@ function App() {
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/community-partners" element={<CommunityPartners />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />
     </Router>

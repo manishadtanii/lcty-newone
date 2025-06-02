@@ -76,7 +76,7 @@ function ClinicLocation() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Come explore the place for your Little Champs, which is easily accessible to provides services in a friendly setting for families. We're here for you to ensure that every visit brings new hope to the life of your child.
+            Come explore the place for your Little Champs, which is easily accessible to provide services in a friendly setting for families. We're here for you to ensure that every visit brings new hope to the life of your child.
           </p>
           <div className="" data-aos="fade-up" data-aos-delay="300">
             <ButtonPrimary link="/hello" text="Register Now" />

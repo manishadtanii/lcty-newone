@@ -35,13 +35,12 @@ function SuccessStories() {
   ];
   const data = {
     title: [
-      { text: "Lorem", class: "font-calvino" },
-      { text: "dolor sit amet", class: "font-calvino-italic" },
-      { text: "adipiscing", class: "font-calvino" },
+      { text: "Success ", class: "font-calvino" },
+      { text: "Stories", class: "font-calvino-italic" },
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
+        text: "Every child has their own journey and we’re honored to walk alongside them. These success stories come from real families who’ve seen bigger smiles, stronger skills and newfound confidence after joining Little Champs Therapy & Yoga. We hope they inspire you as much as they inspire us.",
         class: "text-center",
       },
     ],

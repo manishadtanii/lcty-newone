@@ -17,6 +17,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Error404 from "./pages/Error404";
 import ThankYou from "./pages/ThankYou";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   useEffect(()=>{
@@ -31,6 +32,7 @@ function App() {
   }, [])
   return (
     <Router>
+      <ScrollToTop/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -39,7 +41,7 @@ function App() {
         <Route path="/prospective-clients" element={<ProspectiveClients />} />
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/community-partners" element={<CommunityPartners />} />
-        {/* <Route path="/contact-us" element={<ContactUs />} /> */}
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>

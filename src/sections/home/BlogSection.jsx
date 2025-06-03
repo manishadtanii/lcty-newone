@@ -27,9 +27,9 @@ function BlogSection() {
   ];
   const data = {
     title: [
-      { text: "Lorem", class: "font-calvino" },
-      { text: "dolor sit amet", class: "font-calvino-italic" },
-      { text: "adipiscing", class: "font-calvino" },
+      { text: "A ", class: "font-calvino" },
+      { text: "little more about", class: "font-calvino-italic" },
+      { text: "our thoughts!", class: "font-calvino" },
     ],
     textAlign: "text-center md:text-start",
     spacing: "p-4",

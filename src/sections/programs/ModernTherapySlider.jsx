@@ -26,17 +26,15 @@ const NextArrow = ({ onClick }) => (
 );
 
 function ModernTherapySlider() {
-  // data/sliderData.js
   const sliderData = [
     {
       title: [
-        { text: "Lorem", class: "font-calvino" },
-        { text: " dolor sit", class: "font-calvino-italic" },
-        { text: "adipiscing", class: "font-calvino" },
+        { text: "Music ", class: "font-calvino" },
+        { text: " Therapy   ", class: "font-calvino-italic" },
       ],
       paragraphs: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "In accumsan eros non fringilla faucibus.",
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction. ",
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
       ],
       button: {
         text: "Take me to the program",
@@ -50,33 +48,31 @@ function ModernTherapySlider() {
     },
     {
       title: [
-        { text: "Lorem", class: "font-calvino" },
-        { text: " dolor sit", class: "font-calvino-italic" },
-        { text: "adipiscing", class: "font-calvino" },
+        { text: "Music ", class: "font-calvino" },
+        { text: " Therapy   ", class: "font-calvino-italic" },
       ],
       paragraphs: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "In accumsan eros non fringilla faucibus.",
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction. ",
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
       ],
       button: {
-        text: "Explore wellness",
+        text: "Take me to the program",
         iconClass: "fal fa-arrow-right",
-        link: "/programs/healthy-lifestyle",
+        link: "/programs/modern-therapy",
       },
       image: {
         src: "modern-1.png",
-        alt: "Wellness",
+        alt: "Therapy 1",
       },
     },
     {
       title: [
-        { text: "Lorem", class: "font-calvino" },
-        { text: " dolor sit", class: "font-calvino-italic" },
-        { text: "adipiscing", class: "font-calvino" },
+        { text: "Music ", class: "font-calvino" },
+        { text: " Therapy   ", class: "font-calvino-italic" },
       ],
       paragraphs: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "In accumsan eros non fringilla faucibus.",
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction. ",
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
       ],
       button: {
         text: "Take me to the program",

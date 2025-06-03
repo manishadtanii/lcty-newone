@@ -59,7 +59,7 @@ function ProgramsSection() {
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
-         Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us. 
+         Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us.
         </p>
 
         {/* Mobile Image */}

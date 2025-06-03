@@ -75,18 +75,19 @@ function Home() {
   };
   const data2 = {
     title: [
-      { text: "Little Champs", class: "font-calvino" },
-      { text: "therapy & yoga", class: "font-calvino-italic" },
+      { text: "Ready to", class: "font-calvino" },
+      { text: "see your little champ", class: "font-calvino-italic" },
+      { text: "shine", class: "font-calvino" },
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
+        text: "Let’s get started on your child’s journey to greater confidence, skills and joy. Book a free consultation today to chat about their unique needs and explore how our tailored therapy and yoga programs can make a real difference. Give your child the gift of support that’s as individual as they are!",
         class: "text-center",
       },
     ],
     btn:{
-      text: "Register Now",
-      link: "/apply",
+      text: "Contact Us",
+      link: "/contact-us",
     },
     textAlign:"text-center",
     spacing:"p-4"

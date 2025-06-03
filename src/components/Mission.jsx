@@ -6,20 +6,16 @@ import Heading from "./Heading";
 export default function Mission() {
   const data = {
     title: [
-      { text: "Lorem", class: "font-calvino" },
-      { text: "dolor sit", class: "font-calvino-italic" },
+      { text: "Why", class: "font-calvino" },
+      { text: "We Care", class: "font-calvino-italic" },
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        text: "Our mission is to provide personalized therapies to meet the needs of love where they are treated with respect and unwavering belief in their personal potential.",
         class: "text-center",
       },
       {
-        text: " Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.",
-        class: "text-center",
-      },
-      {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.",
+        text: "As we look after homes, schools, and communities where your child is safe and nurtured, we are dedicated to offering top-notch therapy that is easily accessible and comforting. Every session is based on developmental support thoroughly designed for your child's unique needs and guided by empathy. Above all, beautiful things happen when therapy is treated like love but wonderful things happen when therapy feels like love.",
         class: "text-center",
       },
     ],
@@ -44,9 +40,8 @@ export default function Mission() {
             <div className="mb-4" data-aos="fade-up">
             <Heading data={data} />
             </div>
-            <p className="mb-4" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.</p>
-            <p className="mb-4" data-aos="fade-up" data-aos-delay="200">Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.</p>
-            <p className="mb-4" data-aos="fade-up" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.</p>
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="100">Our mission is to provide personalized therapies to meet the needs of love where they are treated with respect and unwavering belief in their personal potential.</p>
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="200">As we look after homes, schools, and communities where your child is safe and nurtured, we are dedicated to offering top-notch therapy that is easily accessible and comforting. Every session is based on developmental support thoroughly designed for your child's unique needs and guided by empathy. Above all, beautiful things happen when therapy is treated like love but wonderful things happen when therapy feels like love.</p>
           </div>
         </div>
       </div>

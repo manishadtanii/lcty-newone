@@ -81,6 +81,32 @@ header.active .logo {
 .secondary-text-1 {
   color: #ff96ff;
 }
+p {
+  color: #8a63ff;
+  font-size: clamp(14px, 5vw, 22px);
+}
+.body-t-color {
+  color: #8a63ff;
+}
+
+.h1 {
+  font-size: clamp(40px, 5vw, 85px);
+  line-height: normal;
+}
+.h2 {
+  font-size: clamp(24px, 5vw, 40px);
+}
+.h3 {
+  font-size: clamp(35px, 5vw, 60px);
+}
+
+.body-t {
+  font-size: clamp(14px, 5vw, 22px);
+}
+
+.nav-t {
+  font-size: clamp(16px, 5vw, 24px);
+}
 
 .button-primary {
   position: relative;
@@ -133,33 +159,6 @@ header.active .logo {
   }
 }
 
-.h1 {
-  font-size: clamp(40px, 5vw, 85px);
-  line-height: normal;
-}
-.h2 {
-  font-size: clamp(24px, 5vw, 40px);
-}
-.h3 {
-  font-size: clamp(35px, 5vw, 60px);
-}
-
-.body-t {
-  font-size: clamp(14px, 5vw, 22px);
-}
-
-.nav-t {
-  font-size: clamp(16px, 5vw, 24px);
-}
-
-p {
-  color: #8a63ff;
-  font-size: clamp(14px, 5vw, 22px);
-}
-.body-t-color {
-  color: #8a63ff;
-}
-
 .band {
   width: 105%;
   height: 100%;
@@ -203,7 +202,15 @@ p {
     rgba(255, 255, 255, 0.05) 92.61%
   );
 }
-
+.testimonial-item:nth-child(1) {
+  top: 100px;
+}
+.testimonial-item:nth-child(2) {
+  top: 200px;
+}
+.testimonial-item:nth-child(3) {
+  top: 300px;
+}
 .inner-circle {
   background: linear-gradient(
     180.04deg,

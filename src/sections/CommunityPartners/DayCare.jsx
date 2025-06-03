@@ -80,8 +80,8 @@ function DayCare() {
     <section className="day-care primary-bg-2">
       <div className="container-fixed">
         <h2 className="h1 font-bold text-white text-center mb-10" data-aos="fade-up">
-          <span className="font-calvino">Lorem</span>
-          <span className="font-calvino-italic"> dolor sit </span>
+          <span className="font-calvino">Daycare </span>
+          <span className="font-calvino-italic"> centre  </span>
         </h2>
         <div className="day-care-container">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-6">

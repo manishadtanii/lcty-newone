@@ -6,20 +6,16 @@ import Heading from "./Heading";
 export default function Vision() {
   const data = {
     title: [
-      { text: "Lorem", class: "font-calvino" },
-      { text: "dolor sit", class: "font-calvino-italic" },
+      { text: "Lifted ", class: "font-calvino" },
+      { text: " by Love", class: "font-calvino-italic" },
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus.",
+        text: "Our vision is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.",
         class: "text-center",
       },
       {
-        text: " Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.",
-        class: "text-center",
-      },
-      {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.",
+        text: "We don’t just offer therapy, we offer hope by being a helping hand for your family. With the power of love at the core of everything we do, we’re here to assist and nurture your child’s development so that they can blossom in their own beautiful way.",
         class: "text-center",
       },
     ],
@@ -39,22 +35,19 @@ export default function Vision() {
               <Heading data={data} />
             </div>
             <p className="mb-4" data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-              fermentum commodo. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. In accumsan eros non fringilla faucibus.
+           Our vision is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.
+
             </p>
             <p className="mb-4" data-aos="fade-up" data-aos-delay="200">
-              Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac.
-              Duis eu nisi non orci fermentum commodo.
+             We don’t just offer therapy, we offer hope by being a helping hand for your family. With the power of love at the core of everything we do, we’re here to assist and nurture your child’s development so that they can blossom in their own beautiful way.
+
             </p>
-            <p className="mb-4" data-aos="fade-up" data-aos-delay="300">
+            {/* <p className="mb-4" data-aos="fade-up" data-aos-delay="300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               accumsan eros non fringilla faucibus. Sed scelerisque ultrices
               dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
               fermentum commodo.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="w-full md:w-[30%]">

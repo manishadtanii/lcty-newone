@@ -5,12 +5,13 @@ import ButtonPrimary from '../../components/ButtonPrimary'
 function Prospective() {
     const data = {
     title: [
-      { text: "Little Champs", class: "font-calvino" },
-      { text: "therapy & yoga", class: "font-calvino-italic" },
+      { text: "Welcome", class: "font-calvino" },
+      { text: "to the Little Champs", class: "font-calvino-italic" },
+      { text: "Family", class: "font-calvino" },
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
+        text: "From the very beginning, we treat your child as if they were our own, providing them with love, tolerance and a customized approach that values and acknowledges each small victory. Whether you need assistance with speech, mobility, sensory needs or emotional development, we are here to listen, support and walk with you.",
         class: "text-center",
       },
     ],

@@ -1,6 +1,10 @@
 import React from "react";
 import Heading from "../../components/Heading";
-
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+import $ from 'jquery'
+gsap.registerPlugin(ScrollTrigger);
 
 const locations = [
   {
@@ -42,7 +46,44 @@ const locations = [
 ];
 
 const ClinicLocation = () => {
- 
+  useGSAP(() => {
+    $(function () {
+      let cards = gsap.utils.toArray(".client-wrapper");
+
+      let stickDistance = 0;
+
+      let firstCardST = ScrollTrigger.create({
+        trigger: cards[0],
+        start: "center center",
+      });
+
+      let lastCardST = ScrollTrigger.create({
+        trigger: cards[cards.length - 1],
+        start: "bottom bottom",
+      });
+
+      cards.forEach((card, index) => {
+        var scale = 1 - (cards.length - index) * 0.025;
+        let scaleDown = gsap.to(card, {
+          scale: scale,
+          "transform-origin":
+            '"50% ' + (lastCardST.start + stickDistance) + '"',
+        });
+
+        ScrollTrigger.create({
+          trigger: card,
+          start: "center center",
+          end: () => lastCardST.start + stickDistance,
+          pin: true,
+          pinSpacing: false,
+          ease: "none",
+          animation: scaleDown,
+          toggleActions: "restart none none reverse",
+        });
+      });
+    });
+  });
+
   const data = {
     title: [
       { text: "Clinic ", class: "font-calvino" },
@@ -59,42 +100,46 @@ const ClinicLocation = () => {
           {/* Left - Clinic Info */}
           <div className="flex-1">
             <div className="" data-aos="fade-up">
-            <Heading data={data} />
+              <Heading data={data} />
             </div>
-            <div className="space-y-6 ">
-              {locations.map((loc, index) => (
-                <div
-                  key={index}
-                  className="client-box primary-bg-2 btn-group text-white p-6  relative" data-aos="fade-right" data-aos-delay="200"
-                >
-                  <div className="flex flex-col md:flex-row justify-stretch items-end">
-                    <div className="">
-                      <div className="h2 mb-3">
-                        <span className="font-calvino">{loc.city}</span>{" "}
-                        <span className="font-calvino-italic">{`- ${loc.branch}`}</span>
+            <div className="client-wrapper">
+              <div className="space-y-6 ">
+                {locations.map((loc, index) => (
+                  <div
+                    key={index}
+                    className="client-box primary-bg-2 btn-group text-white p-6  relative"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                  >
+                    <div className="flex flex-col md:flex-row justify-stretch items-end">
+                      <div className="">
+                        <div className="h2 mb-3">
+                          <span className="font-calvino">{loc.city}</span>{" "}
+                          <span className="font-calvino-italic">{`- ${loc.branch}`}</span>
+                        </div>
+                        <p className="font-archivo text-lg mb-3 text-white">
+                          <span className="font-bold">Address:</span>{" "}
+                          {loc.address}
+                        </p>
+                        <p className="font-archivo text-lg mb-3 text-white">
+                          <span className="font-bold">Tel:</span> {loc.tel}
+                        </p>
+                        <p className="font-archivo text-lg mb-3 text-white">
+                          <span className="font-bold">Email:</span> {loc.email}
+                        </p>
                       </div>
-                      <p className="font-archivo text-lg mb-3 text-white">
-                        <span className="font-bold">Address:</span>{" "}
-                        {loc.address}
-                      </p>
-                      <p className="font-archivo text-lg mb-3 text-white">
-                        <span className="font-bold">Tel:</span> {loc.tel}
-                      </p>
-                      <p className="font-archivo text-lg mb-3 text-white">
-                        <span className="font-bold">Email:</span> {loc.email}
-                      </p>
-                    </div>
-                    <div className="">
-                      <a
-                        href={loc.link}
-                        className="w-[50px] h-[50px] inline-block leading-[50px] text-center  transition"
-                      >
-                        <i class="fal fa-arrow-up rotate-45  rounded-full nav-t  p-2"></i>
-                      </a>
+                      <div className="">
+                        <a
+                          href={loc.link}
+                          className="w-[50px] h-[50px] inline-block leading-[50px] text-center  transition"
+                        >
+                          <i class="fal fa-arrow-up rotate-45  rounded-full nav-t  p-2"></i>
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 

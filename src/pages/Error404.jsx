@@ -6,8 +6,9 @@ import Heading from "../components/Heading";
 const Error404 = () => {
     const data = {
     title: [
-      { text: "Little Champs", class: "font-calvino" },
-      { text: "therapy & yoga", class: "font-calvino-italic" },
+      { text: "Something", class: "font-calvino" },
+      { text: "went", class: "font-calvino-italic" },
+      { text: "wrong", class: "font-calvino" },
     ],
 
     textAlign:"text-center",

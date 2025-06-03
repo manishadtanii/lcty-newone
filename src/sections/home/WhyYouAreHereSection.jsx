@@ -105,7 +105,11 @@ function WhyYouAreHereSection() {
              You want to see your child smile, grow, and take on new challenges and sometimes that means a little extra support. Maybe:
             </p>
             <ul className="space-y-3 mb-8">
-              {["Your child struggles with speech or social skills.","They need a confidence boost in physical or fine-motor activities.", "You’re looking for gentle ways to help them handle big emotions."].map((item, i) => (
+              {[
+              "Your child struggles with speech or social skills.",
+              "They need a confidence boost in physical or fine-motor activities.", 
+              "You’re looking for gentle ways to help them handle big emotions."
+              ].map((item, i) => (
                 <li
                   key={i}
                   className="flex items-center space-x-3 body-t body-t-color"

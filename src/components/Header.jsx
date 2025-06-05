@@ -98,7 +98,7 @@ function Header() {
                 <Link
                   key={path}
                   to={path}
-                  className="block hover:underline"
+                  className="block hover:underline body-t"
                   onClick={() => setMenuOpen(false)}
                 >
                   {name}
@@ -106,7 +106,7 @@ function Header() {
               ))}
             </nav>
             <div className="flex gap-4 mt-10 justify-between items-center nav-t">
-              <Link className="">Location</Link>
+              <Link className="body-t">Location</Link>
               <div className="flex gap-2 secondary-text-1">
                 <a
                   href=""

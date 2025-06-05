@@ -246,11 +246,11 @@ p {
 }
 
 /* Program page  */
-.slider-container .slick-slide {
+/* .slider-container .slick-slide {
   opacity: 0.5;
   transition: 0.5s;
-}
-.slider-container .slick-slide.slick-active.slick-center.slick-current {
+} */
+.center-mode-slider .slick-center.slick-current {
   opacity: 1;
   transform: scale(1.1);
   overflow: visible;

@@ -18,6 +18,8 @@ import "aos/dist/aos.css";
 import Error404 from "./pages/Error404";
 import ThankYou from "./pages/ThankYou";
 import ScrollToTop from "./components/ScrollToTop";
+import ProgramInner from "./pages/ProgramInner";
+import DynamicProgramPage from "./pages/DynamicProgramPage";
 
 function App() {
   useEffect(()=>{
@@ -43,6 +45,7 @@ function App() {
         <Route path="/community-partners" element={<CommunityPartners />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/programs/:type" element={<DynamicProgramPage />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />

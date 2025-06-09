@@ -85,7 +85,7 @@ p {
   color: #8a63ff;
   font-size: clamp(14px, 5vw, 22px);
   font-family: "Archivo", sans-serif;
-line-height: 100%;
+  line-height: 100%;
 }
 .body-t-color {
   color: #8a63ff;
@@ -252,7 +252,7 @@ p {
   opacity: 0.5;
   transition: 0.5s;
 } */
-.center-mode-slider .slick-center.slick-current {
+/* .center-mode-slider .slick-center.slick-current {
   opacity: 1;
   transform: scale(1.1);
   overflow: visible;
@@ -261,7 +261,7 @@ p {
 .slick-list {
   overflow: visible !important;
   transition: 0.5s;
-}
+} */
 
 .testimonial-item {
   background-image: url("testimonial-bg.png");
@@ -300,7 +300,7 @@ p {
   top: 0;
   left: 0;
 } */
-.video-section{
+.video-section {
   background-image: url("/video-bg.png") !important;
 }
 @media screen and (max-width: 768px) {
@@ -348,4 +348,27 @@ p {
   p {
     font-size: 14px;
   }
+}
+
+/* Remove grayscale for the active slide */
+.slick-center.slick-current .parallax-img {
+  filter: none;
+  transition: filter 0.3s ease;
+}
+.testimonial-text {
+  transition: 0.5s;
+  bottom: -100%;
+}
+.slick-center.slick-current {
+  position: relative;
+  transform: scale(1.1);
+  z-index: 100;
+  transition: .5s;
+  width: 80%;
+}
+.slick-center.slick-current .testimonial-text {
+  bottom: 0%;
+}
+.slick-list {
+  overflow: visible !important;
 }

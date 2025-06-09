@@ -73,7 +73,7 @@ function TraditionalTherapy() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. </p>
         </div>
 
-        <div className="testimonial-container max-w-7xl m-auto mt-10">
+        <div className="testimonial-container max-w-7xl m-auto mt-10 ">
           {
             testimonials.map((testimonial, index) => (
               <div

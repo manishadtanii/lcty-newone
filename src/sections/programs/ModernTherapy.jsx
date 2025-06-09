@@ -1,6 +1,7 @@
 import React from "react";
 import ModernTherapySlider from "./ModernTherapySlider";
 import Hero from "../../components/Hero";
+import TestimonialsSliderNew from "./TestimonialsSliderNew";
 
 function ModernTherapy() {
   const heading = {
@@ -24,8 +25,9 @@ function ModernTherapy() {
         </div>
         
       </div>
-      <div className="mt-5">
-          <ModernTherapySlider />
+      <div className=" w-full overflow-hidden">
+          <TestimonialsSliderNew />
+          {/* <ModernTherapySlider /> */}
         </div>
     </div>
   );

@@ -351,24 +351,24 @@ p {
 }
 
 /* Remove grayscale for the active slide */
-.slick-center.slick-current .parallax-img {
+.modern-therapy .slick-center.slick-current .parallax-img {
   filter: none;
   transition: filter 0.3s ease;
 }
-.testimonial-text {
+.modern-therapy .testimonial-text {
   transition: 0.5s;
   bottom: -100%;
 }
-.slick-center.slick-current {
+.modern-therapy .slick-center.slick-current {
   position: relative;
   transform: scale(1.1);
   z-index: 100;
   transition: .5s;
   width: 80%;
 }
-.slick-center.slick-current .testimonial-text {
+.modern-therapy .slick-center.slick-current .testimonial-text {
   bottom: 0%;
 }
-.slick-list {
+.modern-therapy .slick-list {
   overflow: visible !important;
 }

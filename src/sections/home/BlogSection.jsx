@@ -39,7 +39,7 @@ function BlogSection() {
     <section className="relative">
       <div className="container-fixed">
         <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-[40%] " data-aos="fade-right">
+          <div className="lg:w-[40%] sticky top-0" >
             <Heading data={data} />
           </div>
 

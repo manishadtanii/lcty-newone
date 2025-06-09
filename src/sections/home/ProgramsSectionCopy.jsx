@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Heading from '../../components/Heading';
+import { Link } from 'react-router-dom';
 
 function ProgramsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -10,7 +11,7 @@ function ProgramsSection() {
         ],
         textAlign: "md:text-end",
         spacing: "mb-4 lg:mb-10",
-        fontSize: "h2 leading-tight",
+        fontSize: "h1  leading-tight",
         fontColor: "secondary-text-1",
     };
      const programs = [
@@ -55,7 +56,7 @@ function ProgramsSection() {
     <section className="program-scetion w-full " >
       <div className="container-fixed">
         {/* Heading */}
-        <div className="max-w-[1000px] md:ms-auto"  data-aos="fade-up"> 
+        <div className="md:ms-auto"  data-aos="fade-up"> 
         <Heading data={data} className />
         </div>
 
@@ -97,12 +98,13 @@ function ProgramsSection() {
                 <div
                   key={index}
                   onMouseEnter={() => setActiveIndex(index)}
-                  className={`p-3 lg:p-6 flex items-end justify-between gap-4 cursor-pointer transition-colors duration-300 ${
+                  className={`p-3 lg:p-6 gap-4 cursor-pointer transition-colors duration-300 ${
                     activeIndex === index
                       ? "bg-[#AE93FF] text-white"
                       : "hover:bg-[#AE93FF] group"
                   }`}
                 >
+                   <Link to={program.link} className="flex items-end justify-between gap-4">
                   <div className="flex items-start gap-4">
                     <h3
                       className={` h2 font-archivo transition-colors ${
@@ -137,6 +139,7 @@ function ProgramsSection() {
                       activeIndex === index ? "text-white" : "body-t-color"
                     }`}
                   ></i>
+                  </Link>
                 </div>
               ))}
             </div>

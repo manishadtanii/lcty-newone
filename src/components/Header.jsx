@@ -17,8 +17,10 @@ const profileImage = "sample.png";
 
 function Header() {
   useEffect(() => {
+    var lastScrollTop = 0;
     const handleScroll = () => {
-      if ($(window).scrollTop() > 0) {
+      var st = $(window).scrollTop();
+      if (st > 0) {
         $("header").addClass("active");
       } else {
         $("header").removeClass("active");

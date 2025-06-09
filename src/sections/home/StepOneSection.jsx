@@ -66,7 +66,7 @@ const StepOneSection = () => {
           <div className="left pb-7 lg:pb-0 px-5 lg:px-[80px] lg:w-[50%]">
             <div className="desktopContent">
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="Step-1.png" alt="" className="w-full block lg:hidden" />
+                <img src="ilus-1.jpg" alt="" className="w-full block lg:hidden" />
 
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
@@ -100,7 +100,7 @@ const StepOneSection = () => {
                 </a>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="Step-1.png" alt="" className="w-full block lg:hidden" />
+                <img src="ilus-2.jpg" alt="" className="w-full block lg:hidden" />
               
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
@@ -131,7 +131,7 @@ const StepOneSection = () => {
                 </a>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="Step-1.png" alt="" className="w-full block lg:hidden" />
+                <img src="ilus-3.jpg" alt="" className="w-full block lg:hidden" />
                
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
@@ -162,7 +162,7 @@ const StepOneSection = () => {
                 </a>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="Step-1.png" alt="" className="w-full block lg:hidden" />
+                <img src="ilus-4.jpg" alt="" className="w-full block lg:hidden" />
                
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">

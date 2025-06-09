@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Heading from "../../components/Heading";
+import { Link } from "react-router-dom";
 
 function ProgramsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -11,7 +12,7 @@ function ProgramsSection() {
     ],
     textAlign: "text-left",
     spacing: "mb-4 lg:mb-10",
-    fontSize: "h2 leading-tight",
+    fontSize: "h1 leading-tight",
     fontColor: "secondary-text-1",
   };
   const programs = [
@@ -56,7 +57,7 @@ function ProgramsSection() {
     <section className="program-section w-full ">
       <div className="container-fixed">
         {/* Heading */}
-        <div className="max-w-[1000px]" data-aos="fade-up">
+        <div className="" data-aos="fade-up">
           <div className=""  >
             <Heading data={data} />
           </div>
@@ -92,10 +93,7 @@ function ProgramsSection() {
           {/* Right Text & Boxes */}
           <div>
             <p className="body-t font-archivo mt-3 leading-[100%] body-t-color hidden lg:block ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-              fermentum commodo.
+              Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us. 
             </p>
 
             <div className="space-y-4 mt-4">
@@ -103,12 +101,13 @@ function ProgramsSection() {
                 <div
                   key={index}
                   onMouseEnter={() => setActiveIndex(index)}
-                  className={`p-3 lg:p-6 flex items-end justify-between gap-4 cursor-pointer transition-colors duration-300 ${
+                  className={`p-3 lg:p-6  cursor-pointer transition-colors duration-300 ${
                     activeIndex === index
                       ? "bg-[#AE93FF] text-white"
                       : "hover:bg-[#AE93FF] group"
                   }`}
                 >
+                  <Link to={program.link} className="flex items-end justify-between gap-4">
                   <div className="flex items-start gap-4">
                     <h3
                       className={` h2 font-archivo transition-colors ${
@@ -142,7 +141,7 @@ function ProgramsSection() {
                     className={`far fa-arrow-up h2 rotate-45 transition-colors ${
                       activeIndex === index ? "text-white" : "body-t-color"
                     }`}
-                  ></i>
+                  ></i></Link>
                 </div>
               ))}
             </div>

@@ -105,7 +105,7 @@ function WhyYouAreHereSection() {
           </div>
 
           {/* Text Content */}
-          <div className="why-text-content sticky top-0" ref={contentRef}>
+          <div className="why-text-content" ref={contentRef}>
             <div className="lg:block hidden">
               <Heading data={data} />
             </div>

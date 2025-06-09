@@ -18,12 +18,11 @@ function ModernTherapy() {
     textAlign:"text-center",
   };
   return (
-    <div className="modern-therapy ">
+    <div className="modern-therapy">
       <div className="container-fixed">
         <div className="max-w-7xl m-auto text-center secondary-text-1">
           <Hero data={heading} />
         </div>
-        
       </div>
       <div className=" w-full overflow-hidden">
           <TestimonialsSliderNew />

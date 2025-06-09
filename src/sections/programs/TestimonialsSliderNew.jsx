@@ -218,7 +218,7 @@ export default function TestimonialsSliderNew() {
           <div className="relative overflow-hidden">
             <img
               src={d.img}
-              className="parallax-img  w-full rounded-2xl object-cover transition-transform grayscale transition"
+              className="parallax-img  w-full rounded-2xl object-cover  grayscale transition"
               alt={d.name}
             />
             <div className="px-2"></div>

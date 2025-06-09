@@ -7,7 +7,7 @@ export default function TestimonialsSliderNew() {
     {
       id: 1,
       title: [
-        { text: "Music ", class: "font-calvino" },
+        { text: "Physical ", class: "font-calvino" },
         { text: " Therapy   ", class: "font-calvino-italic" },
       ],
       position: "~Glocal Edits",
@@ -15,29 +15,29 @@ export default function TestimonialsSliderNew() {
         "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
       text2:
         "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
-      img: "testimonial/1.png",
-      btnLink: "/programs/modern-therapy",
+      img: "therapy-1.jpg",
+      btnLink: "/programs/physical-therapy",
       isCenter: false,
     },
     {
       id: 2,
       title: [
-        { text: "Music ", class: "font-calvino" },
-        { text: " Therapy   ", class: "font-calvino-italic" },
+        { text: "Occupational ", class: "font-calvino" },
+        { text: "Therapy   ", class: "font-calvino-italic" },
       ],
       position: "~Head Field Solutions",
       text1:
         "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
       text2:
         "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
-      img: "testimonial/2.png",
-      btnLink: "/programs/modern-therapy",
+      img: "therapy-2.jpg",
+      btnLink: "/programs/occupational-therapy",
       isCenter: false,
     },
     {
       id: 3,
       title: [
-        { text: "Music ", class: "font-calvino" },
+        { text: "Speech ", class: "font-calvino" },
         { text: " Therapy   ", class: "font-calvino-italic" },
       ],
       position: "~Taste & Beyond",
@@ -45,23 +45,23 @@ export default function TestimonialsSliderNew() {
         "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
       text2:
         "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
-      img: "testimonial/3.png",
-      btnLink: "/programs/modern-therapy",
+      img: "therapy-3.jpg",
+      btnLink: "/programs/speech-therapy",
       isCenter: false,
     },
     {
       id: 4,
       title: [
-        { text: "Music ", class: "font-calvino" },
-        { text: " Therapy   ", class: "font-calvino-italic" },
+        { text: "Applied Behavior Analysis ", class: "font-calvino" },
+        { text: " (ABA)   ", class: "font-calvino-italic" },
       ],
       position: "~ArtifiQ",
       text1:
         "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
       text2:
         "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
-      img: "testimonial/4.png",
-      btnLink: "/programs/modern-therapy",
+      img: "therapy-4.jpg",
+      btnLink: "/programs/applied-behavior-analysis",
       isCenter: false,
     },
     {
@@ -75,8 +75,52 @@ export default function TestimonialsSliderNew() {
         "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
       text2:
         "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
-      img: "testimonial/5.png",
-      btnLink: "/programs/modern-therapy",
+      img: "therapy-5.jpg",
+      btnLink: "/programs/music-therapy",
+      isCenter: false,
+    },
+    {
+      id: 6,
+      title: [
+        { text: "Yoga ", class: "font-calvino" },
+        { text: " Therapy   ", class: "font-calvino-italic" },
+      ],
+      position: "~Glocal BPO",
+      text1:
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
+      text2:
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
+      img: "therapy-6.jpg",
+      btnLink: "/programs/yoga-therapy",
+      isCenter: false,
+    },
+    {
+      id: 7,
+      title: [
+        { text: "Interactive  ", class: "font-calvino" },
+        { text: " Metronome", class: "font-calvino-italic" },
+      ],
+      position: "~Glocal BPO",
+      text1:
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
+      text2:
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
+      img: "therapy-7.jpg",
+      btnLink: "/programs/interactive-metronome",
+      isCenter: false,
+    },
+    {
+      id: 8,
+      title: [
+        { text: "Tutoring ", class: "font-calvino" },
+      ],
+      position: "~Glocal BPO",
+      text1:
+        "Music therapy, through the dynamic interplay of movement, captivating melodies and inherent rhythm, serves as a powerful medium for fostering emotional expression, enhancing communication abilities and nurturing meaningful social interaction.",
+      text2:
+        "It provides a unique and engaging environment where individuals can explore and connect with their inner world and with others in a supportive and pleasurable manner.",
+      img: "therapy-8.jpg",
+      btnLink: "/programs/tutoring",
       isCenter: false,
     },
   ];
@@ -144,8 +188,8 @@ export default function TestimonialsSliderNew() {
     centerMode: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: false,
     responsive: [
       {

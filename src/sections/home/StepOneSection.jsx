@@ -192,50 +192,6 @@ const StepOneSection = () => {
                   → Take me to the form
                 </a>
               </div>
-              <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="Step-1.png" alt="" className="w-full block lg:hidden" />
-               
-                {/* Top Row with icon and step number */}
-                <div className="flex items-center justify-between border-b border-white pb-2">
-                  <div className="text-2xl">
-                    <img src="user.png" className="max-w-10" alt="" />
-                  </div>
-                  <span className="text-lg font-bold">05.</span>
-                </div>
-
-                {/* Heading */}
-                <h2 className="h2 leading-[100%] mt-10">
-                  <span className="font-calvino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                  </span>
-                  <span className="font-calvino-italic">
-                    In accumsan eros non fringilla faucibus.
-                  </span>{" "}
-                  <span className="font-calvino">Sed scelerisque ultrice </span>
-                </h2>
-
-                {/* Description */}
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-                <p className="font-archivo leading-[120%] text-white mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-                  dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-                  fermentum commodo.
-                </p>
-
-                {/* Link */}
-                <a
-                  href="#form"
-                  className="inline-block mt-4 text-white font-calvino-italic hover:underline"
-                >
-                  → Take me to the form
-                </a>
-              </div>
             </div>
           </div>
 
@@ -243,19 +199,16 @@ const StepOneSection = () => {
           <div className="right  flex-col justify-center items-center lg:h-screen bg-[#FFAFFF]  lg:w-[50%] hidden lg:flex overflow-hidden">
             <div className="desktopPhotos relative overflow-hidden  w-[40vw] h-[40vw]">
               <div className="desktopPhoto absolute">
-                <img src="Step-1.png" alt="" className="w-full" />
+                <img src="ilus-1.jpg" alt="" className="w-full" />
               </div>
               <div className="desktopPhoto absolute">
-                <img src="Step-1.png" alt="" className="w-full" />
+                <img src="ilus-2.jpg" alt="" className="w-full" />
               </div>
               <div className="desktopPhoto absolute">
-                <img src="Step-1.png" alt="" className="w-full" />
+                <img src="ilus-3.jpg" alt="" className="w-full" />
               </div>
               <div className="desktopPhoto absolute">
-                <img src="Step-1.png" alt="" className="w-full" />
-              </div>
-              <div className="desktopPhoto absolute">
-                <img src="Step-1.png" alt="" className="w-full" />
+                <img src="ilus-4.jpg" alt="" className="w-full" />
               </div>
             </div>
             <div className=""></div>

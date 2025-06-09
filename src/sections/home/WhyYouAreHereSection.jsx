@@ -77,13 +77,19 @@ function WhyYouAreHereSection() {
       <div className="block lg:hidden mb-5 w-full overflow-x-hidden" data-aos="fade-up" data-aos-delay="100">
         <Slider {...settings}>
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full" />
+            <img src='why-1.jpg' alt="Kids Yoga" className=" w-full" />
           </div>
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full" />
+            <img src='why-2.jpg' alt="Kids Yoga" className=" w-full" />
           </div>
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full" />
+            <img src='why-3.jpg' alt="Kids Yoga" className=" w-full" />
+          </div>
+          <div className="px-1">
+            <img src='why-4.jpg' alt="Kids Yoga" className=" w-full" />
+          </div>
+          <div className="px-1">
+            <img src='why-5.jpg' alt="Kids Yoga" className=" w-full" />
           </div>
         </Slider>
       </div>
@@ -91,13 +97,15 @@ function WhyYouAreHereSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Image */}
           <div className="hidden lg:block">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="why-1.jpg" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="why-2.jpg" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="why-3.jpg" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="why-4.jpg" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="why-5.jpg" alt="Kids Yoga" className=" w-full mb-5" />
           </div>
 
           {/* Text Content */}
-          <div className="why-text-content" ref={contentRef}>
+          <div className="why-text-content sticky top-0" ref={contentRef}>
             <div className="lg:block hidden">
               <Heading data={data} />
             </div>
@@ -108,7 +116,9 @@ function WhyYouAreHereSection() {
               {[
               "Your child struggles with speech or social skills.",
               "They need a confidence boost in physical or fine-motor activities.", 
-              "You’re looking for gentle ways to help them handle big emotions."
+              "You're looking for gentle ways to help them handle big emotions.",
+              "Your child needs help with academic subjects for better understanding.",
+              "They struggle with making friends and need support in social skills.",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -123,7 +133,9 @@ function WhyYouAreHereSection() {
             </ul>
             <p>At Little Champs Therapy & Yoga, we meet kids where they are, celebrate every milestone and bring families along for the ride. That is all because we get it!</p>
 
-            <ButtonPrimary link="discover" text="Register Now" />
+           <div className="mt-5">
+             <ButtonPrimary link="discover" text="Register Now" />
+           </div>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAssistiveListeningSystems, FaChild, FaUserNurse } from "react-icons/fa";
 
-const benefits = [
+/* const benefits = [
   {
     icon: "testmonial-1.png",
     title: "Enhancement of",
@@ -20,9 +20,9 @@ const benefits = [
     subtitle: "Pain and Discomfort",
     description: `For children experiencing musculoskeletal pain or discomfort, our approach can play a vital role in pain reduction and management. By strengthening supporting muscles, improving posture and increasing flexibility, we aim to alleviate strain on joints and reduce the frequency and intensity of pain. This can lead to a significant improvement in your child's quality of life allowing them to participate more fully in activities without being limited by discomfort.`,
   },
-];
+]; */
 
-const KeyBenefits = () => {
+const KeyBenefits = ({data}) => {
   return (
     <section className="key-benefits bg-hero-gradient">
      <div className="container-fixed">
@@ -32,17 +32,21 @@ const KeyBenefits = () => {
       </h2>
 
       <div className="mt-12 grid gap-6 md:grid-cols-3">
-        {benefits.map((benefit, index) => (
+        {data.map((benefit, index) => (
           <div
             key={index}
             className="bg-white rounded-[30px] shadow-lg p-6 md:p-8 border-4 border-[#FF96FF] flex flex-col items-center text-center"
           >
             <div className=" mb-4">
-              <img src={benefit.icon} className="max-w-32 m-auto" alt="" />
+              <img src={`/${benefit.img}`} className="max-w-32 m-auto" alt="" />
             </div>
             <h3 className="h2 secondary-text-1">
-                <span className="font-calvino">{benefit.title}</span>
-                <span className="font-calvino-italic"> {benefit.subtitle}</span>
+               {benefit.title.map((part, i) => (
+                <span key={i} className={part.class}>
+                  {" "}
+                  {part.text}{" "}
+                </span>
+              ))}
             </h3>
             <p className="">
               {benefit.description}

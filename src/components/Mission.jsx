@@ -2,6 +2,7 @@ import React from "react";
 import AboutSLider from "./AboutSlider";
 import Hero from "./Hero";
 import Heading from "./Heading";
+import AboutSlider from "./AboutSlider";
 
 export default function Mission() {
   const data = {
@@ -23,19 +24,26 @@ export default function Mission() {
     textAlign: "text-start",
     fontSize:"h1"
   };
+  const imgData = [
+  { src: "/mission-1.jpg", alt: "Therapy session 1" },
+  { src: "/mission-2.jpg", alt: "Therapy session 2" },
+  { src: "/mission-3.jpg", alt: "Therapy session 3" },
+];
+
   return (
     <section className="relative bg-white py-16 pe-4 md:pe-8 overflow-x-hidden">
       <div className="flex flex-col md:flex-row justify-between ">
         {/* Background Mandala (optional) */}
-        <div className="w-full md:w-[30%]">
+       
+         <div className="w-full md:w-[30%] h-[377px] overflow-visible hidden md:block">
           <img
-            src="mandala-2.png"
+            src="mandala-2-full.png"
             alt="decorative mandala"
-            className="max-w-[250px] md:max-w-[400px] me-auto"
+            className="max-w-[250px] md:max-w-[350px] me-auto "
           />
         </div>
         <div className="md:w-[70%] ps-4">
-          {/* Content */}
+          {/* Content */} 
           <div className="md:w-[80%] mx-auto relative z-10 ">
             <div className="mb-4" data-aos="fade-up">
             <Heading data={data} />
@@ -46,7 +54,8 @@ export default function Mission() {
         </div>
       </div>
       {/* Images */}
-      <AboutSLider />
+      <AboutSlider imgData={imgData} />
+
     </section>
   );
 }

@@ -20,32 +20,36 @@ function ProgramsSection() {
       title: "Physical Therapy",
       description:
         "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
-      image: "Yoga3.png",
+      image: "care-1.jpg",
       bg: "#F9D9E4",
+      link:"/programs/physical-therapy"
     },
     {
       number: "02.",
       title: "Occupational Therapy",
       description:
         "Supporting your child to help and give ease in their day-to-day task like dressing, feeding and building independence through new and playful activities. ",
-      image: "Yoga3.png",
+      image: "care-2.jpg",
       bg: "#D4E9FF",
+      link:"/programs/occupational-therapy"
     },
     {
       number: "03.",
       title: "Speech Therapy",
       description:
         "It assists in promoting clearer communication by aiding them with speech, language, and social skills, whereby they are able to speak confidently in public place.",
-      image: "Yoga3.png",
+      image: "care-3.jpg",
       bg: "#FFEFD4",
+      link:"/programs/speech-therapy"
     },
     {
       number: "04.",
       title: "Applied Behavior Analysis (ABA)",
       description:
         "A well-maintained evidence-based approach that helps children develop positive behaviour, social skills, and learning routines through meaningful reinforcement.",
-      image: "Yoga3.png",
+      image: "care-4.jpg",
       bg: "#E0FFE6",
+      link:"/programs/applied-behavior-analysis"
     },
   ];
   return (
@@ -76,7 +80,6 @@ function ProgramsSection() {
             className="hidden lg:block rounded-lg transition-all duration-500"
             style={{
               backgroundColor: programs[activeIndex].bg,
-              padding: "20px",
             }}
           >
             <img

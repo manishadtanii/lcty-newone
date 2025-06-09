@@ -8,7 +8,7 @@ function StudentForm() {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-start">
           {/* Image */}
           <div className="lg:order-2" data-aos="fade-left">
-            <img src="Yoga3.png" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="student-form.jpg" alt="Kids Yoga" className=" w-full mb-5" />
           </div>
           {/* Text Content */}
           <div className="lg:order-1" data-aos="fade-right">

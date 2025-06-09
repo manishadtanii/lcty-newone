@@ -11,7 +11,7 @@ function Footer() {
           {/* Logo Section */}
           <div className="text-center lg:text-left">
             <img
-              src="logo-footer.png"
+              src="/logo-footer.png"
               alt="Logo"
               className="max-h-[250px] mb-2 m-auto"
             />

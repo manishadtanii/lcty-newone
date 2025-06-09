@@ -8,7 +8,7 @@ function VolunteerForm() {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-start">
           {/* Image */}
           <div className="" data-aos="fade-right">
-            <img src="Yoga3.png" alt="Kids Yoga" className=" w-full mb-5" />
+            <img src="vol-form.jpg" alt="Kids Yoga" className=" w-full mb-5" />
           </div>
           {/* Text Content */}
           <div className="" data-aos="fade-left">

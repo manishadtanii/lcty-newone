@@ -14,9 +14,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+          { src: "program-hero-2.png", alt: "Program image 2" },
+          { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -33,9 +33,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -174,9 +174,9 @@ function DynamicProgramPage() {
         description:
           "Support your child to help and give ease in their day-to-day task like dressing, feeding and building independence through new and playful activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -193,9 +193,9 @@ function DynamicProgramPage() {
         description:
           "Occupational therapy offers invaluable support to children empowering them to navigate daily activities  with greater ease and independence. Through engaging and playful interventions, occupational therapists work collaboratively with children and their families to address challenges in areas such as dressing, feeding and participation in various life skills. The ultimate goal is to foster independence and enhance a child's overall quality of life.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -337,9 +337,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -356,9 +356,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -497,9 +497,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -516,9 +516,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -657,9 +657,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -676,9 +676,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -817,9 +817,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -836,9 +836,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -977,9 +977,9 @@ function DynamicProgramPage() {
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -996,9 +996,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -1131,15 +1131,14 @@ function DynamicProgramPage() {
     "tutoring": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
-          { text: " therapy", class: "font-calvino-italic" },
+          { text: "Tutoring ", class: "font-calvino" },
         ],
         description:
           "Helping your child improve and increasea their strength and coordination so they can freely conduct their everyday activities.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -1156,9 +1155,9 @@ function DynamicProgramPage() {
         description:
           "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
         image: [
-          "program-hero-1.png",
-          "program-hero-2.png",
-          "program-hero-3.png",
+          { src: "program-hero-1.png", alt: "Program image 1" },
+  { src: "program-hero-2.png", alt: "Program image 2" },
+  { src: "program-hero-3.png", alt: "Program image 3" },
         ],
         link: "",
       },
@@ -1290,13 +1289,13 @@ function DynamicProgramPage() {
     },
   };
   const { type } = useParams();
-  console.log(type);
+  // console.log(type);
   const program = programsData[type];
-  console.log(program);
+  // console.log(program);
   if (!program) return <div>Program not found</div>;
   return (
     <div>
-      <ProgramInner program={program} />
+      <ProgramInner data={program} />
     </div>
   );
 }

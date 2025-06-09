@@ -19,32 +19,36 @@ function ProgramsSection() {
       title: "Music Therapy",
       description:
         "With movement, melody, and rhythm, music therapy promotes emotional expression, communication, and social interaction in a positive, enjoyable way.",
-      image: "Yoga3.png",
+      image: "care-5.jpg",
       bg: "#F9D9E4",
+      link:"/programs/music-therapy"
     },
     {
       number: "02.",
       title: "Yoga Therapy",
       description:
         "Synthesizing slow-moving exercise with conscious breathing, yoga therapy assists children in developing balance and concentration with a playful twist.",
-      image: "Yoga3.png",
+      image: "care-6.jpg",
       bg: "#D4E9FF",
+      link:"/programs/yoga-therapy"
     },
     {
       number: "03.",
       title: "Interactive Metronome",
       description:
         "This brain-targeted software enhances timing, attention and coordination through engaging, rhythm-based exercises to enhance concentration.",
-      image: "Yoga3.png",
+      image: "care-7.jpg",
       bg: "#FFEFD4",
+      link:"/programs/interactive-metronome"
     },
     {
       number: "04.",
       title: "Tutoring",
       description:
         "Personalized learning assistance based on your child's individual learning style by mastering the critical skills at their own pace.",
-      image: "Yoga3.png",
+      image: "care-8.jpg",
       bg: "#E0FFE6",
+      link:"/programs/tutoring"
     },
   ];
   return (
@@ -73,7 +77,6 @@ function ProgramsSection() {
             className="hidden lg:block rounded-lg transition-all duration-500 md:order-2"
             style={{
               backgroundColor: programs[activeIndex].bg,
-              padding: "20px",
             }}
           >
             <img
@@ -86,10 +89,7 @@ function ProgramsSection() {
           {/* Right Text & Boxes */}
           <div className='md:order-1'>
             <p className="body-t font-archivo mt-3 leading-[100%] body-t-color hidden lg:block ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-              fermentum commodo.
+              We understand that every child is unique, with their own special way of learning and growing. That's why we offer a range of dedicated therapies and support services, delivered with a caring touch and tailored to nurture their individual potential.
             </p>
 
             <div className="space-y-4 mt-4">

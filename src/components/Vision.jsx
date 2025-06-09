@@ -2,6 +2,7 @@ import React from "react";
 import AboutSLider from "./AboutSlider";
 import Hero from "./Hero";
 import Heading from "./Heading";
+import AboutSlider from "./AboutSlider";
 
 export default function Vision() {
   const data = {
@@ -23,6 +24,11 @@ export default function Vision() {
     textAlign: "text-start",
     fontSize: "h1",
   };
+  const imgData = [
+  { src: "/vision-1.jpg", alt: "Therapy session 1" },
+  { src: "/vision-2.jpg", alt: "Therapy session 2" },
+  { src: "/vision-3.jpg", alt: "Therapy session 3" },
+];
   return (
     <section className="relative bg-white py-16 ps-4 md:ps-8 overflow-x-hidden">
       <div className="flex flex-col-reverse md:flex-row justify-between ">
@@ -50,16 +56,16 @@ export default function Vision() {
             </p> */}
           </div>
         </div>
-        <div className="w-full md:w-[30%]">
+        <div className="w-full md:w-[30%] h-[377px] overflow-visible hidden md:block">
           <img
-            src="mandala.png"
+            src="mandala-full.png"
             alt="decorative mandala"
-            className="max-w-[250px] md:max-w-[400px] ms-auto"
+            className="max-w-[250px] md:max-w-[370px] ms-auto "
           />
         </div>
       </div>
-      {/* Images */}
-      <AboutSLider />
+     {/* Images */}
+      <AboutSlider imgData={imgData} />
     </section>
   );
 }

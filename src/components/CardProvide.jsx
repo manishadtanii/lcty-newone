@@ -11,7 +11,7 @@ function CardProvide({ data }) {
        data-aos-delay={animationDelay}
     >
       <div className="card-img">
-        <img src={image} className="w-full" alt="" />
+        <img src={`/${image}`} className="w-full" alt="" />
       </div>
       <div className={`card-text ${bgColor? `${bgColor} body-t-color`:"bg-[#ff96ff] text-white"}`}>
         <div className="card-title font-archivo text-white font-semibold p-3">{title}</div>

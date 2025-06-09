@@ -84,6 +84,8 @@ header.active .logo {
 p {
   color: #8a63ff;
   font-size: clamp(14px, 5vw, 22px);
+  font-family: "Archivo", sans-serif;
+line-height: 100%;
 }
 .body-t-color {
   color: #8a63ff;
@@ -274,6 +276,32 @@ p {
 }
 .career-card {
   transition: 0.5s;
+}
+.fonunder-message h1 {
+  position: relative;
+}
+/* .fonunder-message h1::after,
+.fonunder-message h1::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.fonunder-message h1::after {
+  background-image: url("q-right.png");
+  bottom: 0;
+  right: 0;
+}
+.fonunder-message h1::before {
+  background-image: url("q-left.png");
+  top: 0;
+  left: 0;
+} */
+.video-section{
+  background-image: url("/video-bg.png") !important;
 }
 @media screen and (max-width: 768px) {
   .container-fixed {

@@ -31,7 +31,7 @@ function Home() {
     slides: [
       {
         title: "Physical Therapy",
-        image: "yoga-therapy.png",
+        image: "therapy-1.jpg",
         redirectUrl: "/programs/physical-therapy",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -39,7 +39,7 @@ function Home() {
       },
       {
         title: "Occupational Therapy",
-        image: "yoga-therapy.png",
+        image: "therapy-2.jpg",
         redirectUrl: "/programs/occupational-therapy",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -47,7 +47,7 @@ function Home() {
       },
       {
         title: "Speech Therapy",
-        image: "yoga-therapy.png",
+        image: "therapy-3.jpg",
         redirectUrl: "/programs/speech-therapy",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -55,7 +55,7 @@ function Home() {
       },
       {
         title: "Applied Behavior Analysis (ABA)",
-        image: "yoga-therapy.png",
+        image: "therapy-4.jpg",
         redirectUrl: "/programs/applied-behavior-analysis",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -63,7 +63,7 @@ function Home() {
       },
       {
         title: "Music Therapy",
-        image: "yoga-therapy.png",
+        image: "therapy-5.jpg",
         redirectUrl: "/programs/music-therapy",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -71,7 +71,7 @@ function Home() {
       },
       {
         title: "Yoga Therapy",
-        image: "yoga-therapy.png",
+        image: "therapy-6.jpg",
         redirectUrl: "/programs/yoga-therapy",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -79,7 +79,7 @@ function Home() {
       },
       {
         title: "Interactive Metronome",
-        image: "yoga-therapy.png",
+        image: "therapy-7.jpg",
         redirectUrl: "/programs/interactive-metronome",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",
@@ -87,7 +87,7 @@ function Home() {
       },
       {
         title: "Tutoring",
-        image: "yoga-therapy.png",
+        image: "therapy-8.jpg",
         redirectUrl: "/programs/tutoring",
         bgColor: "primary-bg-2",
         btnBg: "secondary-bg-1",

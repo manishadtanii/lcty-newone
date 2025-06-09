@@ -75,7 +75,7 @@ function Header() {
           <FaBars />
         </button>
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className=" mx-auto logo" />
+          <img src={`/${logo}`} alt="Logo" className=" mx-auto logo" />
         </Link>
         <button
           onClick={() => setSearchOpen(true)}

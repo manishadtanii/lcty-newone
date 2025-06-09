@@ -5,7 +5,7 @@ import gsap from "gsap";
 import SplitType from "split-type";
 import { ScrollTrigger } from "gsap/all";
 
-const backgroundImage = "yoga-therapy-2.png";
+const backgroundImage = "who-we-are.jpg";
 // Register plugins
 gsap.registerPlugin(ScrollTrigger);
 const WhoWeAreSection = () => {

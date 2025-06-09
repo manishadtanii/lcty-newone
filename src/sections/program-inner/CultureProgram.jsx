@@ -8,9 +8,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 
-const imageUrl = "Yoga3.png";
+// const imageUrl = "Yoga3.png";
 
-const CultureProgram = () => {
+const CultureProgram = ({ data }) => {
+  const { description, image = [], link } = data;
   const containerRef = useRef();
   const contentRef = useRef();
 
@@ -23,12 +24,12 @@ const CultureProgram = () => {
     });
   });
   const settings = {
-    centerMode: true,
-    centerPadding: "60px", // optional: adjust padding around centered slide
+    // centerMode: true,
+    // centerPadding: "60px", // optional: adjust padding around centered slide
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5, // default (large screen)
+    slidesToShow: 3, // default (large screen)
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
@@ -60,26 +61,36 @@ const CultureProgram = () => {
   };
   return (
     <section className="bg-white" ref={containerRef}>
-      <h2 className="h1 mb-4 secondary-text-1 px-5 text-center block lg:hidden">
+      <div className="container-fixed">
+        <h2 className="h1 mb-4 secondary-text-1 px-5 text-center block lg:hidden">
         <span className="font-calvino">Love, </span>
         <span className="font-calvino-italic"> Strength </span>
         <span className="font-calvino"> & Warmth</span>
       </h2>
       <div className="block lg:hidden mb-5 w-full overflow-x-hidden">
         <Slider {...settings}>
+          {image.map((img, index) => (
+            <div className="px-1">
+              <img
+                src={`/${img.src}`}
+                alt="Kids Yoga"
+                key={index}
+                className=" w-full mb-5"
+              />
+            </div>
+          ))}
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+            {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
           </div>
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+            {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
           </div>
           <div className="px-1">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+            {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
           </div>
         </Slider>
       </div>
-      <div className="container-fixed ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Content */}
           <div className="" ref={contentRef}>
             <h2 className="h1 mb-4 secondary-text-1 hidden lg:block">
@@ -123,9 +134,16 @@ const CultureProgram = () => {
           </div>
           {/* Image */}
           <div className="hidden lg:block">
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
-            <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" />
+            {image.map((img, index) => (
+              <img
+                src={`/${img.src}`}
+                alt="Kids Yoga"
+                key={index}
+                className=" w-full mb-5"
+              />
+            ))}
+            {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
+            {/* <img src={imageUrl} alt="Kids Yoga" className=" w-full mb-5" /> */}
           </div>
         </div>
       </div>

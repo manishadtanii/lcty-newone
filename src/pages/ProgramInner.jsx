@@ -6,15 +6,16 @@ import KeyBenefits from '../sections/program-inner/KeyBenefits'
 import WeProvide from '../sections/program-inner/WeProvide'
 import MoreTherapies from '../sections/program-inner/MoreTherapies'
 
-function ProgramInner({program}) {
+function ProgramInner({data}) {
   return (
     <div>
-      <HeroProgram data={program["hero"]}/>
-      <Video data={program["video"]}/>
-      <CultureProgram data={program["breif"]}/>
-      <KeyBenefits data={program["benefits"]}/>
-      <WeProvide data={program["provide"]}/>
-      <MoreTherapies data={program["therapies"]}/>
+      {/* {console.log(data["hero"])} */}
+      <HeroProgram data={data["hero"]} />
+      <Video data={data["video"]}/>
+      <CultureProgram data={data['breif']}/>
+      <KeyBenefits data={data['benefits']}/>
+      <WeProvide data={data['provide']}/>
+      <MoreTherapies data={data['therapies']}/>
     </div>
   )
 }

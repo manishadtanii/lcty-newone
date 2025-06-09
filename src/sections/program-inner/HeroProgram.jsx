@@ -5,35 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Hero from "../../components/Hero";
 import ButtonPrimary from "../../components/ButtonPrimary";
 
-const images = [
-  { src: "program-hero-1.png", alt: "Program image 1" },
-  { src: "program-hero-2.png", alt: "Program image 2" },
-  { src: "program-hero-3.png", alt: "Program image 3" },
-];
 
 function HeroProgram({ data }) {
-  // console.log(data)
-  const {title, image, link} = data
-  // console.log(image)
-  // console.log(data)
-  // const data = {
-  //   title: [
-  //     { text: "Physical ", class: "font-calvino" },
-  //     { text: " therapy", class: "font-calvino-italic" },
-  //   ],
-  //   paragraphs: [
-  //     {
-  //       text: "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
-  //       class: "text-center",
-  //     },
-  //   ],
-  //   btn: {
-  //     text: "Register Now",
-  //     link: "/apply",
-  //   },
-  //   textAlign: "text-center",
-  //   spacing: "p-4",
-  // };
+  console.log("HeroProgram data", data)
+  const { title, description, image = [] } = data;
   const settings = {
     dots: true,
     arrows: false,
@@ -47,11 +22,10 @@ function HeroProgram({ data }) {
 
   return (
     <section className="w-full">
-      <img src={image[0]} alt="" />
       {/* Desktop Images */}
       <div className="hidden md:grid grid-cols-3 ">
-        {image.map((item, index) => (
-          <img key={index} src={item}  className="w-full" />
+        {image.map((img, index) => (
+          <img key={index} src={`/${img.src}`} alt={img.alt} className="w-full" />
         ))}
       </div>
 
@@ -61,7 +35,8 @@ function HeroProgram({ data }) {
           {image.map((img, index) => (
             <img
               key={index}
-              src={img}
+              src={`/${img.src}`}
+              alt={img.alt}
               className="w-full h-64 object-cover"
             />
           ))}
@@ -72,17 +47,16 @@ function HeroProgram({ data }) {
           {/* Text Section */}
           <div className="max-w-5xl m-auto">
             <h1 className="h1 text-white text-center">
-              { 
-              title.map((part, i) => (
+              {title.map((part, i) => (
                 <span key={i} className={part.class}>
                   {" "}
                   {part.text}{" "}
                 </span>
               ))}
             </h1>
-            <p className="text-white text-center">{data.description}</p>
+            <p className="text-white text-center">{description}</p>
             <div className="flex justify-center mt-4">
-              <ButtonPrimary link={link} text={"Register Now"} />
+              <ButtonPrimary link="/program" text={"Register Now"} />
             </div>
           </div>
         </div>

@@ -32,25 +32,21 @@ const FounderMessage = () => {
       };
     }, [containerRef.current, headingRefWho.current]);
   return (
-    <section className="text-white text-center" ref={containerRef}>
+    <section className="fonunder-message text-white text-center" ref={containerRef}>
       <div className="primary-bg-2 pb-[50px]">
         <div className="container-fixed">
-          <div className=" max-w-7xl mx-auto flex items-stretch">
+          <div className="max-w-7xl mx-auto flex items-stretch">
             {/* Quote Text */}
             <h1 className="h1  mb-4" ref={headingRefWho}>
-              <span className="h1 text-white/50">
-                <i className="fas fa-quote-left  text-white/50 inline-block mb-4"></i>{" "}
-              </span>
-              <span className="font-calvino">Lorem ipsum</span>{" "}
-              <span className="font-calvino-italic">
+             
+              <span className="font-calvino"> "I see your child’s spark; here, we celebrate, support, and love every step!"</span>{" "}
+              {/* <span className="font-calvino-italic">
                 dolor sit amet, consectetur
               </span>
               <span className="font-calvino">adipiscing elit.</span> In accumsan
-              eros non fringilla faucibus.
-              <span>
-                <i className="fas fa-quote-right  text-white/50 ms-2"></i>
-              </span>
+              eros non fringilla faucibus. */}
             </h1>
+
           </div>
         </div>
       </div>

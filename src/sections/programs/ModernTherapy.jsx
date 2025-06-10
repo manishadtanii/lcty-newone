@@ -11,7 +11,7 @@ function ModernTherapy() {
     ],
     paragraphs: [
       {
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.",
+        text: "Experience seamless solutions designed for today's dynamic world. Our modern services leverage cutting-edge technology and innovative approaches to deliver efficiency, convenience, and impactful results",
         class: "text-center",
       },
     ],

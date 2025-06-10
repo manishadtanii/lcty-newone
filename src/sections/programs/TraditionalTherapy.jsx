@@ -79,7 +79,7 @@ function TraditionalTherapy() {
               <div
                 key={index}
                 className={`testimonial-item bg-center bg-cover rounded-3xl p-6 md:p-10 mb-10 sticky top-10 ${
-                  index === 0 ? "bg-[url('/testimonial-bg.png')]" : ""
+                  index === 0 ? "bg-[url('https://lcty-new.vercel.app/testimonial-bg.png')]" : ""
                 }`}
               >
                 <img

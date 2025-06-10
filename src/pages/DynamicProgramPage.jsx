@@ -27,7 +27,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -187,7 +187,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/-6YtZJLbgY4?si=f5SwitX4AO4ZOp2f",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -350,7 +350,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -510,7 +510,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -670,7 +670,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -830,7 +830,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -971,8 +971,8 @@ function DynamicProgramPage() {
     "interactive-metronome": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
-          { text: " therapy", class: "font-calvino-italic" },
+          { text: "Interactive ", class: "font-calvino" },
+          { text: " metronome", class: "font-calvino-italic" },
         ],
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
@@ -990,7 +990,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:
@@ -1149,7 +1149,7 @@ function DynamicProgramPage() {
           { text: "will help your child?", class: "font-calvino" },
         ],
         youtubeId:
-          "https://www.youtube.com/embed/sUf2PtEZris?si=sTDxTO9pJ7fXfagK",
+          "https://www.youtube.com/embed/mZmV6Uss3MM?si=d0jpdGg_rm-gdnoc",
       },
       breif: {
         description:

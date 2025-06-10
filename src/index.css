@@ -209,7 +209,7 @@ p {
   );
 }
 .testimonial-item{
-  background-image: url('https://lcty-new.vercel.app/testimonial-bg.png');
+  background-image: url('https://lcty-new.vercel.app/testimonial-bg.png') !important;
   background-position: center;
   background-repeat: no-repeat;
 }

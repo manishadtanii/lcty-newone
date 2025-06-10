@@ -78,7 +78,7 @@ function TraditionalTherapy() {
             testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className={`testimonial-item bg-center bg-cover rounded-3xl p-6 md:p-10 mb-10 sticky top-10`}
+                className={`testimonial-item rounded-3xl p-6 md:p-10 mb-10 sticky top-10`}
               >
                 <img
                   src={testimonial.image}

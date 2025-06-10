@@ -10,7 +10,7 @@ import {
   FaLinkedin,
   FaArrowRight,
 } from "react-icons/fa";
-import  $  from "jquery";
+import $ from "jquery";
 import Arrow from "./Arrow";
 const logo = "logo.png";
 const profileImage = "sample.png";
@@ -19,12 +19,13 @@ function Header() {
   useEffect(() => {
     var lastScrollTop = 0;
     const handleScroll = () => {
-      var st = $(window).scrollTop();
-      if (st > 0) {
+      var st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
         $("header").addClass("active");
       } else {
         $("header").removeClass("active");
       }
+      lastScrollTop = st;
     };
 
     $(window).on("scroll", handleScroll);

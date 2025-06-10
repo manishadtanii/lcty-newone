@@ -66,7 +66,11 @@ const StepOneSection = () => {
           <div className="left pb-7 lg:pb-0 px-5 lg:px-[80px] lg:w-[50%]">
             <div className="desktopContent">
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="ilus-1.jpg" alt="" className="w-full block lg:hidden" />
+                <img
+                  src="ilus-1.jpg"
+                  alt=""
+                  className="w-full block lg:hidden"
+                />
 
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
@@ -78,30 +82,37 @@ const StepOneSection = () => {
 
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
-                  <span className="font-calvino mb-5 block">
-                    Registration
-                  </span> 
+                  <span className="font-calvino mb-5 block">Registration</span>
                   <span className="font-calvino-italic mb-3 block">
-                    Welcome to the world of  Little Champs!
+                    Welcome to the world of Little Champs!
                   </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-               Please register using our safe online portal to start your adventure with us. This will enable us to collect all the data we need to give your child the best care possible. Remember to upload all necessary information when registering.
+                  Please register using our safe online portal to start your
+                  adventure with us. This will enable us to collect all the data
+                  we need to give your child the best care possible. Remember to
+                  upload all necessary information when registering.
                 </p>
 
                 {/* Link */}
-                <a
-                  href="#form"
-                  className="inline-block mt-4 text-white font-calvino-italic hover:underline"
-                >
-                  → Take me to the form
-                </a>
+                <div className="mt-5 md:mt-10">
+                  <a
+                    href="#form"
+                    className="inline-block  text-white font-calvino-italic hover:underline body-t"
+                  >
+                    → Take me to the form
+                  </a>
+                </div>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="ilus-2.jpg" alt="" className="w-full block lg:hidden" />
-              
+                <img
+                  src="ilus-2.jpg"
+                  alt=""
+                  className="w-full block lg:hidden"
+                />
+
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
                   <div className="text-2xl">
@@ -112,27 +123,34 @@ const StepOneSection = () => {
 
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
-                  <span className="font-calvino">
-                   Insurance & Billing
-                  </span>
+                  <span className="font-calvino">Insurance & Billing</span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                Uploading your insurance and referral documents using the same site is the next step after creating your account. This guarantees that we can proceed without hiccups and verify your service coverage.
+                  Uploading your insurance and referral documents using the same
+                  site is the next step after creating your account. This
+                  guarantees that we can proceed without hiccups and verify your
+                  service coverage.
                 </p>
 
                 {/* Link */}
-                <a
-                  href="#form"
-                  className="inline-block mt-4 text-white font-calvino-italic hover:underline"
-                >
-                  → Take me to the form
-                </a>
+                <div className="mt-5 md:mt-10">
+                  <a
+                    href="#form"
+                    className="inline-block  text-white font-calvino-italic hover:underline body-t"
+                  >
+                    → Take me to the form
+                  </a>
+                </div>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="ilus-3.jpg" alt="" className="w-full block lg:hidden" />
-               
+                <img
+                  src="ilus-3.jpg"
+                  alt=""
+                  className="w-full block lg:hidden"
+                />
+
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
                   <div className="text-2xl">
@@ -144,26 +162,36 @@ const StepOneSection = () => {
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
                   <span className="font-calvino">
-                   Registration for Evaluation
+                    Registration for Evaluation
                   </span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                Our administrative staff will get in touch with you to arrange for your child's initial evaluation, which can take place at our friendly clinic or in the convenience of your home, once we have received your referral, intake form and insurance information.q
+                  Our administrative staff will get in touch with you to arrange
+                  for your child's initial evaluation, which can take place at
+                  our friendly clinic or in the convenience of your home, once
+                  we have received your referral, intake form and insurance
+                  information.q
                 </p>
 
                 {/* Link */}
-                <a
-                  href="#form"
-                  className="inline-block mt-4 text-white font-calvino-italic hover:underline"
-                >
-                  → Take me to the form
-                </a>
+                <div className="mt-5 md:mt-10">
+                  <a
+                    href="#form"
+                    className="inline-block  text-white font-calvino-italic hover:underline body-t"
+                  >
+                    → Take me to the form
+                  </a>
+                </div>
               </div>
               <div className="desktopContentSection text-white  lg:h-screen flex flex-col justify-center">
-                <img src="ilus-4.jpg" alt="" className="w-full block lg:hidden" />
-               
+                <img
+                  src="ilus-4.jpg"
+                  alt=""
+                  className="w-full block lg:hidden"
+                />
+
                 {/* Top Row with icon and step number */}
                 <div className="flex items-center justify-between border-b border-white pb-2">
                   <div className="text-2xl">
@@ -174,23 +202,27 @@ const StepOneSection = () => {
 
                 {/* Heading */}
                 <h2 className="h2 leading-[100%] mt-10">
-                  <span className="font-calvino">
-                   Scheduling of Treatment
-                  </span>
+                  <span className="font-calvino">Scheduling of Treatment</span>
                 </h2>
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                 Our therapist will prepare a thorough report after the assessment and provide it to your child's pediatrician. We ensure to maintain the continuity of therapy sessions once your insurance has been accepted and allowed. Depending on what works best for your family.
+                  Our therapist will prepare a thorough report after the
+                  assessment and provide it to your child's pediatrician. We
+                  ensure to maintain the continuity of therapy sessions once
+                  your insurance has been accepted and allowed. Depending on
+                  what works best for your family.
                 </p>
 
-                {/* Link */}
-                <a
-                  href="#form"
-                  className="inline-block mt-4 text-white font-calvino-italic hover:underline"
-                >
-                  → Take me to the form
-                </a>
+               {/* Link */}
+                <div className="mt-5 md:mt-10">
+                  <a
+                    href="#form"
+                    className="inline-block  text-white font-calvino-italic hover:underline body-t"
+                  >
+                    → Take me to the form
+                  </a>
+                </div>
               </div>
             </div>
           </div>

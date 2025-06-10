@@ -7,22 +7,22 @@ import Heading from "../../components/Heading";
 function BlogSection() {
   const blogs = [
     {
-      title: "Lorem",
-      subtitle: "dolor sit adipiscing",
-      author: "Ayush Chaturvedi",
+      title: "Play with your child",
+      subtitle: "using simple words",
+      author: "Nisha",
       date: "14 March, 2025",
-      image: "blog.png", // Replace with your image
+      image: "blog-1.jpg", // Replace with your image
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. In accumsan eros non fringilla faucibus.",
+        "Helping your child find their voice starts with love and everyday moments. Say simple words while you play, read together, or talk about what you see on a walk. Connection creates confidence and that's where growth begins.",
     },
     {
-      title: "Lorem",
-      subtitle: "dolor sit adipiscing",
-      author: "Ayush Chaturvedi",
-      date: "14 March, 2025",
-      image: "blog.png", // Replace with your image
+      title: "Difficulties in feeding children",
+      subtitle: "with special needs",
+      author: "Nisha",
+      date: "15 March, 2025",
+      image: "blog-2.png", // Replace with your image
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. In accumsan eros non fringilla faucibus.",
+        "Every word is a step toward healing. In celebration of Speech Therapy Month, we're sharing simple, meaningful ways to support articulation goals at home—through play, connection, and love. Let's continue to nurture every child's voice, one joyful moment at a time.",
     },
   ];
   const data = {
@@ -60,7 +60,7 @@ function BlogSection() {
                     </div>
                     <div className="p-5 flex-1 flex flex-col justify-between">
                       <div>
-                        <h2 className="h2  mb-2">
+                        <h2 className="h4  mb-2">
                           <span className="font-calvino">{blog.title} </span>
                           <span className="font-calvino-italic">
                             {blog.subtitle}
@@ -74,23 +74,23 @@ function BlogSection() {
                           {blog.description}
                         </p>
                       </div>
-                      <a
+                      {/* <a
                         href="#"
                         className=" text-white font-calvino-italic flex items-center gap-1 mt-auto "
                       >
                         Read more <i class="fal fa-arrow-right -rotate-45"></i>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 ))}
               </div>
-              <div className="flex items-end justify-center ">
+              {/* <div className="flex items-end justify-center ">
                 <Link to="/blog">
                   <div className="w-14 h-14 secondary-bg-1 flex items-center justify-center rounded-full text-white body-t hover:bg-[#fab4fa] transition-all">
                     <i class="fal fa-arrow-up rotate-45 "></i>
                   </div>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

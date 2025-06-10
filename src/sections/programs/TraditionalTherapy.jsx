@@ -21,15 +21,14 @@ function TraditionalTherapy() {
       image: "testmonial-1.png",
       alt: "presentation",
      title: [
-        { text: "Lorem ipsum", class: "font-calvino" },
-        { text: " dolor sit amet, consectetur", class: "font-calvino-italic" },
-        { text: "adipiscing elit. In accumsan eros.", class: "font-calvino" },
+        { text: "Physical  ", class: "font-calvino" },
+        { text: " Therapy", class: "font-calvino-italic" },
       ],
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. ",
+      text: "Our dedicated approach focuses on helping your child develop and refine their strength and coordination enabling them to confidently and effortlessly participate in their daily routines and activities. We understand the importance of physical capabilities in a child's overall well-being and our programs are designed to foster significant improvements in these key areas.",
       button: {
         text: "Take me to the program",
         iconClass: "fal fa-arrow-right",
-        link: "/programs/modern-therapy",
+        link: "/programs/physical-therapy",
       },
     },
     {

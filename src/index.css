@@ -212,6 +212,7 @@ p {
   background-image: url('https://lcty-new.vercel.app/testimonial-bg.png') !important;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .testimonial-item:nth-child(1) {
   top: 100px;

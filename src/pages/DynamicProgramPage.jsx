@@ -132,7 +132,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Occupational Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-2.jpg",
             redirectUrl: "/programs/occupational-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -140,7 +140,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Speech Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-3.jpg",
             redirectUrl: "/programs/speech-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -148,7 +148,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Applied Behavior Analysis (ABA)",
-            image: "yoga-therapy.png",
+            image: "therapy-4.jpg",
             redirectUrl: "/programs/applied-behavior-analysis",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -156,7 +156,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Music Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-5.jpg",
             redirectUrl: "/programs/music-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -295,7 +295,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Speech Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-3.jpg",
             redirectUrl: "/programs/speech-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -303,7 +303,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Applied Behavior Analysis (ABA)",
-            image: "yoga-therapy.png",
+            image: "therapy-4.jpg",
             redirectUrl: "/programs/applied-behavior-analysis",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -311,7 +311,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Music Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-5.jpg",
             redirectUrl: "/programs/music-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -319,7 +319,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Yoga Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-6.jpg",
             redirectUrl: "/programs/yoga-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -331,7 +331,7 @@ function DynamicProgramPage() {
     "speech-therapy": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
+          { text: "Speech ", class: "font-calvino" },
           { text: " therapy", class: "font-calvino-italic" },
         ],
         description:
@@ -455,7 +455,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Applied Behavior Analysis (ABA)",
-            image: "yoga-therapy.png",
+            image: "therapy-4.jpg",
             redirectUrl: "/programs/applied-behavior-analysis",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -463,7 +463,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Music Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-5.jpg",
             redirectUrl: "/programs/music-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -471,7 +471,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Yoga Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-6.jpg",
             redirectUrl: "/programs/yoga-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -479,7 +479,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Interactive Metronome",
-            image: "yoga-therapy.png",
+            image: "therapy-7.jpg",
             redirectUrl: "/programs/interactive-metronome",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -491,8 +491,8 @@ function DynamicProgramPage() {
     "applied-behavior-analysis": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
-          { text: " therapy", class: "font-calvino-italic" },
+          { text: "Applied Behavior Analysis ", class: "font-calvino" },
+          { text: " (ABA)", class: "font-calvino-italic" },
         ],
         description:
           "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
@@ -615,7 +615,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Music Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-5.jpg",
             redirectUrl: "/programs/music-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -623,7 +623,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Yoga Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-6.jpg",
             redirectUrl: "/programs/yoga-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -631,7 +631,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Interactive Metronome",
-            image: "yoga-therapy.png",
+            image: "therapy-7.jpg",
             redirectUrl: "/programs/interactive-metronome",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -639,7 +639,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Tutoring",
-            image: "yoga-therapy.png",
+            image: "therapy-8.jpg",
             redirectUrl: "/programs/tutoring",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -651,7 +651,7 @@ function DynamicProgramPage() {
     "music-therapy": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
+          { text: "Music ", class: "font-calvino" },
           { text: " therapy", class: "font-calvino-italic" },
         ],
         description:
@@ -775,7 +775,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Yoga Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-6.jpg",
             redirectUrl: "/programs/yoga-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -783,7 +783,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Interactive Metronome",
-            image: "yoga-therapy.png",
+            image: "therapy-7.jpg",
             redirectUrl: "/programs/interactive-metronome",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -791,7 +791,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Tutoring",
-            image: "yoga-therapy.png",
+            image: "therapy-8.jpg",
             redirectUrl: "/programs/tutoring",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -799,7 +799,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Physical Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-1.jpg",
             redirectUrl: "/programs/physical-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -811,7 +811,7 @@ function DynamicProgramPage() {
     "yoga-therapy": {
       hero: {
         title: [
-          { text: "Physical ", class: "font-calvino" },
+          { text: "Yoga ", class: "font-calvino" },
           { text: " therapy", class: "font-calvino-italic" },
         ],
         description:
@@ -879,7 +879,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Prematurity",
-            image: "yoga-therapy.png",
+            image: "therapy-3.jpg",
             bgColor: "primary-bg-2",
             animationDelay: "100",
           },
@@ -935,7 +935,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Interactive Metronome",
-            image: "yoga-therapy.png",
+            image: "therapy-7.jpg",
             redirectUrl: "/programs/interactive-metronome",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -943,7 +943,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Tutoring",
-            image: "yoga-therapy.png",
+            image: "therapy-8.jpg",
             redirectUrl: "/programs/tutoring",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -951,7 +951,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Physical Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-1.jpg",
             redirectUrl: "/programs/physical-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -959,7 +959,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Occupational Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-2.jpg",
             redirectUrl: "/programs/occupational-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1095,7 +1095,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Tutoring",
-            image: "yoga-therapy.png",
+            image: "therapy-8.jpg",
             redirectUrl: "/programs/tutoring",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1103,7 +1103,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Physical Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-1.jpg",
             redirectUrl: "/programs/physical-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1111,7 +1111,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Occupational Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-2.jpg",
             redirectUrl: "/programs/occupational-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1119,7 +1119,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Speech Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-3.jpg",
             redirectUrl: "/programs/speech-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1252,7 +1252,7 @@ function DynamicProgramPage() {
         slides: [
           {
             title: "Physical Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-1.jpg",
             redirectUrl: "/programs/physical-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1260,7 +1260,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Occupational Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-2.jpg",
             redirectUrl: "/programs/occupational-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1268,7 +1268,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Speech Therapy",
-            image: "yoga-therapy.png",
+            image: "therapy-3.jpg",
             redirectUrl: "/programs/speech-therapy",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",
@@ -1276,7 +1276,7 @@ function DynamicProgramPage() {
           },
           {
             title: "Applied Behavior Analysis (ABA)",
-            image: "yoga-therapy.png",
+            image: "therapy-4.jpg",
             redirectUrl: "/programs/applied-behavior-analysis",
             bgColor: "primary-bg-2",
             btnBg: "secondary-bg-1",

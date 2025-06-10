@@ -83,7 +83,7 @@ function TraditionalTherapy() {
               <img
                 src={testimonial.image}
                 alt={testimonial.alt}
-                className="w-[150px] m-auto"
+                className="w-[150px] m-auto mb-14"
               />
               <div className="testimonial-text text-center mt-5">
                 <h2 className="h2 text-center text-white max-w-4xl m-auto">
@@ -94,7 +94,7 @@ function TraditionalTherapy() {
                     </span>
                   ))}
                 </h2>
-                <p className="text-white mt-4 body-t">{testimonial.text}</p>
+                <p className="text-white mt-4 body-t mb-10">{testimonial.text}</p>
                 <Link to={testimonial.button.link}>
                   <button className="body-t font-calvino-italic text-white mt-5">
                     <i className={testimonial.button.iconClass}></i>{" "}

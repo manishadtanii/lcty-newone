@@ -70,7 +70,7 @@ function TraditionalTherapy() {
       <div className="container-fixed">
         <div className="max-w-7xl m-auto text-center secondary-text-1 ">
           <Heading data={data}/>  
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In accumsan eros non fringilla faucibus. Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo. </p>
+          <p>Rooted deep in proven methods and principles of our traditional services offered by our trusted and reliable foundation. We try to blend and give a personal touch to our professional services to provide dependable solutions built on experience and a commitment to enduring quality</p>
         </div>
 
         <div className="testimonial-container max-w-7xl m-auto mt-10 ">
@@ -78,9 +78,7 @@ function TraditionalTherapy() {
             testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className={`testimonial-item bg-center bg-cover rounded-3xl p-6 md:p-10 mb-10 sticky top-10 ${
-                  index === 0 ? "bg-[url('https://lcty-new.vercel.app/testimonial-bg.png')]" : ""
-                }`}
+                className={`testimonial-item bg-center bg-cover rounded-3xl p-6 md:p-10 mb-10 sticky top-10`}
               >
                 <img
                   src={testimonial.image}

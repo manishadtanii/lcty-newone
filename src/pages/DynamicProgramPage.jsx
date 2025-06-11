@@ -1292,7 +1292,7 @@ function DynamicProgramPage() {
   // console.log(program);
   if (!program) return <div>Program not found</div>;
   return (
-    <div>
+    <div className="mt-[102px] md:mt-[128px]">
       <ProgramInner data={program} />
     </div>
   );

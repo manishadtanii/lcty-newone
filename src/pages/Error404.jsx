@@ -25,7 +25,7 @@ const Error404 = () => {
     fontSize:"h2"
   };
   return (
-    <div className="flex flex-col items-center justify-center  pb-40 pt-20 text-center px-4">
+    <div className="flex flex-col items-center justify-center  pb-40 pt-20 text-center px-4 mt-[102px] md:mt-[128px]">
       <Heading data={data2}/>
      
 

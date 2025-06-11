@@ -4,7 +4,7 @@ import TraditionalTherapy from '../sections/programs/TraditionalTherapy'
 
 function Programs() {
   return (
-    <div>
+    <div className='mt-[102px] md:mt-[128px]'>
       <ModernTherapy/>
       <TraditionalTherapy />
     </div>

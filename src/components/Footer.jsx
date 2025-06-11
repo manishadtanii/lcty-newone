@@ -10,11 +10,13 @@ function Footer() {
         <div className="flex flex-col lg:flex-row  lg:justify-between gap-10 lg:gap-0">
           {/* Logo Section */}
           <div className="text-center lg:text-left">
+            <Link to="/">
             <img
               src="/logo-footer.png"
               alt="Logo"
               className="max-h-[250px] mb-2 m-auto"
             />
+            </Link>
           </div>
 
           {/* Nav Links */}

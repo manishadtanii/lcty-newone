@@ -5,7 +5,7 @@ import Prospective from '../sections/CommunityPartners/Prospective'
 
 function CommunityPartners() {
   return (
-    <div>
+    <div className='mt-[102px] md:mt-[128px]'>
      <DayCare />
      <PublicSchool />
      <Prospective />

@@ -6,12 +6,12 @@ import Mission from "../components/Mission";
 
 function AboutUs() {
   return (
-    <>
+    <div className="mt-[102px] md:mt-[128px]">
       <FounderMessage />
       <OurJourney />
       <Vision />
       <Mission />
-    </>
+    </div>
   );
 }
 

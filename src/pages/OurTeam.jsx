@@ -7,7 +7,7 @@ import StudentForm from '../sections/our-team/StudentForm';
 import VolunteerForm from '../sections/our-team/VolunteerForm';
 function OurTeam() {
   return (
-    <div>
+    <div className='mt-[102px] md:mt-[128px]'>
       <Vision/>
       <Mission/>
       <Culture/>

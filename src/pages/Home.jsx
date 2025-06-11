@@ -117,7 +117,7 @@ function Home() {
     spacing:"p-4"
   };
   return (
-    <>
+    <div className='overflow-x-hidden overflow-y-scroll mt-[102px] md:mt-[128px]'>
      <Hero data={data}/> 
      <WhyYouAreHereSection data={data2} />
      <WhoWeAreSection />
@@ -131,7 +131,7 @@ function Home() {
      <MarqueeHome />
      <Hero data={data2} />
      <BlogSection />
-    </>
+    </div>
   )
 }
 

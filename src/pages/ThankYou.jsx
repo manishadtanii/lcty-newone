@@ -17,7 +17,7 @@ const ThankYou = () => {
     color:"text-white"
   }
   return (
-    <div className="pt-20 pb-40 flex items-center justify-center bg-white px-4 py-12">
+    <div className="pt-20 pb-40 flex items-center justify-center bg-white px-4 py-12 mt-[102px] md:mt-[128px]">
       <div className="relative w-full max-w-2xl bg-gradient-to-b from-[#AE93FF] to-[#FF96FF] text-white rounded-3xl text-center p-10 shadow-lg">
         {/* Checkmark Icon */}
         <div className="absolute -top-10 md:-top-14 left-1/2 transform -translate-x-1/2">

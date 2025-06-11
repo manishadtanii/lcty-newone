@@ -1327,13 +1327,13 @@ function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
 
   const Overlay = ({ children, onClose, side, btnSide }) => (
-    <div className=" fixed inset-0 p-3 bg-[#ffffffb2] ">
+    <div className="h-[150vh] fixed inset-0 z-[100] p-3 bg-[#ffffffb2] ">
       <div
         className={`md:fixed ${side} w-full primary-bg-2 md:w-[500px] p-6 rounded-xl  text-white z-50`}
       >
         <button
           onClick={onClose}
-          className={`absolute top-8 md:top-4 ${btnSide} text-2xl flex items-center gap-2 nav-t`}
+          className={`md:top-4 ${btnSide} text-2xl flex items-center gap-2 nav-t rounded-[30px] pb-2`}
         >
           <span className="font-archivo">Close</span>
 
@@ -1451,7 +1451,7 @@ function Header() {
           btnSide={"light-4"}
         >
           <div className="max-h-[566px] overflow-y-auto pe-4">
-            <div className="mt-16">
+            <div className="mt-5">
               <div className="flex items-center bg-white overflow-hidden rounded-[10px] p-2 pe-4">
                 <input
                   type="text"
@@ -1521,7 +1521,7 @@ function Header() {
                     <img
                       src={`/${program.img}`}
                       alt={program}
-                      className="w-full h-[300px] object-cover"
+                      className="w-full h-[150px] md:h-[300px] object-cover"
                     />
                     <div className="p-2 flex absolute bottom-0 w-full justify-between items-end font-archivo bg-[linear-gradient(180deg,_rgba(0,0,0,0)_50.31%,_rgba(0,0,0,0.35)_73.48%,_rgba(0,0,0,0.7)_100%)]">
                       <h3 className="text-sm font-bold text-white">

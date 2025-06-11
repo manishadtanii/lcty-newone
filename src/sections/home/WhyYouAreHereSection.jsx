@@ -85,12 +85,12 @@ function WhyYouAreHereSection() {
           <div className="px-1">
             <img src='why-3.jpg' alt="Kids Yoga" className=" w-full" />
           </div>
-          <div className="px-1">
+         {/*  <div className="px-1">
             <img src='why-4.jpg' alt="Kids Yoga" className=" w-full" />
           </div>
           <div className="px-1">
             <img src='why-5.jpg' alt="Kids Yoga" className=" w-full" />
-          </div>
+          </div> */}
         </Slider>
       </div>
       <div className="container-fixed relative ">
@@ -100,8 +100,6 @@ function WhyYouAreHereSection() {
             <img src="why-1.jpg" alt="Kids Yoga" className=" w-full mb-5" />
             <img src="why-2.jpg" alt="Kids Yoga" className=" w-full mb-5" />
             <img src="why-3.jpg" alt="Kids Yoga" className=" w-full mb-5" />
-            <img src="why-4.jpg" alt="Kids Yoga" className=" w-full mb-5" />
-            <img src="why-5.jpg" alt="Kids Yoga" className=" w-full mb-5" />
           </div>
 
           {/* Text Content */}
@@ -133,7 +131,7 @@ function WhyYouAreHereSection() {
             </ul>
             <p>At Little Champs Therapy & Yoga, we meet kids where they are, celebrate every milestone and bring families along for the ride. That is all because we get it!</p>
 
-           <div className="mt-5">
+           <div className="mt-7">
              <ButtonPrimary link="discover" text="Register Now" />
            </div>
           </div>

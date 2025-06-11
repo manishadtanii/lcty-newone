@@ -76,7 +76,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up"  >
             <Number number="1" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between md:items-center md:gap-5">
@@ -92,7 +92,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="100"> 
             <Number number="2" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
@@ -108,7 +108,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="200"> 
             <Number number="3" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between md:items-center md:gap-5">
@@ -124,7 +124,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="300"> 
             <Number number="4" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
@@ -140,7 +140,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="400"> 
             <Number number="5" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between md:items-center md:gap-5">
@@ -156,7 +156,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="500"> 
             <Number number="6" />
           </div>
           <div className="flex flex-col md:flex-row justify-between md:items-center md:gap-5">
@@ -172,7 +172,7 @@ export default function OurJourney() {
       {/* Journey Cards Container*/}
       <div className="journey-container relative overflow-hidden md:px-12 mb-10 md:mb-0">
         <div className="container-xxl m-auto pt-0">
-          <div className="number mb-3 md:mb-0">
+          <div className="number mb-3 md:mb-0" data-aos="fade-up" data-aos-delay="600">  
             <Number number="7" />
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-between md:items-center md:gap-5">

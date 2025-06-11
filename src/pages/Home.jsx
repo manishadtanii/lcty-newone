@@ -101,7 +101,7 @@ function Home() {
     title: [
       { text: "Ready to", class: "font-calvino" },
       { text: "see your little champ", class: "font-calvino-italic" },
-      { text: "shine", class: "font-calvino" },
+      { text: "shine!", class: "font-calvino" },
     ],
     paragraphs: [
       {
@@ -129,7 +129,10 @@ function Home() {
      <SuccessStories />
      <ClinicLocation />
      <MarqueeHome />
+     <div className="py-14">
+
      <Hero data={data2} />
+     </div>
      <BlogSection />
     </div>
   )

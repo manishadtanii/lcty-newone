@@ -50,7 +50,7 @@ const WhoWeAreSection = () => {
         <div className="relative z-10  grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 text-white">
           {/* Left side: Heading */}
           <div className="flex items-center justify-start  md:text-left">
-            <h1 className="h1">
+            <h1 className="h1" data-aos="fade-right" data-aos-duration="1000">
               <span className="font-calvino">Who</span>{" "}
               <span className="font-calvino-italic">we</span>{" "}
               <span className="font-calvino">are</span>
@@ -60,11 +60,11 @@ const WhoWeAreSection = () => {
           {/* Right side: Text + Button */}
           <div className="flex flex-col justify-center space-y-6 font-medium leading-tight">
             <div className="" ref={headingRefWho}>
-              <p className="h2 text-white">
+              <p className="text-3xl text-white">
               At Little Champs Therapy & Yoga, we're a team of therapists specializing in speech, occupational, physical and yoga therapy. We create unique programs designed just for your child to help them develop skills, build confidence and find calm. Our approach is warm and family-friendly mixing our clinical expertise with fun, goal-oriented activities. Whether it's parent-child yoga or ideas for practicing at home, we're with you every step celebrating each achievement and making therapy a positive experience.
               </p>
             </div>
-            <ButtonSecondary text="Discover" link="discover" />
+            <ButtonSecondary text="Discover" link="/about-us" />
           </div>
         </div>
       </div>

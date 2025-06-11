@@ -90,7 +90,7 @@ p {
   color: #8a63ff;
   font-size: clamp(14px, 5vw, 22px);
   font-family: "Archivo", sans-serif;
-  line-height: 100%;
+  line-height: 120% !important;
 }
 .body-t-color {
   color: #8a63ff;

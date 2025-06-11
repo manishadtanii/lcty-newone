@@ -99,7 +99,8 @@ const StepOneSection = () => {
                 {/* Link */}
                 <div className="mt-5 md:mt-10">
                   <a
-                    href="#form"
+                   href="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" 
+                    target="_blank"
                     className="inline-block  text-white font-calvino-italic hover:underline body-t"
                   >
                     → Take me to the form
@@ -137,7 +138,8 @@ const StepOneSection = () => {
                 {/* Link */}
                 <div className="mt-5 md:mt-10">
                   <a
-                    href="#form"
+                    href="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" 
+                    target="_blank"
                     className="inline-block  text-white font-calvino-italic hover:underline body-t"
                   >
                     → Take me to the form
@@ -178,7 +180,8 @@ const StepOneSection = () => {
                 {/* Link */}
                 <div className="mt-5 md:mt-10">
                   <a
-                    href="#form"
+                   href="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" 
+                    target="_blank"
                     className="inline-block  text-white font-calvino-italic hover:underline body-t"
                   >
                     → Take me to the form
@@ -217,7 +220,8 @@ const StepOneSection = () => {
                {/* Link */}
                 <div className="mt-5 md:mt-10">
                   <a
-                    href="#form"
+                    href="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" 
+                    target="_blank"
                     className="inline-block  text-white font-calvino-italic hover:underline body-t"
                   >
                     → Take me to the form

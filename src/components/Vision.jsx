@@ -12,7 +12,7 @@ export default function Vision() {
     ],
     paragraphs: [
       {
-        text: "Our vision is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.",
+        text: "<b>Our vision</b> is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.",
         class: "text-center",
       },
       {
@@ -41,7 +41,7 @@ export default function Vision() {
               <Heading data={data} />
             </div>
             <p className="mb-4" data-aos="fade-up" data-aos-delay="100">
-           Our vision is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.
+           <b>Our vision</b> is to create a space where your child feels empowered, celebrated and deeply supported at every point of life. Every milestone is treated as a celebration whether it is big or small. We also believe every child carries a spark within themselves and to maintain it’s our joy to help that spark shine bright.
 
             </p>
             <p className="mb-4" data-aos="fade-up" data-aos-delay="200">

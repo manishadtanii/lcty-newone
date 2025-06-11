@@ -9,7 +9,7 @@ function Hero({ data }) {
   return  <section className="hero w-full" >
       {/* Hero Section */}
       <div className="container-xxl">
-        <div className={`${spacing} m-auto flex flex-col  gap-5 md:gap-8 ${textAlign}`} >
+        <div className={`${spacing} m-auto flex flex-col   ${textAlign}`} >
           {/* {console.log(title)} */}
           <h1 className={`h1 secondary-text-1  ${textAlign}`} data-aos="fade-up">
             {title.map((part, i) => (
@@ -20,9 +20,9 @@ function Hero({ data }) {
             ))}
           </h1>
           {paragraphs && paragraphs.map((p, i) => (
-            <p key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-1 body-t-color  ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
-              {p.text}
-            </p>
+            <div key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-16 mt-14 body-t-color  ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
+              <p>{p.text}</p>
+            </div>
           ))}
           {btn &&
           <div className="" data-aos="fade-up" data-aos-delay="300">

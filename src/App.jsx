@@ -20,6 +20,7 @@ import ThankYou from "./pages/ThankYou";
 import ScrollToTop from "./components/ScrollToTop";
 import ProgramInner from "./pages/ProgramInner";
 import DynamicProgramPage from "./pages/DynamicProgramPage";
+import Location from "./pages/Location";
 
 function App() {
   useEffect(()=>{
@@ -45,6 +46,7 @@ function App() {
         <Route path="/community-partners" element={<CommunityPartners />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/location" element={<Location />} />
         <Route path="/programs/:type" element={<DynamicProgramPage />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>

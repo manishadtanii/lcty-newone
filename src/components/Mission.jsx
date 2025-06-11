@@ -48,7 +48,7 @@ export default function Mission() {
             <div className="mb-4" data-aos="fade-up">
             <Heading data={data} />
             </div>
-            <p className="mb-4" data-aos="fade-up" data-aos-delay="100">Our mission is to provide personalized therapies to meet the needs of love where they are treated with respect and unwavering belief in their personal potential.</p>
+            <p className="mb-4" data-aos="fade-up" data-aos-delay="100"><b>Our mission</b> is to provide personalized therapies to meet the needs of love where they are treated with respect and unwavering belief in their personal potential.</p>
             <p className="mb-4" data-aos="fade-up" data-aos-delay="200">As we look after homes, schools, and communities where your child is safe and nurtured, we are dedicated to offering top-notch therapy that is easily accessible and comforting. Every session is based on developmental support thoroughly designed for your child's unique needs and guided by empathy. Above all, beautiful things happen when therapy is treated like love but wonderful things happen when therapy feels like love.</p>
           </div>
         </div>

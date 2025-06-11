@@ -78,7 +78,7 @@ const AcceptedInsurance = () => {
   };
   return (
     <section className="">
-      <div className="container-fixed">
+      <div className="container-fixed" style={{paddingTop:"0"}}>
         <div className="mb-10">
           <Heading data={data} />
         </div>
@@ -107,7 +107,7 @@ const AcceptedInsurance = () => {
         </div>
 
         {/* Logo Grid */}
-        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-xl lg:rounded-b-xl lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6" data-aos="fade-up">
+        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-xl lg:rounded-b-xl lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-6" data-aos="fade-up">
           {visibleLogos.map((src, idx) => (
             <div key={idx} className="flex items-center justify-center ">
               <img src={src} alt={`Logo ${idx}`} className="w-full " />

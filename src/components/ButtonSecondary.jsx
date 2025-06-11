@@ -5,7 +5,7 @@ function ButtonSecondary({text, link}) {
   return (
     <div>
       <button className="body-t px-10 py-5 text-[#454545] bg-white  rounded-full font-semibold hover:bg-black transition font-archivo hover:text-white">
-        <Link to={`/${link}`} > 
+        <Link to={link} > 
         {text}
         </Link> 
       </button>

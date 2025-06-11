@@ -46,43 +46,43 @@ const locations = [
 ];
 
 const ClinicLocation = () => {
-  useGSAP(() => {
-    $(function () {
-      let cards = gsap.utils.toArray(".client-wrapper");
+// useGSAP(() => {
+//     $(function () {
+//       let cards = gsap.utils.toArray(".client-wrapper");
 
-      let stickDistance = 0;
+//       let stickDistance = 0;
 
-      let firstCardST = ScrollTrigger.create({
-        trigger: cards[0],
-        start: "center center",
-      });
+//       let firstCardST = ScrollTrigger.create({
+//         trigger: cards[0],
+//         start: "center center",
+//       });
 
-      let lastCardST = ScrollTrigger.create({
-        trigger: cards[cards.length - 1],
-        start: "bottom bottom",
-      });
+//       let lastCardST = ScrollTrigger.create({
+//         trigger: cards[cards.length - 1],
+//         start: "bottom bottom",
+//       });
 
-      cards.forEach((card, index) => {
-        var scale = 1 - (cards.length - index) * 0.025;
-        let scaleDown = gsap.to(card, {
-          scale: scale,
-          "transform-origin":
-            '"50% ' + (lastCardST.start + stickDistance) + '"',
-        });
+//       cards.forEach((card, index) => {
+//         var scale = 1 - (cards.length - index) * 0.025;
+//         let scaleDown = gsap.to(card, {
+//           scale: scale,
+//           "transform-origin":
+//             '"50% ' + (lastCardST.start + stickDistance) + '"',
+//         });
 
-        ScrollTrigger.create({
-          trigger: card,
-          start: "center center",
-          end: () => lastCardST.start + stickDistance,
-          pin: true,
-          pinSpacing: false,
-          ease: "none",
-          animation: scaleDown,
-          toggleActions: "restart none none reverse",
-        });
-      });
-    });
-  });
+//         ScrollTrigger.create({
+//           trigger: card,
+//           start: "center center",
+//           end: () => lastCardST.start + stickDistance,
+//           pin: true,
+//           pinSpacing: false,
+//           ease: "none",
+//           animation: scaleDown,
+//           toggleActions: "restart none none reverse",
+//         });
+//       });
+//     });
+//   });  
 
   const data = {
     title: [
@@ -108,8 +108,8 @@ const ClinicLocation = () => {
                   <div
                     key={index}
                     className="client-box primary-bg-2 btn-group text-white p-6  relative"
-                    data-aos="fade-right"
-                    data-aos-delay="200"
+                    // data-aos="fade-right"
+                    // data-aos-delay="200"
                   >
                     <div className="flex flex-col md:flex-row justify-stretch items-end">
                       <div className="">

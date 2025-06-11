@@ -92,8 +92,8 @@ function ProgramsSection() {
 
           {/* Right Text & Boxes */}
           <div>
-            <p className="body-t font-archivo mt-3 leading-[100%] body-t-color hidden lg:block ">
-              Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us. 
+            <p className="body-t font-archivo mt-3 body-t-color hidden lg:block ">
+              <p>Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us.</p>
             </p>
 
             <div className="space-y-4 mt-4">

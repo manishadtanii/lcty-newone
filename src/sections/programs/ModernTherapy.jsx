@@ -1,5 +1,5 @@
 import React from "react";
-import ModernTherapySlider from "./ModernTherapySlider";
+import ModernTherapySlider from "./old/ModernTherapySlider";
 import Hero from "../../components/Hero";
 import TestimonialsSliderNew from "./TestimonialsSliderNew";
 

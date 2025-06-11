@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ModernCard from "../../components/ModernCard";
+import ModernCard from "../../../components/ModernCard";
 
 const PrevArrow = ({ onClick }) => (
   <button

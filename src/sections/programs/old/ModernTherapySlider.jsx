@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ModernCard from "../../components/ModernCard";
+import ModernCard from "../../../components/ModernCard";
 // import './Sliders.css'
 
 const PrevArrow = ({ onClick }) => (

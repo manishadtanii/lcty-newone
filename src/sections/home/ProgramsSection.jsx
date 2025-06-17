@@ -20,7 +20,7 @@ function ProgramsSection() {
       number: "01.",
       title: "Physical Therapy",
       description:
-        "Helping your child improve and increase their strength and coordination so they can freely conduct their everyday activities.",
+        "We're here to help your child get stronger and more coordinated so they can do everyday things with ease.",
       image: "care-1.jpg",
       bg: "#F9D9E4",
       link:"/programs/physical-therapy"
@@ -29,7 +29,7 @@ function ProgramsSection() {
       number: "02.",
       title: "Occupational Therapy",
       description:
-        "Supporting your child to help and give ease in their day-to-day task like dressing, feeding and building independence through new and playful activities. ",
+        "We can help your child with everyday tasks like getting dressed and eating and encourage independence through fun, new activities.",
       image: "care-2.jpg",
       bg: "#D4E9FF",
       link:"/programs/occupational-therapy"
@@ -38,7 +38,7 @@ function ProgramsSection() {
       number: "03.",
       title: "Speech Therapy",
       description:
-        "It assists in promoting clearer communication by aiding them with speech, language, and social skills, whereby they are able to speak confidently in public place.",
+        "We can help children communicate better by boosting their speech, language and social skills so they can speak confidently in public.",
       image: "care-3.jpg",
       bg: "#FFEFD4",
       link:"/programs/speech-therapy"
@@ -47,7 +47,7 @@ function ProgramsSection() {
       number: "04.",
       title: "Applied Behavior Analysis (ABA)",
       description:
-        "A well-maintained evidence-based approach that helps children develop positive behaviour, social skills, and learning routines through meaningful reinforcement.",
+        "We can help kids build positive behavior, social skills and learning routines through meaningful encouragement while keeping things systematic and evidence-based.",
       image: "care-4.jpg",
       bg: "#E0FFE6",
       link:"/programs/applied-behavior-analysis"
@@ -64,7 +64,8 @@ function ProgramsSection() {
         </div>
 
         <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
-         Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us.
+        Want to help your child imagine and find cool new things? Little Champs has great programs for helping them learn and grow. Plus, signing up online is super easy!
+
         </p>
 
         {/* Mobile Image */}
@@ -93,7 +94,7 @@ function ProgramsSection() {
           {/* Right Text & Boxes */}
           <div>
             <p className="body-t font-archivo mt-3 body-t-color hidden lg:block ">
-              <p>Ready to spark your child's imagination and unlock a world of discovery? At Little champs, we offer enriching programs designed to ignite their curiosity and foster growth at every stage. Register through our secure online portal to embark on this exciting adventure with us.</p>
+              <p>Want to help your child imagine and find cool new things? Little Champs has great programs for helping them learn and grow. Plus, signing up online is super easy!</p>
             </p>
 
             <div className="space-y-4 mt-4">

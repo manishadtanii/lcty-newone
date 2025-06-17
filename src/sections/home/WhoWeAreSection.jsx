@@ -61,7 +61,7 @@ const WhoWeAreSection = () => {
           <div className="flex flex-col justify-center space-y-6 font-medium leading-tight">
             <div className="" ref={headingRefWho}>
               <p className="text-3xl text-white">
-              At Little Champs Therapy & Yoga, we're a team of therapists specializing in speech, occupational, physical and yoga therapy. We create unique programs designed just for your child to help them develop skills, build confidence and find calm. Our approach is warm and family-friendly mixing our clinical expertise with fun, goal-oriented activities. Whether it's parent-child yoga or ideas for practicing at home, we're with you every step celebrating each achievement and making therapy a positive experience.
+              At Little Champs Therapy & Yoga, we're a team of friendly therapists who specialize in speech, occupational, physical and yoga therapy. We craft special programs just for your child, helping them grow, gain confidence and find their calm. We love working with families, blending our expert knowledge with fun, goal-focused activities. We're with you every step of the way, cheering on every milestone and making therapy a positive journey.
               </p>
             </div>
             <ButtonSecondary text="Discover" link="/about-us" />

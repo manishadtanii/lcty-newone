@@ -20,7 +20,7 @@ function Home() {
     ],
     paragraphs: [
       {
-        text: "We believe every child deserves a safe and supportive space to move, calm down and build healthy habits for life. That's why our kid-focused yoga therapy combines proven techniques with fun games. Kids learn to manage their feelings, understand themselves better and get stronger – all through yoga and therapy! ",
+        text: "We truly believe every child should have a safe and supportive place to move, unwind and develop healthy lifelong habits. That's why we've blended effective techniques with exciting games in our child-oriented yoga therapy. Through yoga and therapy, kids learn to handle their emotions, understand themselves better and become stronger – all while having fun!",
         class: "text-center",
       },
     ],
@@ -105,7 +105,7 @@ function Home() {
     ],
     paragraphs: [
       {
-        text: "Let’s get started on your child’s journey to greater confidence, skills and joy. Book a free consultation today to chat about their unique needs and explore how our tailored therapy and yoga programs can make a real difference. Give your child the gift of support that’s as individual as they are!",
+        text: "Let's chat! We offer a free consultation today to discuss their unique needs and see how our personalized therapy and yoga programs can truly help. We want to give your child the gift of support that's as unique as they are!",
         class: "text-center",
       },
     ],

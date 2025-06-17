@@ -90,10 +90,7 @@ const StepOneSection = () => {
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Please register using our safe online portal to start your
-                  adventure with us. This will enable us to collect all the data
-                  we need to give your child the best care possible. Remember to
-                  upload all necessary information when registering.
+                 We'd love for you to register through our secure online portal. It helps us gather all the details we need to give your child the best care. Don't forget to upload all required info when you sign up!
                 </p>
 
                 {/* Link */}
@@ -129,10 +126,7 @@ const StepOneSection = () => {
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Uploading your insurance and referral documents using the same
-                  site is the next step after creating your account. This
-                  guarantees that we can proceed without hiccups and verify your
-                  service coverage.
+                  After setting up your account, the next step is to upload your insurance and referral documents on the same site. This helps us ensure a smooth process and verify your service coverage.
                 </p>
 
                 {/* Link */}
@@ -170,11 +164,8 @@ const StepOneSection = () => {
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Our administrative staff will get in touch with you to arrange
-                  for your child's initial evaluation, which can take place at
-                  our friendly clinic or in the convenience of your home, once
-                  we have received your referral, intake form and insurance
-                  information.q
+                 Once we have your referral, intake form and insurance information, our admin team will reach out to schedule your child's first evaluation. We can do this at our welcoming clinic or in your home.
+
                 </p>
 
                 {/* Link */}
@@ -210,11 +201,7 @@ const StepOneSection = () => {
 
                 {/* Description */}
                 <p className="font-archivo leading-[120%] text-white mt-4">
-                  Our therapist will prepare a thorough report after the
-                  assessment and provide it to your child's pediatrician. We
-                  ensure to maintain the continuity of therapy sessions once
-                  your insurance has been accepted and allowed. Depending on
-                  what works best for your family.
+                 After the assessment, our therapist will put together a detailed report and share it with your child's pediatrician. Once your insurance is accepted and approved, we'll make sure therapy sessions continue smoothly, whatever works best for your family.
                 </p>
 
                {/* Link */}

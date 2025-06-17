@@ -13,13 +13,14 @@ function ProgramsSection() {
         spacing: "mb-4 lg:mb-10",
         fontSize: "h1  leading-tight",
         fontColor: "secondary-text-1",
+        
     };
      const programs = [
     {
       number: "01.",
       title: "Music Therapy",
       description:
-        "With movement, melody, and rhythm, music therapy promotes emotional expression, communication, and social interaction in a positive, enjoyable way.",
+        "Music therapy is a fun and positive way to express emotions, communicate and interact with others through movement, melody and rhythm.",
       image: "care-5.jpg",
       bg: "#F9D9E4",
       link:"/programs/music-therapy"
@@ -28,7 +29,7 @@ function ProgramsSection() {
       number: "02.",
       title: "Yoga Therapy",
       description:
-        "Synthesizing slow-moving exercise with conscious breathing, yoga therapy assists children in developing balance and concentration with a playful twist.",
+        "We've seen how yoga therapy can really help kids. It's all about boosting their balance, focus and body awareness with some fun, slow movements and mindful breathing.",
       image: "care-6.jpg",
       bg: "#D4E9FF",
       link:"/programs/yoga-therapy"
@@ -37,7 +38,7 @@ function ProgramsSection() {
       number: "03.",
       title: "Interactive Metronome",
       description:
-        "This brain-targeted software enhances timing, attention and coordination through engaging, rhythm-based exercises to enhance concentration.",
+        "We'll have fun with rhythm exercises to boost your child’s timing, focus and coordination, which will help us with concentration and motor planning.",
       image: "care-7.jpg",
       bg: "#FFEFD4",
       link:"/programs/interactive-metronome"
@@ -46,7 +47,7 @@ function ProgramsSection() {
       number: "04.",
       title: "Tutoring",
       description:
-        "Personalized learning assistance based on your child's individual learning style by mastering the critical skills at their own pace.",
+        "We’ll help your child learn at their own pace with personalized support that matches their unique style, building confidence and mastering essential skills.",
       image: "care-8.jpg",
       bg: "#E0FFE6",
       link:"/programs/tutoring"

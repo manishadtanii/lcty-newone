@@ -7,15 +7,16 @@ import WeProvide from '../sections/program-inner/WeProvide'
 import MoreTherapies from '../sections/program-inner/MoreTherapies'
 
 function ProgramInner({data}) {
+  const {hero, video, breif, benefits, provide, therapies} = data;
   return (
     <div>
       {/* {console.log(data["hero"])} */}
-      <HeroProgram data={data["hero"]} />
-      <Video data={data["video"]}/>
-      <CultureProgram data={data['breif']}/>
-      <KeyBenefits data={data['benefits']}/>
-      <WeProvide data={data['provide']}/>
-      <MoreTherapies data={data['therapies']}/>
+     {hero && <HeroProgram data={hero} />}
+      {video && <Video data={video}/>}
+      {breif && <CultureProgram data={breif}/>}
+      {benefits && <KeyBenefits data={benefits}/>}
+      {provide && <WeProvide data={provide}/>}
+      {therapies && <MoreTherapies data={therapies}/>}
     </div>
   )
 }

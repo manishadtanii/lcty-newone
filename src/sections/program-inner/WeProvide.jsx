@@ -7,7 +7,8 @@ function WeProvide({data}) {
   const title = {
     title: [
       { text: "We ", class: "font-calvino" },
-      { text: " provide", class: "font-calvino-italic" },
+      { text: " help", class: "font-calvino-italic" },
+      { text: "with ", class: "font-calvino" },
     ],
     textAlign: "text-center",
     color: "secondary-text-1",

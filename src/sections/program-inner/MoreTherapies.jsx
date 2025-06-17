@@ -5,8 +5,8 @@ import Card from "../../components/Card";
 function MoreTherapies({data}) {
   const heading = {
     title: [
-      { text: "We ", class: "font-calvino" },
-      { text: " provide", class: "font-calvino-italic" },
+      { text: "More ", class: "font-calvino" },
+      { text: " therapies", class: "font-calvino-italic" },
     ],
     textAlign: "text-center",
     color: "text-white",

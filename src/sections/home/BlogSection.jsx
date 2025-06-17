@@ -36,7 +36,7 @@ function BlogSection() {
     fontSize: "h3",
   };
   return (
-    <section className="relative">
+    <section className="relative" style={{ background: "linear-gradient(360deg, rgba(200, 182, 255, 0.4) 0%, rgba(255, 150, 255, 0) 100%)" }}>
       <div className="container-fixed">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-[40%] sticky top-0" >

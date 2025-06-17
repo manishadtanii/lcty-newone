@@ -49,7 +49,7 @@ function SuccessStories() {
     spacing: "p-4",
   };
   return (
-    <section className="success-stories">
+    <section className="success-stories" style={{ background: "linear-gradient(360deg, rgba(200, 182, 255, 0.3) 0%, rgba(255, 150, 255, 0) 100%)" }}>
       <div className="container-fixed">
         <Hero data={data} />
         <div className="relative flex justify-center mt-5 md:mt-10">

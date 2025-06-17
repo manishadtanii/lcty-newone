@@ -32,8 +32,15 @@ const FounderMessage = () => {
       };
     }, [containerRef.current, headingRefWho.current]);
   return (
-    <section className="fonunder-message text-white text-center" ref={containerRef}>
-      <div className="primary-bg-2 pb-[50px]">
+    <section className="founder-message text-white text-center relative" ref={containerRef}>
+      <div className="founder-bg w-full h-full absolute top-0 left-0 ">
+        <img src="/founder-img-1.png" alt="" className="img-1 max-w-[50px] md:max-w-[120px] absolute top-0 left-0" />
+        <img src="/founder-img-2.png" alt="" className="img-2 max-w-[50px] md:max-w-[120px] absolute top-0 right-0" />
+        <img src="/founder-img-3.png" alt="" className="img-3 max-w-[50px] md:max-w-[120px] absolute bottom-0 left-0" />
+        <img src="/founder-img-4.png" alt="" className="img-4 max-w-[50px] md:max-w-[120px] absolute bottom-0 right-0" />
+        <img src="/founder-img-5.png" alt="" className="img-5 max-w-[100px] md:max-w-[200px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]" />
+      </div>
+      <div className="primary-bg-2 ">
         <div className="container-fixed">
           <div className="max-w-7xl mx-auto flex items-stretch">
             {/* Quote Text */}
@@ -52,7 +59,7 @@ const FounderMessage = () => {
       </div>
 
       {/* Circle Indicators */}
-      <div className="py-[50px] md:pb-[50px] md:pt-[0px]" >
+      {/* <div className="py-[50px] md:pb-[50px] md:pt-[0px]" >
         <div className="container-xxl">
           <div className="flex justify-evenly gap-10 flex-wrap relative md:translate-y-[-50%] ">
             {[...Array(4)].map((_, i) => (
@@ -63,7 +70,7 @@ const FounderMessage = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

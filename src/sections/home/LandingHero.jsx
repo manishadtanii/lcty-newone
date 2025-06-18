@@ -46,7 +46,7 @@ function LandingHero() {
     "Kid1.png",
   ];
   return (
-    <div className="landing-hero bg-hero-gradient md:ps-[4vw] ">
+    <div className="landing-hero bg-hero-gradient md:ps-[4vw] overflow-hidden relative">
      
       <div className="grid md:grid-cols-2 gap-6">
         <div className="landing-left px-4 flex flex-col justify-center items-start gap-4 lg:gap-8 py-[10vw] md:py-[6vw]">
@@ -61,7 +61,7 @@ function LandingHero() {
         </div>
         <div className="landing-right hidden md:block md:translate-x-[20px]">
           {/* RIGHT: SCROLLING TWO COLUMNS OPPOSITE */}
-          <div className="flex-1 h-[800px] overflow-hidden flex gap-4 ">
+          <div className="flex-1 h-[800px]  flex gap-4 ">
             {/* Left Column - Scroll Up */}
             <div className="flex-1 overflow-hidden relative ">
               <div className="absolute animate-scrollUp space-y-4">
@@ -76,7 +76,6 @@ function LandingHero() {
                 ))}
               </div>
             </div>
-
             {/* Right Column - Scroll Down */}
             <div className="flex-1 overflow-hidden relative">
               <div className="absolute animate-scrollDown space-y-4">

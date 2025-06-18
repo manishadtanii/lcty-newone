@@ -8,20 +8,24 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 function WhyYouAreHereSection() {
-      const containerRef = useRef();
-    const contentRef = useRef();
-  
-    useGSAP(()=>{
+  const containerRef = useRef();
+  const contentRef = useRef();
+
+  useGSAP(() => {
+    let mm = gsap.matchMedia();
+    mm.add("(min-width: 1024px)", () => { 
       ScrollTrigger.create({
-        trigger:containerRef.current,
-        start:'top top',
-        end:"bottom bottom",
-        pin:contentRef.current
-      })
-    })
+        trigger: containerRef.current,
+        start: "top top",
+        end: "bottom bottom",
+        pin: contentRef.current,
+      });
+    });
+    
+  });
   const imageUrl = "Yoga3.png";
   const settings = {
     centerMode: true,
@@ -61,36 +65,32 @@ function WhyYouAreHereSection() {
   };
   const data = {
     title: [
-      {text: "Why ", class: "font-calvino"},
-      {text: "you", class: "font-calvino-italic"},
-      {text: "are here !", class: "font-calvino"},
+      { text: "Why ", class: "font-calvino" },
+      { text: "you", class: "font-calvino-italic" },
+      { text: "are here !", class: "font-calvino" },
     ],
     textAlign: "text-center md:text-start",
     spacing: "mb-4",
     fontSize: "h1",
   };
   return (
-    <section className="bg-white pt-16 md:py-12 w-full " ref={containerRef}>
+    <section className="pt-16 md:py-12 w-full overflow-x-hidden" ref={containerRef}>
       <div className="block lg:hidden" data-aos="fade-up">
         <Heading data={data} />
       </div>
-      <div className="block lg:hidden mb-5 w-full overflow-x-hidden" data-aos="fade-up" data-aos-delay="100">
+      <div
+        className="block lg:hidden mb-5 w-full overflow-x-hidden"
+      >
         <Slider {...settings}>
           <div className="px-1">
-            <img src='why-1.jpg' alt="Kids Yoga" className=" w-full" />
+            <img src="why-1.jpg" alt="Kids Yoga" className=" w-full" />
           </div>
           <div className="px-1">
-            <img src='why-2.jpg' alt="Kids Yoga" className=" w-full" />
+            <img src="why-2.jpg" alt="Kids Yoga" className=" w-full" />
           </div>
           <div className="px-1">
-            <img src='why-3.jpg' alt="Kids Yoga" className=" w-full" />
+            <img src="why-3.jpg" alt="Kids Yoga" className=" w-full" />
           </div>
-         {/*  <div className="px-1">
-            <img src='why-4.jpg' alt="Kids Yoga" className=" w-full" />
-          </div>
-          <div className="px-1">
-            <img src='why-5.jpg' alt="Kids Yoga" className=" w-full" />
-          </div> */}
         </Slider>
       </div>
       <div className="container-fixed relative ">
@@ -108,32 +108,35 @@ function WhyYouAreHereSection() {
               <Heading data={data} />
             </div>
             <p className="mb-5">
-             You want to see your child smile, grow, and take on new challenges and sometimes that means a little extra support. Maybe:
+              You want to see your child smile, grow, and take on new challenges
+              and sometimes that means a little extra support. Maybe:
             </p>
             <ul className="space-y-3 mb-8">
               {[
-              "Your child struggles with speech or social skills.",
-              "They need a confidence boost in physical or fine-motor activities.", 
-              "You're looking for gentle ways to help them handle big emotions.",
-              "Your child needs help with academic subjects for better understanding.",
-              "They struggle with making friends and need support in social skills.",
+                "Your child struggles with speech or social skills.",
+                "They need a confidence boost in physical or fine-motor activities.",
+                "You're looking for gentle ways to help them handle big emotions.",
+                "Your child needs help with academic subjects for better understanding.",
+                "They struggle with making friends and need support in social skills.",
               ].map((item, i) => (
                 <li
                   key={i}
                   className="flex items-center space-x-3 body-t body-t-color"
                 >
                   <span className="mt-1 w-3 h-3 rounded-full bg-pink-400 inline-block"></span>
-                  <span>
-                   {item}
-                  </span>
+                  <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <p>At Little Champs Therapy & Yoga, we meet kids where they are, celebrate every milestone and bring families along for the ride. That is all because we get it!</p>
+            <p>
+              At Little Champs Therapy & Yoga, we meet kids where they are,
+              celebrate every milestone and bring families along for the ride.
+              That is all because we get it!
+            </p>
 
-           <div className="mt-7">
-             <ButtonPrimary link="discover" text="Register Now" />
-           </div>
+            <div className="mt-7">
+              <ButtonPrimary link="discover" text="Register Now" />
+            </div>
           </div>
         </div>
       </div>

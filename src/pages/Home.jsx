@@ -118,7 +118,7 @@ function Home() {
     spacing: "p-4",
   };
   return (
-    <div className="overflow-x-hidden  mt-[102px] md:mt-[128px]">
+    <div className="overflow-x-hidden mt-[102px] md:mt-[128px]">
       <LandingHero />
       {/* <Hero data={data} /> */}
       <WhyYouAreHereSection data={data2} />

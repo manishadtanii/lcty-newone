@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   FaBars,
   FaTimes,
@@ -1346,6 +1346,7 @@ function Header() {
       </div>
     </div>
   );
+  const navigate = useNavigate();
   const filteredPrograms = Object.entries(programsData).filter(
     ([key, program]) =>
       program.hero.title
@@ -1450,7 +1451,7 @@ function Header() {
           side={"right-4"}
           btnSide={"light-4"}
         >
-          <div className="max-h-[566px] overflow-y-auto pe-4">
+          <div className="search-wrapper max-h-[566px] overflow-y-scroll pe-4">
             <div className="mt-5">
               <div className="flex items-center bg-white overflow-hidden rounded-[10px] p-2 pe-4">
                 <input
@@ -1513,10 +1514,15 @@ function Header() {
                     link: "/programs/occupational-therapy",
                   },
                 ].map((program, idx) => (
-                  <Link
+                  <div
                     key={idx}
-                    to={program.link}
-                    className="relative text-black rounded-lg overflow-hidden  flex-shrink-0"
+                    
+                    onClick={() => {
+                      setSearchOpen(false);
+                      setSearchTerm("");
+                      navigate(program.link);
+                    }}
+                    className="search-card relative cursor-pointer text-black rounded-lg overflow-hidden  flex-shrink-0"
                   >
                     <img
                       src={`/${program.img}`}
@@ -1529,7 +1535,7 @@ function Header() {
                       </h3>
                       <Arrow />
                     </div>
-                  </Link>
+                  </div>
                 ))}
               </div>
               <Link

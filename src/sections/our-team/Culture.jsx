@@ -11,17 +11,17 @@ gsap.registerPlugin(ScrollTrigger);
 const imageUrl = "Yoga3.png";
 
 const Culture = () => {
-    const containerRef = useRef();
+  const containerRef = useRef();
   const contentRef = useRef();
 
-  useGSAP(()=>{
+  useGSAP(() => {
     ScrollTrigger.create({
-      trigger:containerRef.current,
-      start:'top top',
-      end:"bottom bottom",
-      pin:contentRef.current
-    })
-  })
+      trigger: containerRef.current,
+      start: "top top",
+      end: "bottom bottom",
+      pin: contentRef.current,
+    });
+  });
   const settings = {
     centerMode: true,
     centerPadding: "60px", // optional: adjust padding around centered slide
@@ -59,10 +59,13 @@ const Culture = () => {
     ],
   };
   return (
-    <section className="bg-white" ref={containerRef}>
+    <section
+      className="bg-white culture-section py-[5vw] lg:py-[3vw]"
+      ref={containerRef}
+    >
       <h2 className="h1 mb-4 secondary-text-1 px-5 text-center block lg:hidden">
         <span className="font-calvino">Our Culture: </span>
-        <span className="font-calvino-italic"> Yours is Ours  </span>
+        <span className="font-calvino-italic"> Yours is Ours </span>
       </h2>
       <div className="block lg:hidden mb-5 w-full overflow-x-hidden">
         <Slider {...settings}>
@@ -77,7 +80,7 @@ const Culture = () => {
           </div>
         </Slider>
       </div>
-      <div className="container-fixed ">
+      <div className="container-xxl pt-0 lg:pt-10 pb-20 px-5 lg:px-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Content */}
           <div className="" ref={contentRef}>
@@ -87,15 +90,26 @@ const Culture = () => {
             </h2>
 
             <p className="body-t mb-6 body-t-color lg:mt-10 md:mt-0">
-             <b>We are a family that opens its heart to yours!</b>
+              <b>We are a family that opens its heart to yours!</b>
             </p>
             <p className="body-t mb-6 body-t-color lg:mt-10 md:mt-0">
-             We don’t see the children as clients. We see them as our Little Stars and their dreams, struggles and victories matter to us as deeply as they do to you. From the very first session, your child becomes a part of our extended family who is celebrated, cherished and supported at every step of the way.</p>
-            <p className="body-t mb-6 body-t-color lg:mt-10 md:mt-0">
-            As a happy, purpose-driven organization, we not only exist for profit but for progress, possibility and pure love. Every hug, high-five and breakthrough fills our hearts with joy because your child’s growth is our greatest reward.
+              We don’t see the children as clients. We see them as our Little
+              Stars and their dreams, struggles and victories matter to us as
+              deeply as they do to you. From the very first session, your child
+              becomes a part of our extended family who is celebrated, cherished
+              and supported at every step of the way.
             </p>
             <p className="body-t mb-6 body-t-color lg:mt-10 md:mt-0">
-            By converting compassion into care and meaningful moments, we stand with the families and care about them helping to bring hope into their homes. Here, therapy is a sincere mission rather than merely a service. 
+              As a happy, purpose-driven organization, we not only exist for
+              profit but for progress, possibility and pure love. Every hug,
+              high-five and breakthrough fills our hearts with joy because your
+              child’s growth is our greatest reward.
+            </p>
+            <p className="body-t mb-6 body-t-color lg:mt-10 md:mt-0">
+              By converting compassion into care and meaningful moments, we
+              stand with the families and care about them helping to bring hope
+              into their homes. Here, therapy is a sincere mission rather than
+              merely a service.
             </p>
 
             {/* <ul className="space-y-3 mb-8">

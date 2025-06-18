@@ -28,7 +28,6 @@ header {
 
 header.active {
   transform: translateY(-100%);
-
 }
 
 /* 
@@ -98,7 +97,7 @@ p {
 
 .h1 {
   font-size: clamp(40px, 5vw, 85px);
-  line-height: normal;
+  line-height: 100%;
 }
 .h2 {
   font-size: clamp(24px, 5vw, 40px);
@@ -106,9 +105,9 @@ p {
 .h3 {
   font-size: clamp(35px, 5vw, 60px);
 }
-.h4{
-    font-size: clamp(20px, 5vw, 35px);
-  }
+.h4 {
+  font-size: clamp(20px, 5vw, 35px);
+}
 .body-t {
   font-size: clamp(14px, 5vw, 22px);
 }
@@ -211,8 +210,8 @@ p {
     rgba(255, 255, 255, 0.05) 92.61%
   );
 }
-.testimonial-item{
-  background-image: url('https://lcty-new.vercel.app/testimonial-bg.png') !important;
+.testimonial-item {
+  background-image: url("https://lcty-new.vercel.app/testimonial-bg.png") !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,7 +261,6 @@ p {
 .journey-img.img-last::after {
   width: 0px;
 }
-
 
 /* Program page  */
 /* .slider-container .slick-slide {
@@ -336,7 +334,6 @@ p {
   .h2 {
     font-size: clamp(22px, 5vw, 40px);
   }
-  
 
   .body-t {
     font-size: clamp(14px, 5vw, 22px);
@@ -381,7 +378,7 @@ p {
   position: relative;
   transform: scale(1.1);
   z-index: 100;
-  transition: .5s;
+  transition: 0.5s;
   width: 80%;
 }
 .modern-therapy .slick-center.slick-current .testimonial-text {
@@ -389,4 +386,58 @@ p {
 }
 .modern-therapy .slick-list {
   overflow: visible !important;
+}
+.community-hero {
+  position: relative;
+}
+.community-hero::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+}
+.landing-hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+}
+/* Chrome, Edge, Safari */
+.model-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.model-content::-webkit-scrollbar-track {
+  background: transparent; /* Tailwind's gray-200 */
+  border-radius: 10px;
+}
+
+.model-content::-webkit-scrollbar-thumb {
+  background-color: white; /* Your brand blue */
+  border-radius: 10px;
+  /* border: 2px solid transparent; */
+  background-clip: content-box;
+}
+.search-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.search-wrapper::-webkit-scrollbar-track {
+  background: transparent; /* Tailwind's gray-200 */
+  border-radius: 10px;
+}
+
+.search-wrapper::-webkit-scrollbar-thumb {
+  background-color: white; /* Your brand blue */
+  border-radius: 10px;
+  /* border: 2px solid transparent; */
+  background-clip: content-box;
 }

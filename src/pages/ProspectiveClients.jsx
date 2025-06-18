@@ -2,6 +2,8 @@ import React from 'react'
 import AcceptedInsurance from '../sections/prospective-clients/AcceptedInsurance'
 import ClinicLocation from '../sections/prospective-clients/ClinicLocation'
 import ProspectiveHero from '../sections/prospective-clients/ProspectiveHero'
+import StepOneSection from '../sections/home/StepOneSection'
+import AllForm from '../sections/prospective-clients/AllForm'
 
 function ProspectiveClients() {
   return (
@@ -9,6 +11,8 @@ function ProspectiveClients() {
       <ProspectiveHero />
      <AcceptedInsurance /> 
      <ClinicLocation />
+     <StepOneSection />
+     <AllForm />
     </div>
   )
 }

@@ -15,14 +15,14 @@ function LetsShow() {
 
   };
   return (
-     <div className="h-[100vh] flex items-center justify-center w-full " >
+     <div className="flex items-center justify-center w-full pb-[100px]" >
       <div className="container-fixed flex items-center  justify-center flex-col text-center lg:text-left lg:flex-row gap-4 md:gap-10">
         <div className="" data-aos="fade-up">
         <Heading data={data}  />
           
         </div>
         <div className="relative ">
-          <ButtonPrimary text="Register Now"/>
+          <ButtonPrimary text="Register Now" link={"https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps"}/>
         </div>
       </div>
     </div>

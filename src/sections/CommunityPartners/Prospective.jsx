@@ -17,7 +17,7 @@ function Prospective() {
     ],
     btn:{
       text: "Register Now",
-      link: "/apply",
+      link: "https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps",
     },
     slides: [
       {
@@ -78,7 +78,7 @@ function Prospective() {
             bibendum lorem bibendum ac. Duis eu nisi non orci fermentum commodo.{" "}
           </p>
           <div className="" data-aos="fade-up" data-aos-delay="200">
-          <ButtonPrimary text="Register  Now" />
+          <ButtonPrimary text="Register Now" link={"https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps"} />
           </div>
         </div>
       </div>

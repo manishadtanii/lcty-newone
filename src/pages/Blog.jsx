@@ -6,7 +6,7 @@ function Blog() {
  
 
   return (
-    <div className="overflow-x-hidden mt-[102px] md:mt-[128px]">
+    <div className=" mt-[102px] md:mt-[128px]">
         <BlogHero />
      <BlogGrid />
     </div>

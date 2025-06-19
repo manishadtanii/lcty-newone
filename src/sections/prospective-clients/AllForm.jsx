@@ -85,77 +85,77 @@ function AllForm() {
   const modelData = [
     {
       title: "Policy Update 5.17.24",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Policy Update 5.17.24",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Policy Update 5.17.24",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
     {
       title: "ABA Intake Form (Espanol)",
-      image: "pros-1.jpg",
+      image: "forms-1.jpg",
       redirectUrl: "/",
     },
   ];
@@ -215,7 +215,8 @@ const [models, setModels] = useState();
                 {modelData.map((item, index) => (
                   <div
                     key={index}
-                    className="model-item group  bg-[#8A63FF] border-[5px] border-[#FF96FF] p-3 rounded-[30px] overflow-hidden relative flex items-center justify-center cursor-pointer  duration-300"
+                    className="model-item group p-3 rounded-[30px] relative flex items-center justify-center cursor-pointer duration-300 overflow-hidden"
+                    // className="model-item group  bg-[#8A63FF] border-[5px] border-[#FF96FF] p-3 rounded-[30px] overflow-hidden relative flex items-center justify-center cursor-pointer  duration-300"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={index * 100}
@@ -223,7 +224,7 @@ const [models, setModels] = useState();
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="model-img"
+                      className="model-img rounded-[18px]"
                     />
                     <Link
                       to={item.redirectUrl}

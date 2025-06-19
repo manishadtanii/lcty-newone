@@ -17,13 +17,13 @@ function LandingHero() {
     ],
     btn: {
       text: "Register Now",
-      link: "/apply",
+      link: "https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps",
     },
 
     textAlign: "text-start",
     spacing: "pe-4",
     color: "text-white",
-    fontSize: "h1",
+    fontSize: "h1", 
   };
   const img1 = [
     "Kid1.png",

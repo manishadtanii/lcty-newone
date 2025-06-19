@@ -79,7 +79,7 @@ function ClinicLocation() {
             Come check out the place for your Little Champs! It's super easy to get to and we've created a friendly vibe for families. We're here to make sure every visit fills your child's life with new hope.
           </p>
           <div className="" data-aos="fade-up" data-aos-delay="300">
-            <ButtonPrimary link="/hello" text="Register Now" />
+            <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Register Now" />
           </div>
         </div>
       </div>

@@ -135,7 +135,7 @@ function WhyYouAreHereSection() {
             </p>
 
             <div className="mt-7">
-              <ButtonPrimary link="discover" text="Register Now" />
+              <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Register Now" />
             </div>
           </div>
         </div>

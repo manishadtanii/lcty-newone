@@ -10,8 +10,8 @@ function ProspectiveClients() {
     <div className='mt-[102px] md:mt-[128px]'>
       <ProspectiveHero />
      <AcceptedInsurance /> 
-     <ClinicLocation />
      <StepOneSection />
+     <ClinicLocation />
      <AllForm />
     </div>
   )

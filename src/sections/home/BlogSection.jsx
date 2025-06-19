@@ -74,23 +74,23 @@ function BlogSection() {
                           {blog.description}
                         </p>
                       </div>
-                      {/* <a
+                      <a
                         href="#"
                         className=" text-white font-calvino-italic flex items-center gap-1 mt-auto "
                       >
                         Read more <i class="fal fa-arrow-right -rotate-45"></i>
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 ))}
               </div>
-              {/* <div className="flex items-end justify-center ">
+              <div className="flex items-end justify-center ">
                 <Link to="/blog">
                   <div className="w-14 h-14 secondary-bg-1 flex items-center justify-center rounded-full text-white body-t hover:bg-[#fab4fa] transition-all">
                     <i class="fal fa-arrow-up rotate-45 "></i>
                   </div>
                 </Link>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

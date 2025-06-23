@@ -28,8 +28,8 @@ function OurHero() {
             imgSrc="/herocard.jpg"
             title1={heroData.title1}
             title2={heroData.title2}
-            btn1={heroData.btn1}
-            btn2={heroData.btn2}
+            // btn1={heroData.btn1}
+            // btn2={heroData.btn2}
           />
         </div>
       </div>

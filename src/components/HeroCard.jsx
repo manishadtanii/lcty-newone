@@ -8,9 +8,9 @@ function HeroCard({ imgSrc, title1, title2, btn1, btn2, p }) {
       {/* <div className="absolute inset-0 w-full h-full bg-black opacity-50">
           <img src={imgSrc} alt="Hero Background" className="w-full h-full object-cover" />
         </div> */}
-      <div className="flex flex-col justify w-full lg:max-w-[50%]">
+      <div className="flex flex-col justify w-full lg:max-w-[80%]">
         <h3 className="h3 text-white text-center lg:text-start">
-          <span className="font-calvino">{title1}</span>
+          <span className="font-calvino">{title1}</span> 
           <span className="font-calvino-italic"> {title2}</span>
         </h3>
         {p && (<p className="text-white mt-3">{p}</p>)}
@@ -20,6 +20,7 @@ function HeroCard({ imgSrc, title1, title2, btn1, btn2, p }) {
             <Link
               to={btn1.link}
               className="rounded-[30px]  font-archivo bg-white text-[#454545] transform duration-300 hover:bg-[#f0f0f0] p-5 font-semibold md:text-[28px]"
+              target="_blank"
             >
               {btn1.text}
             </Link>

@@ -1286,7 +1286,8 @@ function DynamicProgramPage() {
       },
     },
   }; */
-  const programsData = {
+       
+const programsData = {
     "physical-therapy": {
       hero: {
         title: [
@@ -1329,7 +1330,7 @@ function DynamicProgramPage() {
             { text: "Motor Skills", class: "font-calvino-italic" },
           ],
           description:
-            "We aim to significantly improve your child's gross and fine motor skills. This includes enhancing their balance, agility and overall body control. Through targeted activities and exercises, children develop greater precision and efficiency in their movements making everyday tasks such as running, jumping, writing and manipulating objects easier and more enjoyable. Improved motor skills contribute to increased independence and confidence in navigating their environment.",
+            "We help your child develop their gross and fine motor skills with exciting activities. This means they'll get better at things like balance, agility, precision, and body control, which will make them more independent and confident in everyday activities like running, writing, and playing.",
         },
         {
           img: "testmonial-2.png",
@@ -1338,7 +1339,7 @@ function DynamicProgramPage() {
             { text: " Strength and Flexibility", class: "font-calvino-italic" },
           ],
           description:
-            "Our programs incorporate exercises specifically designed to build muscle strength across different muscle groups. This increased strength provides the foundation for more complex movements and sustained physical activity. Simultaneously, we focus on improving flexibility and range of motion which is crucial for preventing injuries, enhancing posture and promoting ease of movement. A balance of strength and flexibility allows children to move more freely and comfortably.",
+            "Our programs build muscle strength across different groups, improving flexibility and range of motion. This balance prevents injuries, enhances posture, and promotes ease of movement for children.",
         },
         {
           img: "testmonial-1.png",
@@ -1347,7 +1348,7 @@ function DynamicProgramPage() {
             { text: " Pain and Discomfort", class: "font-calvino-italic" },
           ],
           description:
-            "For children experiencing musculoskeletal pain or discomfort, our approach can play a vital role in pain reduction and management. By strengthening supporting muscles, improvin g posture and increasing flexibility, we aim to alleviate strain on joints and reduce the frequency and intensity of pain. This can lead to a significant improvement in your child's quality of life allowing them to participate more fully in activities without being limited by discomfort.",
+            "We help kids manage muscle and joint pain by strengthening supporting muscles, improving posture, and increasing flexibility. This reduces discomfort, allowing them to enjoy activities and live a better quality of life without pain.",
         },
       ],
       provide: {
@@ -1493,7 +1494,7 @@ function DynamicProgramPage() {
             },
           ],
           description:
-            "Occupational therapy plays a crucial role in developing and refining both fine and gross motor skills. Fine motor skills involve the small muscles of the hands and fingers essential for tasks like writing, buttoning clothes, using utensils and manipulating small objects. Gross motor skills involve the larger muscles of the body, necessary for activities such as running, jumping, climbing and maintaining balance. Therapists utilize a variety of targeted activities and exercises to improve strength, coordination, dexterity and overall motor control enabling children to participate more fully in play, schoolwork and self-care tasks.",
+            "Occupational therapy helps kids with everyday tasks, like writing, buttoning, running and jumping, through fun activities. It's all about building strength and coordination so they can be more independent at home, during playtime and at school.",
         },
         {
           img: "testmonial-2.png",
@@ -1502,7 +1503,7 @@ function DynamicProgramPage() {
             { text: " Emotional Regulation", class: "font-calvino-italic" },
           ],
           description:
-            "Occupational therapy recognizes the significant interplay between physical abilities, sensory experiences and emotional well-being. Therapists employ strategies to help children understand and manage their emotions more effectively. This may involve teaching coping mechanisms for frustration, anxiety or anger as well as promoting self-awareness and self-control. By addressing underlying sensory sensitivities or processing difficulties that can contribute to emotional dysregulation, occupational therapy helps children develop greater emotional resilience and improve their social interactions.",
+            "We help kids link up their physical abilities, senses and feelings. Our therapists work with them on handling emotions like frustration, anxiety and anger which boosts their self-awareness and control. Tackling sensory issues also makes them emotionally stronger and better at social interactions.",
         },
         {
           img: "testmonial-1.png",
@@ -1511,7 +1512,7 @@ function DynamicProgramPage() {
             { text: " Processing Abilities", class: "font-calvino-italic" },
           ],
           description:
-            "Sensory processing refers to the way the nervous system receives, interprets and responds to sensory information from the environment. Children with sensory processing challenges may experience over- or under-responsiveness to stimuli such as sounds, lights, textures, tastes or movement. Occupational therapists conduct thorough assessments to identify specific sensory processing patterns and develop individualized strategies to help children better regulate and integrate sensory input. This may involve modifying the environment, providing sensory tools and activities and teaching adaptive strategies to promote comfort, focus and participation in daily routines and activities.",
+            "Sensory processing is how our nervous system handles sensory info. If kids struggle with too much/little reaction to sights, sounds or textures, our therapists create personalized plans to help them adapt and thrive.",
         },
       ],
       provide: {
@@ -1654,7 +1655,7 @@ function DynamicProgramPage() {
             { text: "Communication", class: "font-calvino-italic" },
           ],
           description:
-            "At its core, speech therapy aims to enhance all aspects of communication. This includes improving the clarity of spoken words, expanding vocabulary, developing grammatical understanding and refining the ability to express thoughts and ideas effectively. By addressing underlying speech and language difficulties, individuals can communicate their needs, wants and opinions with greater ease and precision.",
+            "Speech therapy helps us communicate better. It improves our spoken words, vocabulary, grammar and ability to share thoughts making self-expression easier and more accurate.",
         },
         {
           img: "testmonial-2.png",
@@ -1663,7 +1664,7 @@ function DynamicProgramPage() {
             { text: " Development", class: "font-calvino-italic" },
           ],
           description:
-            "The benefits of speech therapy extend beyond just communication. Effective communication is fundamental to various aspects of personal and social development. Improved communication skills can positively impact academic performance, social interactions, emotional well-being and future career opportunities. By fostering better communication, speech therapy contributes to the individual's overall growth and ability to participate fully in life.",
+            "Speech therapy boosts communication which is vital for personal and social growth. It enhances academic, social and emotional well-being. By fostering better communication, therapy supports overall development and life engagement.",
         },
         {
           img: "testmonial-1.png",
@@ -1671,7 +1672,7 @@ function DynamicProgramPage() {
             { text: "Intelligibility", class: "font-calvino-italic" },
           ],
           description:
-            "Intelligibility, or the clarity of speech, is a primary focus of speech therapy. Through targeted interventions, therapists work to improve articulation, pronunciation and speech rate making it easier for others to understand the individual. Enhanced intelligibility reduces frustration for both the speaker and the listener fostering more meaningful and successful interactions.",
+            "This makes speech clearer, improving word formation, pronunciation and pace. This reduces frustration, making conversations much easier and more successful for everyone.",
         },
       ],
       provide: {
@@ -1810,11 +1811,11 @@ function DynamicProgramPage() {
         {
           img: "testmonial-3.png",
           title: [
-            { text: "Enhancement of ", class: "font-calvino" },
-            { text: "Motor Skills", class: "font-calvino-italic" },
+            { text: "Enhancement of Fine", class: "font-calvino" },
+            { text: " and Gross Motor Skills", class: "font-calvino-italic" },
           ],
           description:
-            "Through targeted activities and positive feedback, this strategy actively contributes to the refinement of both fine and gross motor skills. Fine motor skills involving the precise movements of smaller muscle groups are crucial for tasks like writing, drawing and manipulating small objects. Gross motor skills engaging the larger muscle groups in the arms, legs and torso are fundamental for activities like running, jumping and throwing. Consistent positive reinforcement during activities that promote these skills encourages practice, coordination and mastery laying a strong physical foundation.",
+            "This method boosts fine and gross motor skills with fun activities and encouraging words. It helps kids develop precise movements like writing and use bigger muscles. We encourage practice and mastery to build a strong physical foundation!",
         },
         {
           img: "testmonial-2.png",
@@ -1823,7 +1824,7 @@ function DynamicProgramPage() {
             { text: "Emotional Regulation", class: "font-calvino-italic" },
           ],
           description:
-            "Emotional regulation, the ability to understand and manage one's emotions effectively, is a cornerstone of social and psychological well-being. This evidence-based approach provides children with a supportive framework for recognizing, expressing and navigating their feelings in healthy ways. Through positive reinforcement of adaptive emotional responses and the teaching of coping mechanisms, children learn to manage frustration, anger, sadness and excitement constructively. This fosters resilience, empathy and improved social interactions.",
+            "Our method helps kids get a handle on their feelings – understanding them, showing them in healthy ways and managing them positively. This builds strength, empathy and awesome relationships. Mastering emotions is super important for happy social lives and good mental health.",
         },
         {
           img: "testmonial-1.png",
@@ -1832,7 +1833,7 @@ function DynamicProgramPage() {
             { text: "Sensory Processing", class: "font-calvino-italic" },
           ],
           description:
-            "Sensory processing refers to the way the nervous system receives and interprets sensory information from the environment. For some children, processing sensory input can be challenging leading to over- or under-responsiveness to stimuli such as sounds, lights, textures and movements. This approach incorporates an understanding of sensory sensitivities and provides opportunities for children to engage with sensory experiences in a positive and supportive manner. Meaningful reinforcement encourages exploration, adaptation and the development of effective strategies for processing sensory information contributing to a greater sense of comfort and engagement with their surroundings.",
+            "We help kids with sensory processing differences. Some are extra sensitive or not sensitive enough to sights, sounds or textures. Our approach helps them comfortably explore, adjust and learn, feeling more connected.",
         },
       ],
       provide: {
@@ -1957,7 +1958,7 @@ function DynamicProgramPage() {
             { text: "Development", class: "font-calvino-italic" },
           ],
           description:
-            "Engaging with music in a therapeutic context can significantly contribute to various aspects of cognitive development. The process of learning musical elements, such as melody, rhythm and harmony, can stimulate memory, attention span and problem-solving skills. Furthermore, the creative aspects of music therapy can enhance cognitive flexibility and foster innovative thinking. The structured nature of musical activities can also aid in the development of organizational skills and the ability to follow directions.",
+            "Learning about melody, rhythm and harmony can really help with memory and problem-solving skills. Plus, getting creative with music is great for boosting flexible thinking, organization and the ability to follow instructions.",
         },
         {
           img: "testmonial-2.png",
@@ -1966,7 +1967,7 @@ function DynamicProgramPage() {
             { text: "& Communication", class: "font-calvino-italic" },
           ],
           description:
-            "Music therapy offers a rich platform for developing and refining social skills and communication abilities. Participating in group music-making activities encourages cooperation, turn-taking and active listening. The shared experience of creating music can foster a sense of belonging and connection, reducing feelings of isolation. For individuals who find verbal communication challenging, music can serve as an alternative or supplementary means of expression allowing them to convey emotions, ideas and intentions through musical cues and non-verbal interactions.",
+            "It helps you connect and express yourself, boosting social skills, teamwork and listening. You'll feel a sense of belonging and fight loneliness. It's truly fantastic for building connections and expressing who you are.",
         },
         {
           img: "testmonial-1.png",
@@ -1975,7 +1976,7 @@ function DynamicProgramPage() {
             { text: "Integration", class: "font-calvino-italic" },
           ],
           description:
-            "The multi-sensory nature of music therapy provides valuable opportunities for sensory integration. The auditory input of music, the tactile experience of playing instruments and the kinesthetic involvement of movement and dance can help individuals process and integrate sensory information more effectively. This can be particularly beneficial for individuals with sensory processing sensitivities, promoting self-regulation and a greater awareness of their bodies and the environment around them. The predictable and often rhythmic nature of music can also provide a calming and organizing sensory experience.",
+            "The sounds, the feel of playing instruments and movement in dance help us integrate sensory info. This boosts self-regulation and body awareness, while predictable rhythms are calming and organizing.",
         },
       ],
       provide:false,
@@ -2062,7 +2063,7 @@ function DynamicProgramPage() {
             { text: "Well-being", class: "font-calvino-italic" },
           ],
           description:
-            "Yoga therapy offers children valuable tools for emotional navigation. It helps them manage stress and anxiety through relaxation techniques, improve self-regulation via conscious breathing and mindful movement, and boost self-esteem and confidence by achieving poses and developing body awareness. The supportive environment also promotes emotional expression.",
+            "Kids find yoga therapy a fantastic tool for managing their emotions. It teaches them relaxation for stress, mindful breathing for self-control and physical mastery for confidence. This supportive environment also encourages emotional expression.",
         },
         {
           img: "testmonial-2.png",
@@ -2071,7 +2072,7 @@ function DynamicProgramPage() {
             { text: "& Cognitive Growth", class: "font-calvino-italic" },
           ],
           description:
-            "This program improves cognitive functions by enhancing concentration and attention span through focused breathing and holding poses. It can also boost memory and cognitive skills by coordinating movement and breath, and develop problem-solving abilities through creative engagement with physical challenges. Additionally, yoga fosters mindfulness and present moment awareness, reducing distractions and improving focus.",
+            "Yoga therapy can significantly boost your brainpower. Through unique breathing and holding poses, it sharpens focus and attention enhancing memory and thinking skills. It also encourages creative problem-solving and greater mindfulness for better concentration.",
         },
         {
           img: "testmonial-1.png",
@@ -2080,7 +2081,7 @@ function DynamicProgramPage() {
             { text: "Development", class: "font-calvino-italic" },
           ],
           description:
-            "It also significantly improves children's physical well-being by enhancing strength, flexibility, balance, coordination, body awareness, and posture. It builds functional strength, increases range of motion, and refines motor skills, aiding daily activities and injury prevention. Yoga cultivates body awareness, helping children understand physical sensations and movement. It also promotes better posture through core strengthening and spinal alignment. Ultimately, yoga fosters healthy physical habits and a positive attitude towards movement, contributing to lifelong wellness.",
+            "It builds strength, flexibility and coordination. Kids gain body awareness, better posture and practical strength, preventing injuries. It sharpens motor skills, fosters understanding of bodily sensations and aligns their spine for improved everyday movement.",
         },
       ],
       provide:false,
@@ -2163,11 +2164,11 @@ function DynamicProgramPage() {
         {
           img: "testmonial-3.png",
           title: [
-            { text: "Improved Focus", class: "font-calvino" },
+            { text: "Improved Focus, Attention Span", class: "font-calvino" },
             { text: "& Working Memory", class: "font-calvino-italic" },
           ],
           description:
-            "This program is designed to strengthen the neural pathways responsible for sustained attention and the ability to hold and manipulate information in the mind. Regular use can lead to a greater capacity for focused work, increased attention spans during tasks and enhanced working memory capabilities, ultimately contributing to improved learning and problem-solving skills.",
+            "This program helps boost your focus and memory. Use it regularly and you'll find yourself able to concentrate better, stay on task longer and remember things more easily, which all adds up to better learning and problem-solving.",
         },
         {
           img: "testmonial-2.png",
@@ -2176,16 +2177,16 @@ function DynamicProgramPage() {
             { text: "& Coordination", class: "font-calvino-italic" },
           ],
           description:
-            "Through specifically designed rhythmic exercises, the program helps to refine the brain's ability to sequence and execute motor actions. This can translate to smoother, more coordinated movements in daily activities, sports and other physical tasks. Improved motor planning can also contribute to greater efficiency and accuracy in performing complex actions.",
+            "Your brain learns to plan and perform movements better. This leads to smoother, more coordinated actions in daily life, sports and complex tasks, making them more efficient and accurate.",
         },
         {
           img: "testmonial-1.png",
           title: [
-            { text: "Strengthened", class: "font-calvino" },
-            { text: "Neural Timing", class: "font-calvino-italic" },
+            { text: "Strengthened Neural Timing for", class: "font-calvino" },
+            { text: "Better Cognitive Processing", class: "font-calvino-italic" },
           ],
           description:
-            "The rhythm-based nature of the exercises plays a critical role in optimizing the brain's internal timing mechanisms. This improved neural timing can lead to faster and more efficient cognitive processing across various domains including reaction time, information processing speed and the ability to perceive and respond to temporal information more effectively.",
+            "These rhythm exercises are like brain training! They sharpen your internal timing making you think faster and process information more efficiently. You'll react quicker and understand things happening over time better.",
         },
       ],
       provide:false,
@@ -2265,29 +2266,29 @@ function DynamicProgramPage() {
         {
           img: "testmonial-3.png",
           title: [
-            { text: "One-to-One", class: "font-calvino" },
-            { text: "Support", class: "font-calvino-italic" },
+            { text: "Builds Confidence Through", class: "font-calvino" },
+            { text: "Dedicated One-on-One Support", class: "font-calvino-italic" },
           ],
           description:
-            "Direct, individualized attention from our experienced tutors creates a safe and encouraging space for students to ask questions, explore concepts and overcome learning challenges without the pressures of a classroom setting. This focused support directly contributes to increased self-assurance and a more positive attitude towards learning.",
+            "Our amazing tutors are all about making learning enjoyable and stress-free. Students get their undivided attention so they can freely ask questions, explore new concepts and conquer challenges, building their confidence along the way.",
         },
         {
           img: "testmonial-2.png",
           title: [
-            { text: "Foundational", class: "font-calvino" },
-            { text: "Academic Skills", class: "font-calvino-italic" },
+            { text: "Reinforces Foundational Academic", class: "font-calvino" },
+            { text: "Skills for Long-Term Success", class: "font-calvino-italic" },
           ],
           description:
-            "Our tutoring programs go beyond simply completing assignments. We focus on strengthening the fundamental building blocks of academic knowledge ensuring a solid foundation upon which more advanced concepts can be readily understood and applied. This reinforcement of core skills is crucial for sustained academic progress across all subjects.",
+            "We do more than just homework help. Our programs strengthen core academic knowledge, creating a solid base so students can understand advanced concepts and continue to succeed in all their subjects.",
         },
         {
           img: "testmonial-1.png",
           title: [
-            { text: "Independent Learning", class: "font-calvino" },
-            { text: "& Problem-solving", class: "font-calvino-italic" },
+            { text: "Encourages Independent Learning", class: "font-calvino" },
+            { text: "and Effective Problem-Solving Abilities", class: "font-calvino-italic" },
           ],
           description:
-            "While providing guidance and support, our tutors actively foster independent learning habits and critical thinking skills. Students are encouraged to take ownership of their learning journey, develop effective problem-solving strategies and become resourceful learners capable of tackling academic challenges with increasing autonomy.",
+            "Our tutors empower students to become independent, resourceful learners. They'll gain the skills to tackle academic challenges and take charge of their education with confidence.",
         },
       ],
       provide:false,
@@ -2333,6 +2334,8 @@ function DynamicProgramPage() {
       },
     },
   };
+
+    
   const { type } = useParams();
   // console.log(type);
   const program = programsData[type];

@@ -4,72 +4,72 @@ import Card from "../../components/Card";
 function DayCare() {
   const slides = [
     {
-      title: "Physical Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"100"
     },
     {
-      title: "Occupational Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"200"
     },
     {
-      title: "Yoga Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"300"
     },
     {
-      title: "LCTY Tutor Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"400"
     },
     {
-      title: "ABA",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"500"
     },
     {
-      title: "Yoga Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"600"
     },
     {
-      title: "LCTY Tutor Therapy",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",
       animationDelay:"700"
     },
     {
-      title: "ABA",
+      title: "Lorem Ipsum",
       image: "yoga-therapy.png",
-      redirectUrl: "/yoga-therapy",
+      redirectUrl: "/lorem-ipsum",
       bgColor: "secondary-bg-1",
       btnBg: "bg-white",
       btnText: "primary-text-1",

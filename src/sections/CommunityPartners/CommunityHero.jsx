@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function CommunityHero() {
   const title = {
     title: [
-      { text: "Lorem ipsum ", class: "font-calvino" },
-      { text: "dolor sit amet", class: "font-calvino-italic" },
+      { text: "Help Us ", class: "font-calvino" },
+      { text: "Make Kids Smile", class: "font-calvino-italic" },
     ],
     textAlign: "text-center",
     color: "text-white",
@@ -22,7 +22,7 @@ function CommunityHero() {
           We believe every child deserves a safe and supportive space to move,
           calm down and build healthy habits for life.
         </p>
-        <div className="flex flex-row justify-center  items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        {/* <div className="flex flex-row justify-center  items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <Link
             to={"/"}
             className="rounded-[30px]  font-archivo bg-white text-[#454545] transform duration-300 hover:bg-[#f0f0f0] p-5 lg:px-10 font-semibold md:text-[28px]"
@@ -35,7 +35,7 @@ function CommunityHero() {
           >
             Start demo
           </Link>
-        </div>
+        </div> */}
 
         <div className="communit-container grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 mt-[10vw] md:mt-[2vw] items-end ">
           <div className="communit-card hidden lg:block" data-aos="fade-up" data-aos-duration="1000">

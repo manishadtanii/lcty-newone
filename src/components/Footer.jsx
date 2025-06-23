@@ -71,7 +71,7 @@ function Footer() {
           {/* <button className="bg-[#FCF9FF] text-[#FF96FF] border-2 border-[#FFAFCC] px-6 py-3 rounded-full font-bold text-base hover:bg-[#FFAFCC] hover:text-white transition">
           Register Now
         </button> */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left z-10">
             <ButtonPrimary link="/" text="Register Now" />
           </div>
         </div>

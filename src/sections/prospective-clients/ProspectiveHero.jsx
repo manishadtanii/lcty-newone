@@ -7,8 +7,8 @@ function ProspectiveHero() {
     title1: "Apply in now",
     title2: "for the best therapy",
     btn1: {
-      text: "Discover",
-      link: "/",
+      text: "Register now",
+      link: "https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps",
     },
     btn2: {
       text: "Start demo",
@@ -29,8 +29,8 @@ function ProspectiveHero() {
           </p>
           <div className="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
             <ButtonPrimary
-              text={heroData.btn1.text}
-              link={heroData.btn1.link}
+              text="Discover"
+              link="/programs"
             />
           </div>
         </div>
@@ -40,7 +40,7 @@ function ProspectiveHero() {
           title1={heroData.title1}
           title2={heroData.title2}
           btn1={heroData.btn1}
-          btn2={heroData.btn2}
+          // btn2={heroData.btn2}
         />
         </div>
       </div>

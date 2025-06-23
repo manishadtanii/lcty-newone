@@ -23,7 +23,7 @@ function LandingHero() {
     textAlign: "text-start",
     spacing: "pe-4",
     color: "text-white",
-    fontSize: "h1", 
+    fontSize: "h1",
   };
   const img1 = [
     "Kid1.png",
@@ -47,17 +47,18 @@ function LandingHero() {
   ];
   return (
     <div className="landing-hero bg-hero-gradient md:ps-[4vw] overflow-hidden relative">
-     
       <div className="grid md:grid-cols-2 gap-6">
         <div className="landing-left px-4 flex flex-col justify-center items-start gap-4 lg:gap-8 py-[10vw] md:py-[6vw]">
           <Heading data={data} />
-          <p className="text-white">
+          <p className="text-white z-10">
             We believe every child deserves a safe and supportive space to move,
             calm down and build healthy habits for life. That's why our
             kid-focused yoga therapy combines proven techniques with fun games.{" "}
           </p>
-          <ButtonPrimary link={data.btn.link} text={data.btn.text} />
-          <img src="join.png" className="max-w-[350px] w-full" alt="" />
+          <div className="relative z-10">
+            <ButtonPrimary link={data.btn.link} text={data.btn.text} />
+          </div>
+          <img src="join.png" className="max-w-[350px] w-full z-10" alt="" />
         </div>
         <div className="landing-right hidden md:block md:translate-x-[20px]">
           {/* RIGHT: SCROLLING TWO COLUMNS OPPOSITE */}
@@ -93,7 +94,7 @@ function LandingHero() {
           </div>
         </div>
       </div>
-       <div className="block md:hidden">
+      <div className="block md:hidden">
         <div className="flex flex-col overflow-hidden  gap-4 ">
           {/* Left Column - Scroll Up */}
           <div className="flex-1 overflow-hidden relative ">

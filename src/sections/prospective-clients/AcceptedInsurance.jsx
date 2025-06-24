@@ -20,7 +20,7 @@ const insuranceData = {
   },
   "Workers Comp": {
     title: [
-      { text: "Workers ", class: "font-calvino" },
+       { text: "Workers ", class: "font-calvino" },
       { text: "Comp", class: "font-calvino-italic" },
     ],
     img: [
@@ -65,7 +65,7 @@ const AcceptedInsurance = () => {
   const [viewAll, setViewAll] = useState(false);
 
   const allLogos = insuranceData[activeTab].img;
-  const visibleLogos = viewAll ? allLogos : allLogos.slice(0, 6);
+  const visibleLogos = viewAll ? allLogos : allLogos.slice(0, 10);
 
   const data = {
     title: [
@@ -107,7 +107,7 @@ const AcceptedInsurance = () => {
         </div>
 
         {/* Logo Grid */}
-        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-xl lg:rounded-b-xl lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-6" data-aos="fade-up">
+        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-[30px] lg:rounded-b-[30px] lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-6" style={{borderTopRightRadius:"30px"}} data-aos="fade-up">
           {visibleLogos.map((src, idx) => (
             <div key={idx} className="flex items-center justify-center ">
               <img src={src} alt={`Logo ${idx}`} className="w-full " />

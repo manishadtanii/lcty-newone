@@ -8,7 +8,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Starting providing services to clients in the community setting",
+    text: "We began offering therapy and yoga services out in the community—bringing support right where people needed it.",
     image: "journey-1.jpg",
   },
   {
@@ -16,7 +16,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Open Boca Raton office",
+    text: "We opened our first office in Boca Raton to have a dedicated space for our clients.",
     image: "journey-2.jpg",
   },
   {
@@ -24,7 +24,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Open west palm office",
+    text: "We expanded to West Palm Beach so more people could drop in for sessions.",
     image: "journey-3.jpg",
   },
   {
@@ -32,7 +32,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Open Delray office",
+    text: "Our Delray Beach location opened its doors, making it even easier to access our programs.",
     image: "journey-3.jpg",
   },
   {
@@ -40,7 +40,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Open Coral Springs office",
+    text: "Coral Springs became our newest neighborhood spot—another place to practice wellness together.",
     image: "journey-3.jpg",
   },
   {
@@ -48,7 +48,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Integrated ABA into our program",
+    text: "We added ABA therapy to our services to better support individuals with autism.",
     image: "journey-3.jpg",
   },
   {
@@ -56,7 +56,7 @@ const steps = [
     title: "Lorem",
     italic: "dolor sit",
     bold: "adipiscing",
-    text: "Integrated Music IM and Yoga therapy",
+    text: "We introduced Music IM and Yoga Therapy, combining creative movement and sound to help minds and bodies feel their best.",
     image: "journey-3.jpg",
   },
 ];

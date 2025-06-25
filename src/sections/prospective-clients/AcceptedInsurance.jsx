@@ -113,7 +113,7 @@ const AcceptedInsurance = () => {
               <img src={src} alt={`Logo ${idx}`} className="w-full " />
             </div>
           ))}
-          {allLogos.length > 6 && (
+          {allLogos.length > 10 && (
             <div className="col-span-full flex justify-end mt-4 pr-2">
               <button
                 onClick={() => setViewAll(!viewAll)}

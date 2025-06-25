@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonPrimary from "../../components/ButtonPrimary";
 import Heading from "../../components/Heading";
 import { Link } from "react-router-dom";
 
@@ -22,6 +23,9 @@ function CommunityHero() {
           We believe every child deserves a safe and supportive space to move,
           calm down and build healthy habits for life.
         </p>
+        <div className="text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"> 
+        <ButtonPrimary text={"Apply Now"} link={""} />
+        </div>
         {/* <div className="flex flex-row justify-center  items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <Link
             to={"/"}

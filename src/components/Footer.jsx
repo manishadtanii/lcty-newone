@@ -72,7 +72,7 @@ function Footer() {
           Register Now
         </button> */}
           <div className="text-center lg:text-left z-10">
-            <ButtonPrimary link="/" text="Register Now" />
+            <ButtonPrimary link="/contact-us" text="Contact Us" />
           </div>
         </div>
       </div>

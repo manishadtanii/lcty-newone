@@ -23,6 +23,7 @@ import DynamicProgramPage from "./pages/DynamicProgramPage";
 import Location from "./pages/Location";
 import Blog from "./pages/Blog";
 import BlogInner from "./pages/BlogInner";
+import SuccessStories from "./pages/SuccessStories";
 
 function App() {
   useEffect(()=>{
@@ -52,6 +53,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/programs/:type" element={<DynamicProgramPage />} />
         <Route path="/blog/:id" element={<BlogInner />} />
+        <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />

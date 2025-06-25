@@ -54,7 +54,8 @@ function SuccessStories() {
         <Hero data={data} />
         <div className="relative flex justify-center mt-5 md:mt-10">
           <div className="absolute top-[-100%] left-0 w-full text-center" data-aos="fade-up" data-aos-delay="100">
-            <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Write Your Success Story" className="" />
+            {/* <ButtonPrimary link="https://app.practiceperfectemr.com/onlinebooking/633/#/landing/littlechamps" text="Write Your Success Story" className="" /> */}
+            <ButtonPrimary link="/success-stories" text="Write Your Success Story" className="" />
           </div>
         </div>
         <div className="story-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 lg:mt-0 sm:gap-5 lg:gap-20  md:pb-[100px]">

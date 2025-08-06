@@ -28,12 +28,12 @@ function WhyYouAreHereSection() {
   });
   const imageUrl = "Yoga3.png";
   const settings = {
-    centerMode: true,
+    centerMode: false,
     centerPadding: "60px", // optional: adjust padding around centered slide
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 5, // default (large screen)
+    speed: 200,
+    slidesToShow: 1, // default (large screen)
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
@@ -79,9 +79,24 @@ function WhyYouAreHereSection() {
         <Heading data={data} />
       </div>
       <div
-        className="block lg:hidden mb-5 w-full overflow-x-hidden"
+        className=" mb-5  overflow-x-hidden"
       >
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
+          <div className="px-1">
+            <img src="why-1.jpg" alt="Kids Yoga" className=" w-full" />
+          </div>
+          <div className="px-1">
+            <img src="why-2.jpg" alt="Kids Yoga" className=" w-full" />
+          </div>
+          <div className="px-1">
+            <img src="why-3.jpg" alt="Kids Yoga" className=" w-full" />
+          </div>
+        </Slider> */}
+      </div>
+      <div className="container-fixed relative ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+          {/* Image */}
+          <Slider {...settings}>
           <div className="px-1">
             <img src="why-1.jpg" alt="Kids Yoga" className=" w-full" />
           </div>
@@ -92,18 +107,9 @@ function WhyYouAreHereSection() {
             <img src="why-3.jpg" alt="Kids Yoga" className=" w-full" />
           </div>
         </Slider>
-      </div>
-      <div className="container-fixed relative ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-          {/* Image */}
-          <div className="hidden lg:block">
-            <img src="why-1.jpg" alt="Kids Yoga" className=" w-full mb-5" />
-            <img src="why-2.jpg" alt="Kids Yoga" className=" w-full mb-5" />
-            <img src="why-3.jpg" alt="Kids Yoga" className=" w-full mb-5" />
-          </div>
 
           {/* Text Content */}
-          <div className="why-text-content" ref={contentRef}>
+          <div className="why-text-content" >
             <div className="lg:block hidden">
               <Heading data={data} />
             </div>

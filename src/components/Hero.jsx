@@ -20,7 +20,7 @@ function Hero({ data }) {
             ))}
           </h1>
           {paragraphs && paragraphs.map((p, i) => (
-            <div key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-16 mt-14 body-t-color  ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
+            <div key={i} className={`max-w-[1100px] font-archivo body-t m-auto mb-10 mt-5 body-t-color  ${textAlign} ${p.class} `} data-aos="fade-up" data-aos-delay="200">
               <p>{p.text}</p>
             </div>
           ))}

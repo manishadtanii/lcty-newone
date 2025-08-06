@@ -18,16 +18,16 @@ function ProspectiveHero() {
   return (
     <div className="prospective-hero">
       <div className="container-fixed">
-        <div className="content flex flex-col gap-4 justify-start lg:flex-row items-end lg:justify-between pb-4 ">
+        <div className="content md:flex flex-col gap-4 md:justify-start lg:flex-row items-end lg:justify-between pb-4 ">
           <h1 className="h1 secondary-text-1" data-aos="fade-left" data-aos-duration="1000">
             <span className="font-calvino">Little Champs</span>
             <span className="font-calvino-italic"> therapy & yoga</span>
           </h1>
-          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <p className="mt-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             We believe every child deserves a safe and supportive space to move,
             calm down and build healthy habits for life.
           </p>
-          <div className="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+          <div className="mt-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
             <ButtonPrimary
               text="Discover"
               link="/programs"

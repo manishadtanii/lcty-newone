@@ -7,7 +7,7 @@ import AllForm from '../sections/prospective-clients/AllForm'
 
 function ProspectiveClients() {
   return (
-    <div className='mt-[102px] md:mt-[128px]'>
+    <div className='mt-[102px] md:mt-[128px] overflow-x-hidden'>
       <ProspectiveHero />
      <AcceptedInsurance /> 
      <StepOneSection />

@@ -8,26 +8,38 @@ const insuranceData = {
       { text: "/ Medicare", class: "font-calvino-italic" },
     ],
     img: [
-      "a-1.png",
-      "a-2.png",
-      "a-3.png",
-      "a-4.png",
-      "a-5.png",
-      "a-1.png",
-      "a-2.png",
-      "a-3.png",
+      "/medicaid/1.png", 
+      "/medicaid/2.png",
+      "/medicaid/3.png", 
+      "/medicaid/4.png",
+      "/medicaid/5.png", 
+      "/medicaid/6.png",
+      "/medicaid/7.png", 
+      "/medicaid/8.png",
+      "/medicaid/9.png", 
+      "/medicaid/10.png",
+      "/medicaid/11.png", 
+      "/medicaid/12.png",
+      "/medicaid/13.png", 
+      "/medicaid/14.png",
+      "/medicaid/15.png", 
+      "/medicaid/16.png",
+      "/medicaid/17.png", 
+      "/medicaid/18.png",
+      "/medicaid/19.png",
+      "/medicaid/20.png",
+      "/medicaid/21.png",
+      "/medicaid/22.png",
+      "/medicaid/23.png",
+      "/medicaid/24.png",
     ],
   },
   "Workers Comp": {
     title: [
-       { text: "Workers ", class: "font-calvino" },
+      { text: "Workers ", class: "font-calvino" },
       { text: "Comp", class: "font-calvino-italic" },
     ],
-    img: [
-      "a-3.png",
-      "a-4.png",
-      "a-5.png",
-    ],
+    img: ["/workers-comp/1.png", "/workers-comp/2.png"],
   },
   "Insurance – PPO network": {
     title: [
@@ -35,9 +47,12 @@ const insuranceData = {
       { text: "PPO network", class: "font-calvino-italic" },
     ],
     img: [
-      "a-1.png",
-      "a-2.png",
-      
+      "/insurance-ppo-network/1.png", 
+      "/insurance-ppo-network/2.png",
+      "/insurance-ppo-network/3.png",
+      "/insurance-ppo-network/4.png",
+      "/insurance-ppo-network/5.png",
+      "/insurance-ppo-network/6.png",
     ],
   },
   "Insurance ABA": {
@@ -46,14 +61,11 @@ const insuranceData = {
       { text: " ABA", class: "font-calvino-italic" },
     ],
     img: [
-      "a-3.png",
-      "a-4.png",
-      "a-5.png",
-      "a-1.png",
-      "a-3.png",
-      "a-4.png",
-      "a-5.png",
-      "a-1.png",
+      "/ins-aba/1.png",
+      "/ins-aba/2.png",
+      "/ins-aba/3.png",
+      "/ins-aba/4.png",
+      "/ins-aba/5.png",
     ],
   },
 };
@@ -78,12 +90,15 @@ const AcceptedInsurance = () => {
   };
   return (
     <section className="">
-      <div className="container-fixed" style={{paddingTop:"0"}}>
+      <div className="container-fixed" style={{ paddingTop: "0" }}>
         <div className="mb-10">
           <Heading data={data} />
         </div>
         {/* Tabs */}
-        <div className=" mx-auto  rounded-t-xl  flex flex-wrap justify-center lg:justify-start body-t gap-4 py-4 lg:p-0 text-white" data-aos="fade-up">
+        <div
+          className=" mx-auto  rounded-t-xl  flex flex-wrap justify-center lg:justify-start body-t gap-4 py-4 lg:p-0 text-white"
+          data-aos="fade-up"
+        >
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -107,10 +122,14 @@ const AcceptedInsurance = () => {
         </div>
 
         {/* Logo Grid */}
-        <div className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-[30px] lg:rounded-b-[30px] lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-6" style={{borderTopRightRadius:"30px"}} data-aos="fade-up">
+        <div
+          className=" primary-bg-2 border-[#8A63FF] border-[5px]  rounded-[30px] lg:rounded-b-[30px] lg:rounded-t-none px-6 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-6"
+          style={{ borderTopRightRadius: "30px" }}
+          data-aos="fade-up"
+        >
           {visibleLogos.map((src, idx) => (
             <div key={idx} className="flex items-center justify-center ">
-              <img src={src} alt={`Logo ${idx}`} className="w-full " />
+              <img src={src} alt={`Logo ${idx}`} className="w-full rounded-[30px]" />
             </div>
           ))}
           {allLogos.length > 10 && (

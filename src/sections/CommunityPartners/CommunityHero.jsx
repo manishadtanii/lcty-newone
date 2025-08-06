@@ -41,7 +41,7 @@ function CommunityHero() {
           </Link>
         </div> */}
 
-        <div className="communit-container grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6 mt-[10vw] md:mt-[2vw] items-end ">
+        <div className="communit-container grid grid-cols-3 lg:grid-cols-5 gap-3 lg:gap-6  items-end ">
           <div className="communit-card hidden lg:block" data-aos="fade-up" data-aos-duration="1000">
             <img src="/community-1.png" alt="Community 1" />
           </div>

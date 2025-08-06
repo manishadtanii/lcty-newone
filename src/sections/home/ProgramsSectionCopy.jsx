@@ -11,7 +11,7 @@ function ProgramsSection() {
         ],
         textAlign: "md:text-end",
         spacing: "mb-4 lg:mb-10",
-        fontSize: "h1  leading-tight",
+        fontSize: "h3  leading-tight",
         fontColor: "secondary-text-1",
         
     };
@@ -61,7 +61,7 @@ function ProgramsSection() {
         <Heading data={data} className />
         </div>
 
-        <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
+        <p className="block lg:hidden body-t font-archivo mt-2  leading-[100%] body-t-color mb-10">
          We understand that every child is unique, with their own special way of learning and growing. That's why we offer a range of dedicated therapies and support services, delivered with a caring touch and tailored to nurture their individual potential.
         </p>
 
@@ -90,11 +90,11 @@ function ProgramsSection() {
 
           {/* Right Text & Boxes */}
           <div className='md:order-1'>
-            <p className="body-t font-archivo mt-3 leading-[100%] body-t-color hidden lg:block ">
+            <p className="body-t font-archivo  leading-[100%] body-t-color hidden lg:block ">
               We understand that every child is unique, with their own special way of learning and growing. That's why we offer a range of dedicated therapies and support services, delivered with a caring touch and tailored to nurture their individual potential.
             </p>
 
-            <div className="space-y-4 mt-4">
+            <div className="mt-3">
               {programs.map((program, index) => (
                 <div
                   key={index}
@@ -105,10 +105,10 @@ function ProgramsSection() {
                       : "hover:bg-[#AE93FF] group"
                   }`}
                 >
-                   <Link to={program.link} className="flex items-end justify-between gap-4">
+                   <Link to={program.link} className="flex items-end justify-between ">
                   <div className="flex items-start gap-4">
                     <h3
-                      className={` h2 font-archivo transition-colors ${
+                      className={` h4 font-archivo transition-colors ${
                         activeIndex === index
                           ? "text-white"
                           : "secondary-text-1"
@@ -118,7 +118,7 @@ function ProgramsSection() {
                     </h3>
                     <div>
                       <h3
-                        className={` h2 font-calvino transition-colors ${
+                        className={` h4 font-calvino transition-colors ${
                           activeIndex === index
                             ? "text-white"
                             : "secondary-text-1"
@@ -127,7 +127,7 @@ function ProgramsSection() {
                         {program.title}
                       </h3>
                       <p
-                        className={`body-t font-archivo mt-3 leading-5  transition-colors ${
+                        className={`body-t font-archivo mt-1 leading-5  transition-colors ${
                           activeIndex === index ? "text-white" : "body-t-color"
                         }`}
                       >

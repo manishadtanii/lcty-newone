@@ -71,7 +71,7 @@ function WhyYouAreHereSection() {
     ],
     textAlign: "text-center md:text-start",
     spacing: "mb-4",
-    fontSize: "h1",
+    fontSize: "h3",
   };
   return (
     <section className="pt-16 md:py-12 w-full overflow-x-hidden" ref={containerRef}>

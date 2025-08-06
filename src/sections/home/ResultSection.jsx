@@ -9,48 +9,29 @@ function ResultSection() {
       { text: "adipiscing elit. In accumsan eros non fringilla faucibus.", class: "font-calvino" },
     ],
     textAlign: "text-left",
-    spacing: "mb-5",
-    fontSize: "h2",
+    spacing: "mb-5 leading-4",
+    fontSize: "h2 ",
     fontColor: "secondary-text-1",
     };
   return (
-     <section className="bg-white w-full" >
+     <section className="bg-white w-full " >
       <div className="container-fixed">
-        <div className="max-w-[1400px]  space-y-10">
-          {/* Top Text */}
-          <div className=" md:text-left max-w-[1000px]">
-            <div className="" data-aos="fade-up">
-            <Heading data={data} />
-            </div>
-
-            <p className="body-t body-t-color mt-4 " data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
-              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
-              fermentum commodo. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit.
-            </p>
-            <p className="body-t body-t-color mt-2" data-aos="fade-up" data-aos-delay="200">
-              Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac.
-              Duis eu nisi non orci fermentum commodo.
-            </p>
-          </div>
-
+        <div className="md:flex gap-5 max-w-[1400px] pt-[50px]">
           {/* Chart + Stat Box */}
-          <div className="relative">
+          <div className="relative md:max-w-4xl md:order-2 mb-5 md:mb-auto">
             <img src="result.jpg" className="w-full" alt="" />
 
             {/* Stat Box */}
-            <div className="md:absolute md:right-[-5%] md:top-[-20%] bg-[#8A63FF80] backdrop-blur-lg text-white p-6 md:rounded-2xl md:w-80 shadow-lg z-10 md:text-center w-full mt-4 md:mt-0">
-              <h3 className="h2 font-calvino mb-2">Lorem ipsum dolor</h3>
+            <div className="md:absolute md:right-[-5%] md:top-[-20%] bg-[#8A63FF80] backdrop-blur-lg text-white p-4 md:rounded-2xl md:w-60 shadow-lg z-10 md:text-center w-full mt-4 md:mt-0">
+              <h3 className="h4 font-calvino mb-2">Lorem ipsum dolor</h3>
               <p className="font-calvino-italic body-t mb-2" >Lorem ipsum</p>
-              <div className="text-5xl font-archivo font-bold mt-5 mb-3" style={{fontSize:"clamp(30px, 5vw, 55px)"}}>
+              <div className="h4 font-archivo font-bold mt-3 mb-3" >
                 6546
               </div>
-              <p className="font-archivo mb-3 text-white">
+              <p className="font-archivo mb-3 text-white text-base">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
-              <p className=" font-archivo  text-white">
+              <p className=" font-archivo  text-white text-base">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
             </div>
@@ -79,6 +60,25 @@ function ResultSection() {
             </div>
           </div> */}
             <div className=""></div>
+          </div>
+
+          {/* Top Text */}
+          <div className=" md:text-left md:max-w-[1000px] md:order-1">
+            <div className="" data-aos="fade-up">
+            <Heading data={data} />
+            </div>
+
+            <p className="body-t body-t-color mt-4 " data-aos="fade-up" data-aos-delay="100">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              accumsan eros non fringilla faucibus. Sed scelerisque ultrices
+              dui, vitae bibendum lorem bibendum ac. Duis eu nisi non orci
+              fermentum commodo. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+            <p className="body-t body-t-color mt-2" data-aos="fade-up" data-aos-delay="200">
+              Sed scelerisque ultrices dui, vitae bibendum lorem bibendum ac.
+              Duis eu nisi non orci fermentum commodo.
+            </p>
           </div>
         </div>
       </div>

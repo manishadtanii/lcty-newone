@@ -26,24 +26,20 @@ function LandingHero() {
     fontSize: "h1",
   };
   const img1 = [
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
+    "home-hero/hb-1.jpg",
+    "home-hero/hb-2.jpg",
+    "home-hero/hb-3.jpg",
+    "home-hero/hb-4.jpg",
+    "home-hero/hb-5.jpg",
+    "home-hero/hb-6.jpg",
   ];
   const img2 = [
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
-    "Adult1.png",
-    "Kid1.png",
+    "home-hero/hb-7.jpg",
+    "home-hero/hb-8.jpg",
+    "home-hero/hb-9.jpg",
+    "home-hero/hb-10.jpg",
+    "home-hero/hb-11.jpg",
+    "home-hero/hb-12.jpg",
   ];
   return (
     <div className="landing-hero bg-hero-gradient md:ps-[4vw] overflow-hidden relative">

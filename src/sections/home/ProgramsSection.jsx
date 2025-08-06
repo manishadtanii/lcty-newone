@@ -12,7 +12,7 @@ function ProgramsSection() {
     ],
     textAlign: "text-left",
     spacing: "mb-4 lg:mb-10",
-    fontSize: "h1 leading-tight",
+    fontSize: "h3 leading-tight",
     fontColor: "secondary-text-1",
   };
   const programs = [
@@ -63,7 +63,7 @@ function ProgramsSection() {
           </div>
         </div>
 
-        <p className="block lg:hidden body-t font-archivo mt-3 leading-[100%] body-t-color mb-10">
+        <p className="block lg:hidden body-t font-archivo mt-2 leading-[100%] body-t-color mb-10">
         Want to help your child imagine and find cool new things? Little Champs has great programs for helping them learn and grow. Plus, signing up online is super easy!
 
         </p>
@@ -93,11 +93,11 @@ function ProgramsSection() {
 
           {/* Right Text & Boxes */}
           <div>
-            <p className="body-t font-archivo mt-3 body-t-color hidden lg:block ">
+            <p className="body-t font-archivo body-t-color hidden lg:block ">
               <p>Want to help your child imagine and find cool new things? Little Champs has great programs for helping them learn and grow. Plus, signing up online is super easy!</p>
             </p>
 
-            <div className="space-y-4 mt-4">
+            <div className="mt-3">
               {programs.map((program, index) => (
                 <div
                   key={index}
@@ -108,10 +108,10 @@ function ProgramsSection() {
                       : "hover:bg-[#AE93FF] group"
                   }`}
                 >
-                  <Link to={program.link} className="flex items-end justify-between gap-4">
+                  <Link to={program.link} className="flex items-end justify-between">
                   <div className="flex items-start gap-4">
                     <h3
-                      className={` h2 font-archivo transition-colors ${
+                      className={` h4 font-archivo transition-colors ${
                         activeIndex === index
                           ? "text-white"
                           : "secondary-text-1"
@@ -121,7 +121,7 @@ function ProgramsSection() {
                     </h3>
                     <div>
                       <h3
-                        className={` h2 font-calvino transition-colors ${
+                        className={` h4 font-calvino transition-colors ${
                           activeIndex === index
                             ? "text-white"
                             : "secondary-text-1"
@@ -130,7 +130,7 @@ function ProgramsSection() {
                         {program.title}
                       </h3>
                       <p
-                        className={`body-t font-archivo mt-3 leading-5  transition-colors ${
+                        className={`body-t font-archivo mt-1 leading-5  transition-colors ${
                           activeIndex === index ? "text-white" : "body-t-color"
                         }`}
                       >

@@ -94,7 +94,7 @@ const ClinicLocation = () => {
     fontSize: "h1",
   };
   return (
-    <section className="px-6 py-12 md:py-16 bg-white">
+    <section className="md:px-6 py-12 md:py-16 bg-white">
       <div className="container-fixed">
         <div className=" flex flex-col lg:flex-row gap-10">
           {/* Left - Clinic Info */}
@@ -107,31 +107,31 @@ const ClinicLocation = () => {
                 {locations.map((loc, index) => (
                   <div
                     key={index}
-                    className="client-box primary-bg-2 btn-group text-white p-6  relative"
+                    className="client-box primary-bg-2 btn-group text-white p-4 relative"
                     // data-aos="fade-right"
                     // data-aos-delay="200"
                   >
-                    <div className="flex flex-col md:flex-row justify-stretch items-end">
+                    <div className="flex flex-col md:flex-row justify-stretch md:items-end">
                       <div className="">
-                        <div className="h2 mb-3">
+                        <div className="h4 mb-1">
                           <span className="font-calvino">{loc.city}</span>{" "}
                           <span className="font-calvino-italic">{`- ${loc.branch}`}</span>
                         </div>
-                        <p className="font-archivo text-lg mb-3 text-white">
+                        <p className="font-archivo text-lg mb-1 text-white">
                           <span className="font-bold">Address:</span>{" "}
                           {loc.address}
                         </p>
-                        <p className="font-archivo text-lg mb-3 text-white">
+                        <p className="font-archivo text-lg mb-1 text-white">
                           <span className="font-bold">Tel:</span> {loc.tel}
                         </p>
-                        <p className="font-archivo text-lg mb-3 text-white">
+                        <p className="font-archivo text-lg  text-white">
                           <span className="font-bold">Email:</span> {loc.email}
                         </p>
                       </div>
-                      <div className="">
+                      <div className="mt-3 text-end absolute right-[16px] bottom-[16px]">
                         <a
                           href={loc.link}
-                          className="w-[50px] h-[50px] inline-block leading-[50px] text-center  transition"
+                          className="w-[30px] md:w-[50px] h-[30px] md:h-[50px] inline-block leading-[30px] md:leading-[50px] text-center  transition"
                         >
                           <i class="fal fa-arrow-up rotate-45  rounded-full nav-t  p-2"></i>
                         </a>
